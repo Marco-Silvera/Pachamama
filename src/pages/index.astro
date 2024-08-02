@@ -5,10 +5,11 @@ import Hero from "../components/Hero.astro";
 import Footer from "../components/Footer.astro";
 import ViajeAMedida from "../components/ViajeAMedida.astro";
 import ScrollingLogo from "../components/ScrollingLogo.astro";
+import destacados from "../db/destacados.json";
+import alternativas from "../db/alternativas.json";
 ---
 
-<Layout title="Welcome to Astro.">
-  <Header />
+<Layout title="Pachamama Turismo">
   <Hero />
 
   <section
@@ -72,94 +73,42 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
   <section class="flex flex-col items-center gap-20 p-20">
     <h3 class="text-6xl uppercase">Circuitos Destacados</h3>
     <section class="flex gap-10">
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Circuito1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Circuito1</h3>
-          </div>
-        </a>
-      </article>
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Circuito1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Circuito2</h3>
-          </div>
-        </a>
-      </article>
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Circuito1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Circuito3</h3>
-          </div>
-        </a>
-      </article>
+      {
+        destacados.map((destacado) => (
+          <article class="relative w-[380px] h-[600px]">
+            <a href={destacado.path}>
+              <img
+                class="w-full h-full bg-cover object-center object-cover"
+                src={destacado.portada}
+                alt={`Circuito ${destacado.nombre}`}
+              />
+              <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]">
+                <h3 class="Circuits-overlay-title">{destacado.nombre}</h3>
+              </div>
+            </a>
+          </article>
+        ))
+      }
     </section>
   </section><section class="flex flex-col items-center gap-20 p-20">
     <h3 class="text-6xl uppercase">Experiencias Alternativas</h3>
     <section class="flex gap-10">
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Aternativa1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Alternativa1</h3>
-          </div>
-        </a>
-      </article>
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Aternativa1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Alternativa2</h3>
-          </div>
-        </a>
-      </article>
-      <article class="relative w-[380px] h-[600px]">
-        <a href="">
-          <img
-            class="w-full h-full bg-cover object-center object-cover"
-            src="circuito-1.webp"
-            alt="Aternativa1"
-          />
-          <div
-            class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]"
-          >
-            <h3 class="Circuits-overlay-title">Alternativa3</h3>
-          </div>
-        </a>
-      </article>
+      {
+        alternativas.map((alternativa) => (
+          <article class="relative w-[380px] h-[600px]">
+            <a href={alternativa.path}>
+              <img
+                class="w-full h-full bg-cover object-center object-cover"
+                src={alternativa.portada}
+                alt={`Alternativa ${alternativa.nombre}`}
+              />
+              <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]">
+                <h3 class="Circuits-overlay-title">{alternativa.nombre}</h3>
+              </div>
+            </a>
+          </article>
+        ))
+      }
     </section>
   </section>
 
@@ -194,5 +143,4 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
 
   <ScrollingLogo />
   <ViajeAMedida />
-  <Footer />
 </Layout>

@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Alternativa 1",
+        "portada": "/alternativas/Portada - Alternativa 1.webp",
+        "path": "/alternativas/alternativa-1"
+    },
+    {
+        "nombre": "Alternativa 2",
+        "portada": "/alternativas/Portada - Alternativa 1.webp",
+        "path": "/alternativas/alternativa-2"
+    },
+    {
+        "nombre": "Alternativa 3",
+        "portada": "/alternativas/Portada - Alternativa 1.webp",
+        "path": "/alternativas/alternativa-3"
+    }
+]

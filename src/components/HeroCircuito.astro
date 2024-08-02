@@ -1,0 +1,19 @@
+---
+const { imagen, nombre, descripcion } = Astro.props;
+---
+
+<section
+  class="relative inline-block w-full h-[600px] before:content-[''] before:absolute before:w-full before:h-full before:bg-[black] before:opacity-50 before:pointer-events-none before:left-0 before:top-0"
+>
+  <img
+    src={imagen}
+    alt={`Imagen de ${nombre}`}
+    class="w-full h-full bg-cover object-center object-cover"
+  />
+  <div
+    class="absolute w-full h-full flex flex-col gap-12 justify-center items-center text-[white] p-5 left-0 top-0"
+  >
+    <h3 class="text-7xl">{nombre}</h3>
+    <p class="text-xl">{descripcion}</p>
+  </div>
+</section>

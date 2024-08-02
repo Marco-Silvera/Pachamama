@@ -1,0 +1,84 @@
+---
+import HeroCircuito from "../../components/HeroCircuito.astro";
+import ViajeAMedida from "../../components/ViajeAMedida.astro";
+import circuitosData from "../../db/circuitos.json";
+import Layout from "../../layouts/Layout.astro";
+
+const { path } = Astro.params;
+const circuito = circuitosData.find((c) => c.path === path);
+
+export function getStaticPaths() {
+  const paths = circuitosData.map((circuito) => ({
+    params: { path: circuito.path },
+  }));
+
+  return paths;
+}
+---
+
+<Layout title={circuito.nombre}>
+  <HeroCircuito
+    imagen={circuito.imagenes[1]}
+    nombre={circuito.nombre}
+    descripcion={circuito.descripcion}
+  />
+
+  <section class="flex flex-col gap-5 self-center w-[1200px] my-24">
+    <h2 class="text-3xl font-bold text-[#226428]">
+      {circuito["descripcion-principal"]["titulo-descripcion"]}
+    </h2>
+    <p class="text-base font-normal">
+      {circuito["descripcion-principal"]["parrafo-descripcion"]}
+    </p>
+  </section>
+
+  <section>
+    <h2>Itinerario</h2>
+    {
+      circuito.itinerario.map((dia) => (
+        <details>
+          <summary>Día {dia.dia}</summary>
+          <p>{dia.actividades}</p>
+        </details>
+      ))
+    }
+  </section>
+
+  <section>
+    <h2>Precios</h2>
+    <h3>Incluye</h3>
+    <ul>
+      {circuito.precio.incluye.map((item) => <li>{item}</li>)}
+    </ul>
+    <h3>No Incluye</h3>
+    <p>{circuito.precio["no-incluye"]}</p>
+    <h3>Información sobre el equipaje</h3>
+    <p>{circuito.precio["info-equipaje"]}</p>
+  </section>
+
+  <div class="imagenes">
+    {
+      circuito.imagenes.map((img, index) => (
+        <img src={img} alt={`Imagen ${index + 1}`} />
+      ))
+    }
+  </div>
+
+  <ViajeAMedida />
+</Layout>
+
+<style>
+  .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .imagenes img {
+    width: calc(25% - 8px);
+    border-radius: 4px;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+</style>

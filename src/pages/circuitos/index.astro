@@ -1,0 +1,34 @@
+---
+import circuitosData from "../../db/circuitos.json";
+import Layout from "../../layouts/Layout.astro";
+import ScrollingLogo from "../../components/ScrollingLogo.astro";
+import ViajeAMedida from "../../components/ViajeAMedida.astro";
+---
+
+<Layout title="Circuitos">
+  <div class="flex justify-center py-16">
+    <section class="flex flex-col gap-20 max-w-[1400px] self-center">
+      <h1 class="uppercase text-6xl text-center">Circuitos Destacados</h1>
+      <div class="flex flex-wrap justify-center gap-5">
+        {
+          circuitosData.map((circuito) => (
+            <article class="relative w-[380px] h-[600px]">
+              <a href={`/circuitos/${circuito.path}`}>
+                <img
+                  class="w-full h-full bg-cover object-center object-cover"
+                  src={circuito.imagenes[0]}
+                  alt={`Caratula de ${circuito.nombre}`}
+                />
+                <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]">
+                  <h3 class="Circuits-overlay-title">{circuito.nombre}</h3>
+                </div>
+              </a>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+  </div>
+  <ScrollingLogo />
+  <ViajeAMedida />
+</Layout>
