@@ -1,0 +1,20 @@
+---
+const { circuito } = Astro.props;
+---
+
+<section class="flex flex-col gap-5 self-center w-full mt-20 mb-40">
+  <h2 class="text-center text-[32px] font-bold text-[#226428] uppercase">
+    Itinerario Detallado
+  </h2>
+  {
+    circuito.itinerario.map((dia) => (
+      <>
+        <h2 class="text-2xl font-medium text-black">DÍA {dia.dia}</h2>
+        <p class="text-base uppercase font-black">
+          {dia["titulo-actividades"]}
+        </p>
+        <p class="text-base font-normal">{dia.actividades}</p>
+      </>
+    ))
+  }
+</section>

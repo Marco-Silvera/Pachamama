@@ -1,0 +1,282 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeroNosotros from "../components/HeroNosotros.astro";
+import ViajeAMedida from "../components/ViajeAMedida.astro";
+import ScrollingLogo from "../components/ScrollingLogo.astro";
+---
+
+<Layout title="Nosotros">
+  <HeroNosotros />
+
+  <section class="flex justify-center py-20">
+    <div class="w-[1000px] flex flex-col gap-10">
+      <div class="flex flex-col gap-10 items-center text-center">
+        <h2 class="text-6xl font-bold uppercase">La Ciap</h2>
+        <p class="text-2xl font-medium w-[600px]">
+          La familia CIAP cuenta con 4 miembros, empresas independientes con
+          personalidad jurídica propia:
+        </p>
+      </div>
+      <ul class="text-base font-normal flex flex-wrap justify-around">
+        <li
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition-all text-pretty mb-10 ease-in-out"
+        >
+          <p>
+            <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+              >InterCarfts:</span
+            >
+            <span class="group-hover:text-white">
+              Es el brazo comercial de CIAP, cuya finalidad es la
+              comercialización de productos artesanales bajo los principios del
+              comercio justo.</span
+            >
+          </p>
+          <div
+            class="absolute left-0 bottom-0 w-full h-0 transition-all bg-[#226428] -z-10 group-hover:h-full rounded-lg"
+          >
+          </div>
+        </li>
+        <li
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition mb-10 ease-in-out"
+        >
+          <p>
+            <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+              >La COOPAC:</span
+            >
+            <span class="group-hover:text-white">
+              La Cooperativa de Ahorro y Crédito del Artesano CIAP es una
+              institución de micro crédito, que presta y financia proyectos a
+              los otros miembros de CIAP, artesanos, micro empresarios y
+              comerciantes.
+            </span>
+          </p>
+          <div
+            class="absolute left-0 bottom-0 w-full h-0 transition-all bg-[#226428] -z-10 group-hover:h-full rounded-lg"
+          >
+          </div>
+        </li>
+        <li
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition mb-10 ease-in-out"
+        >
+          <p>
+            <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+              >PACHAMAMA,</span
+            >
+            <span class="group-hover:text-white">
+              es un operador local de turismo que promueve el turismo
+              alternativo y sostenible, desarrollando programas de turismo
+              combinando los atractivos tradicionales con experiencias de
+              turismo comunitario, vivencial, ecológico, artesanal, de aventura…
+            </span>
+          </p>
+          <div
+            class="absolute left-0 bottom-0 w-full h-0 transition-all bg-[#226428] -z-10 group-hover:h-full rounded-lg"
+          >
+          </div>
+        </li>
+        <li
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transitiontext-pretty mb-10 ease-in-out"
+        >
+          <p>
+            <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+              >ECOSOL PERÚ,</span
+            >
+            <span class="group-hover:text-white"> administra</span>
+            <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+              >K´antu:</span
+            >
+            <span class="group-hover:text-white group-hover:font-medium">
+              la tienda de comercio justo de CIAP en la ciudad de Puno. Ubicada
+              en La Casa del Corregidor, K’antu está especializada en la
+              comercialización de artesanía a nivel nacional.
+            </span>
+          </p>
+          <div
+            class="absolute left-0 bottom-0 w-full h-0 transition-all bg-[#226428] -z-10 group-hover:h-full rounded-lg"
+          >
+          </div>
+        </li>
+        <li class="mb-10">
+          <button
+            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-300 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg"
+          >
+            <p class="relative">
+              <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+                >InterCarfts:</span
+              >
+              <span class="group-hover:text-white">
+                Es el brazo comercial de CIAP, cuya finalidad es la
+                comercialización de productos artesanales bajo los principios
+                del comercio justo.</span
+              >
+            </p>
+          </button>
+        </li>
+        <li class="mb-10">
+          <button
+            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-300 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg"
+          >
+            <p class="relative">
+              <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+                >La COOPAC:</span
+              >
+              <span class="group-hover:text-white">
+                La Cooperativa de Ahorro y Crédito del Artesano CIAP es una
+                institución de micro crédito, que presta y financia proyectos a
+                los otros miembros de CIAP, artesanos, micro empresarios y
+                comerciantes.
+              </span>
+            </p>
+          </button>
+        </li>
+        <li class="mb-10">
+          <button
+            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-300 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg"
+          >
+            <p class="relative">
+              <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+                >PACHAMAMA,</span
+              >
+              <span class="group-hover:text-white">
+                es un operador local de turismo que promueve el turismo
+                alternativo y sostenible, desarrollando programas de turismo
+                combinando los atractivos tradicionales con experiencias de
+                turismo comunitario, vivencial, ecológico, artesanal, de
+                aventura…
+              </span>
+            </p>
+          </button>
+        </li>
+        <li class="mb-10">
+          <button
+            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-300 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg"
+          >
+            <p class="relative">
+              <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+                >ECOSOL PERÚ,</span
+              >
+              <span class="group-hover:text-white"> administra</span>
+              <span class="font-bold uppercase group-hover:text-[#C9CE92]"
+                >K´antu:</span
+              >
+              <span class="group-hover:text-white">
+                la tienda de comercio justo de CIAP en la ciudad de Puno.
+                Ubicada en La Casa del Corregidor, K’antu está especializada en
+                la comercialización de artesanía a nivel nacional.
+              </span>
+            </p>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="flex justify-center text-center py-20">
+    <article class="w-[1000px] flex flex-col gap-10">
+      <div class="flex flex-col gap-5">
+        <h2 class="text-6xl font-bold uppercase">Compromiso Sostenible</h2>
+        <p class="text-xl font-medium">
+          Pachamama tiene como prioridad fomentar la participación de las
+          comunidades y de los turistas en la preservación del medio ambiente.
+        </p>
+      </div>
+      <img
+        class="rounded-lg shadow-lg"
+        src="/experiencias/Experiencias - Isla de los Uros.jpg"
+        alt=""
+      />
+    </article>
+  </section>
+
+  <section class="flex justify-center py-20">
+    <article class="w-[1000px] flex flex-col gap-10">
+      <div class="flex flex-col gap-5">
+        <h3 class="text-3xl font-bold">El turismo responsable y alternativo</h3>
+        <p class="text-xl">
+          <span class="font-bold">El turismo alternativo,</span> se consibe como
+          un turismo diferente al tiurismo de masas. Se trata de un turismo que respeta
+          la cultura y la naturaleza de los destinos, que promueve la participación
+          de las comunidades locales y que busca la sostenibilidad del destino.
+        </p>
+        <p class="text-xl">
+          <span class="font-bold">El turismo responsable,</span> trabaja bajo los
+          principios del desarrollo sostenible y fomenta una actitud respetuosa entre
+          sus diversos actores y frente a los destinos visitados.
+        </p>
+      </div>
+      <div class="flex flex-col gap-5">
+        <h3 class="text-3xl font-bold">Nuestra misión</h3>
+        <p class="text-xl">
+          Pachamama tiene como prioridad fomentar la participación de las
+          comunidades y de los turistas en la preservación del medio ambiente, y
+          en el desarrollo socio económico local. En este sentido proponemos
+          circuitos de turismo responsable y alternativo tomando en
+          consideración los siguientes criterios:
+        </p>
+      </div>
+      <div class="flex flex-col gap-5">
+        <h3 class="text-3xl font-bold">Alianzas de trabajo y Comunidades</h3>
+        <ul class="text-xl list-disc ml-10">
+          <li>
+            Centro Bartolomé de las Casas – Cuzco (Ruta de las tejedoras).
+          </li>
+          <li>
+            CESVI, Asoc. Italiana – Puerto Maldonado (Ecoturismo en comunidad de
+            Baltimore – Tamabopata).
+          </li>
+          <li>ONG Latitud Sur – Iquitos.</li>
+          <li>Asociación Alma de Mujer, Amantani – Puno.</li>
+          <li>Comunidad de Patacancha – Cuzco.</li>
+          <li>Comunidad Awayllano – Taquile – Puno.</li>
+          <li>Comunidad de Atuncolla – Peninsula de Capachica- Puno.</li>
+          <li>Comunidad Sibayo, Canocota-Arequipa.</li>
+          <li>Comunidad Ashaninka San Miguel de Mariankari – Chanchamayo.</li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-5">
+        <h3 class="text-3xl font-bold">Nuestras Acciones y Proyectos</h3>
+        <p class="text-xl">
+          Pachamama apoya a las organizaciones artesanales y a las comunidades
+          locales a través de proyectos y entablando alianzas con ONGs y
+          gobiernos locales, para mejorar los servicios turísticos y fomentar el
+          desarrollosostenido de las comunidades.
+          <br />
+          Algunas acciones que hemos desarrollado:
+        </p>
+        <ul class="text-xl list-disc ml-10">
+          <li>
+            Apoyo a la Asociación Sur Andino para implementación de albergue en
+            Chinchera, Puno.
+          </li>
+          <li>
+            Implementación de baños en ecológicos en la Isla Los Uros a la
+            Asociación Chumi – Puno.
+          </li>
+          <li>
+            Adecuación y asesoramiento para la implementación de Casas de
+            alojamiento y servicios de alimentación, en la Asoc. Alma de Mujer
+            en Amantani.
+          </li>
+          <li>
+            Proyecto: Talleres Artesanales, modelo para el turismo vivencial con
+            Artesanos Ichimay Wari – Lurín y Artesanos Tawaq – Lima.
+          </li>
+          <li>
+            Alianza con la ONG francesa Solidaire Monde para la creación de un
+            Operador Turístico Local en Huancavelica con la finalidad de
+            promover un turismo vivencial en la Comunidad de Sacsamarca.
+          </li>
+          <li>
+            Convenio con LATITUD SUR (ONG franco peruana), cuyo objetivo es
+            compensar las emisiones de carbono emitidas por los viajes de los
+            clientes de PACHAMAMA a través de la plantación de árboles en zonas
+            deforestadas.
+          </li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <ScrollingLogo />
+  <ViajeAMedida />
+</Layout>

@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "aventura-inca",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "corazon-del-imperio-inca",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "esencia-del-peru",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "panorama-peruano",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "del-pacifico-al-amazonas",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "tesoros-del-norte",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    },
+    {
+        "nombre": "a-lo-largo-de-los-andes",
+        "imagenes": [
+            "/experiencias/Experiencias - Artesano.jpg",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros.jpg",
+            "/experiencias/Experiencias - Plaza de Armas.jpg"
+        ]
+    }
+]

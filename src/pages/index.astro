@@ -1,8 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Header from "../components/Header.astro";
 import Hero from "../components/Hero.astro";
-import Footer from "../components/Footer.astro";
 import ViajeAMedida from "../components/ViajeAMedida.astro";
 import ScrollingLogo from "../components/ScrollingLogo.astro";
 import destacados from "../db/destacados.json";
@@ -16,9 +14,11 @@ import alternativas from "../db/alternativas.json";
     class="w-full flex gap-[200px] justify-center items-center h-[500px] p-20"
   >
     <div class="flex flex-col items-center">
-      <h2 class="text-[40px] animate-slidein">¿Por qué elegir</h2>
-      <h2 class="text-[80px] text-[#226428]">Pachamama</h2>
-      <h2 class="text-[64px] text-[#C9CE92]">Turismo?</h2>
+      <h2 class="text-[40px] animate-slidein font-bold uppercase">
+        ¿Por qué elegir
+      </h2>
+      <h2 class="text-[80px] text-[#226428] font-bold uppercase">Pachamama</h2>
+      <h2 class="text-[64px] text-[#C9CE92] font-bold uppercase">Turismo?</h2>
     </div>
     <div class="text-2xl">
       <p>
@@ -52,7 +52,7 @@ import alternativas from "../db/alternativas.json";
       class="absolute w-full h-full flex gap-[100px] justify-center items-center text-[white] p-5 left-0 top-0"
     >
       <div class="text-center">
-        <h3 class="text-6xl">Compromiso Sostenible</h3>
+        <h3 class="text-6xl font-bold uppercase">Compromiso Sostenible</h3>
         <p class="text-[32px]">
           No dejes para mañana el viaje que <br /> puedes hacer hoy, conoce nuestros
           <br /> más atractivos circuitos.
@@ -71,7 +71,7 @@ import alternativas from "../db/alternativas.json";
   </section>
 
   <section class="flex flex-col items-center gap-20 p-20">
-    <h3 class="text-6xl uppercase">Circuitos Destacados</h3>
+    <h3 class="text-6xl font-bold uppercase">Circuitos Destacados</h3>
     <section class="flex gap-10">
       {
         destacados.map((destacado) => (
@@ -91,7 +91,7 @@ import alternativas from "../db/alternativas.json";
       }
     </section>
   </section><section class="flex flex-col items-center gap-20 p-20">
-    <h3 class="text-6xl uppercase">Experiencias Alternativas</h3>
+    <h3 class="text-6xl font-bold uppercase">Experiencias Alternativas</h3>
     <section class="flex gap-10">
       {
         alternativas.map((alternativa) => (
@@ -124,7 +124,7 @@ import alternativas from "../db/alternativas.json";
       class="absolute w-full h-full flex gap-[100px] justify-center items-center text-[white] p-5 left-0 top-0"
     >
       <div class="text-center">
-        <h3 class="text-6xl">Testimonios</h3>
+        <h3 class="text-6xl font-bold uppercase">Testimonios</h3>
         <p class="image-container-description">
           Mucho de los turistas quedaron <br /> fascinados, nos cuentan sus experiencias.
         </p>
