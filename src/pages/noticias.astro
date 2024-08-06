@@ -1,0 +1,160 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeroNoticia from "../components/HeroNoticia.astro";
+import ViajeAMedida from "../components/ViajeAMedida.astro";
+---
+
+<Layout title="Noticias">
+  <HeroNoticia />
+  <section
+    class="flex gap-10 w-[1000px] self-center justify-center items-center my-20"
+  >
+    <div class="w-[480px] flex flex-col gap-5">
+      <h2 class="text-6xl font-bold uppercase">
+        Enterate de nuestras novedades
+      </h2>
+      <p class="text-xl">
+        Nos encanta interactuar con nuestros viajeros, es por ello que te
+        invitamos a que nos sigas en nuestras Redes Sociales.
+      </p>
+      <ul class="flex justify-center gap-10 transition-all">
+        <li>
+          <a
+            href="https://www.facebook.com/pachamamaturismoalternativo"
+            target="_blank"
+          >
+            <img
+              class="hover:scale-90 transition-all"
+              src="/redes/Redes - Facebook.webp"
+              alt="Facebook de Pachamama Turismo"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/pachamama.turismo/"
+            target="_blank"
+          >
+            <img
+              class="hover:scale-90 transition-all"
+              src="/redes/Redes - Instagram.webp"
+              alt="Instagram de Pachamama Turismo"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCsA3Lv9AAywqiaziSMm651Q"
+            target="_blank"
+          >
+            <img
+              class="hover:scale-90 transition-all"
+              src="/redes/Redes - Youtube.webp"
+              alt="Youtube de Pachamama Turismo"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.tiktok.com/@pachamama.turismo" target="_blank">
+            <img
+              class="hover:scale-90 transition-all"
+              src="/redes/Redes - Tiktok.webp"
+              alt="Tiktok de Pachamama Turismo"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=51933200365"
+            target="_blank"
+          >
+            <img
+              class="hover:scale-90 transition-all"
+              src="/redes/Redes - Whatsapp.webp"
+              alt="Whatsapp de Pachamama Turismo"
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="fb-page w-[480px]"
+      data-href="https://www.facebook.com/pachamamaturismoalternativo/?ref=embed_page"
+      data-tabs="timeline"
+      data-width="480"
+      data-height=""
+      data-small-header="false"
+      data-adapt-container-width="true"
+      data-hide-cover="false"
+      data-show-facepile="true"
+    >
+      <blockquote
+        cite="https://www.facebook.com/pachamamaturismoalternativo/?ref=embed_page"
+        class="fb-xfbml-parse-ignore"
+      >
+        <a
+          href="https://www.facebook.com/pachamamaturismoalternativo/?ref=embed_page"
+          >Pachamama - Turismo Alternativo Perú</a
+        >
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="w-[1000px] self-center flex flex-col gap-20 my-20">
+    <h3 class="text-6xl uppercase font-bold text-center">
+      Nuestro canal de Youtube
+    </h3>
+    <div class="flex justify-center flex-wrap gap-10">
+      <article class="w-[400px] flex flex-col gap-5">
+        <iframe
+          class="w-full aspect-video"
+          src="https://www.youtube.com/embed/2RO57PxUcpE"
+          title="découvrir le Pérou avec Pachamama"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <p>
+          No dejes para mañana el viaje que puedes hacer hoy, conoce nuestros
+          más atractivos circuitos.
+        </p>
+      </article>
+
+      <article class="w-[400px] flex flex-col gap-5">
+        <iframe
+          class="w-full aspect-video"
+          src="https://www.youtube.com/embed/Q8g1fHamJhw"
+          title="Taller Artesanal Llinco Perú"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <p>Les invitamos a conocer el Taller Artesanal de Llinco Perú.</p>
+      </article>
+      <article class="w-[400px] flex flex-col gap-5">
+        <iframe
+          class="w-full aspect-video"
+          src="https://www.youtube.com/embed/iBbYZByTDZw"
+          title="Pachamama Turismo agencia de viajes"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen></iframe>
+        <p>
+          Ver el mundo con tus propios ojos siempre será mejor que solo soñar
+          con ello.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <ViajeAMedida />
+</Layout>
+
+<div id="fb-root"></div>
+<script
+  async
+  defer
+  crossorigin="anonymous"
+  src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v20.0"
+  nonce="LwtjoUGZ"></script>
