@@ -75,15 +75,17 @@ import alternativas from "../db/alternativas.json";
     <section class="flex gap-10">
       {
         destacados.map((destacado) => (
-          <article class="relative w-[380px] h-[600px]">
-            <a href={destacado.path}>
+          <article class="relative w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
+            <a href={destacado.path} class="group block h-full">
               <img
-                class="w-full h-full bg-cover object-center object-cover"
+                class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
                 src={destacado.portada}
                 alt={`Circuito ${destacado.nombre}`}
               />
-              <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 top-[80%]">
-                <h3 class="Circuits-overlay-title">{destacado.nombre}</h3>
+              <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 bottom-0 group-hover:bg-[#C9CE92] group-hover:text-[#226428] transition-all duration-500 ease-in-out">
+                <h3 class="Circuits-overlay-title font-bold">
+                  {destacado.nombre}
+                </h3>
               </div>
             </a>
           </article>

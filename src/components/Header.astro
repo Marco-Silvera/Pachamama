@@ -3,7 +3,7 @@
 ---
 
 <header
-  class="bg-[white] h-[70px] flex justify-center items-center gap-[220px] sticky z-[1] top-0"
+  class="bg-[white] h-[70px] flex justify-center items-center gap-[220px] sticky z-[20] top-0 transition-all"
 >
   <a href="/">
     <img class="h-[50px]" src="/logo.webp" alt="Logo Pachamama Turismo" />
@@ -11,34 +11,39 @@
   <div class="flex items-center gap-5">
     <ul class="flex gap-5">
       <li>
-        <a class="text-[rgb(34,100,40)] text-base font-medium" href="/"
-          >Inicio</a
-        >
-      </li>
-      <li>
-        <a class="text-[rgb(34,100,40)] text-base font-medium" href="/nosotros"
-          >Nosotros</a
-        >
-      </li>
-      <li>
-        <a class="text-[rgb(34,100,40)] text-base font-medium" href="/circuitos"
-          >Circuitos</a
+        <a
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
+          href="/">Inicio</a
         >
       </li>
       <li>
         <a
-          class="text-[rgb(34,100,40)] text-base font-medium"
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
+          href="/nosotros">Nosotros</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
+          href="/circuitos">Circuitos</a
+        >
+      </li>
+      <li>
+        <a
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
           href="/testimonios">Testimonios</a
         >
       </li>
       <li>
-        <a class="text-[rgb(34,100,40)] text-base font-medium" href="/noticias"
-          >Noticias</a
+        <a
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
+          href="/noticias">Noticias</a
         >
       </li>
       <li>
-        <a class="text-[rgb(34,100,40)] text-base font-medium" href=""
-          >Contacto</a
+        <a
+          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
+          href="/contacto">Contacto</a
         >
       </li>
     </ul>
@@ -52,3 +57,22 @@
     </div>
   </div>
 </header>
+
+<style>
+  .scrolled {
+    /* Tailwind gray-300 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+  }
+</style>
+
+<!-- <script type="module" client:load> -->
+<script type="module" is:inline>
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector("header");
+    if (window.scrollY > 0) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
+</script>

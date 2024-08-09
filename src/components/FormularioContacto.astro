@@ -1,0 +1,179 @@
+---
+
+---
+
+<form action="" class="w-[480px] flex flex-col gap-5" id="formulario-contacto">
+  <label for="text-field-nombre" class="font-medium text-base"
+    >Nombre
+    <input
+      id="text-field-nombre"
+      name="nombre"
+      class="text-field-nombre mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
+      type="text"
+      placeholder="Ingresa tu nombre..."
+    />
+    <p id="text-nombre" class="text-red-600 hidden">
+      El nombre no puede contener números ni simbolos especiales.
+    </p>
+  </label>
+  <label for="text-field-email" class="font-medium text-base"
+    >Correo
+    <input
+      id="text-field-correo"
+      name="correo"
+      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
+      type="email"
+      placeholder="Ingresa tu correo..."
+    />
+    <p id="text-correo" class="text-red-600 hidden">
+      El correo solo puede contener letras, números, puntos, guiones y guion
+      bajo.
+    </p>
+  </label>
+  <label for="text-field-telefono" class="font-medium text-base"
+    >Telefono
+    <input
+      id="text-field-telefono"
+      name="telefono"
+      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
+      type="tel"
+      placeholder="Ingresa tu telefono..."
+    />
+    <p id="text-telefono" class="text-red-600 hidden">
+      El telefono solo puede contener números.
+    </p>
+  </label>
+  <label for="text-field-mensaje" class="font-medium text-base"
+    >Mensaje
+    <textarea
+      id="text-field-mensaje"
+      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 focus:border-[#226428] py-2 resize-none h-40"
+      name=""
+      placeholder="Ingresa tu mensaje..."></textarea>
+  </label>
+
+  <div id="grupo__terminos">
+    <label>
+      <input type="checkbox" name="terminos" id="terminos" />
+      Acepto los terminos y condiciones
+    </label>
+  </div>
+
+  <p
+    id="formulario__mensaje"
+    class="hidden p-4 bg-red-500 text-white font-semibold"
+  >
+    <b>Error:</b> Por favor rellena el formulario.
+  </p>
+
+  <input
+    class="w-fit py-2 px-5 font-bold text-xl transition-all border-2 text-white border-[#226428] hover:bg-white hover:text-[#226428] bg-[#226428] cursor-pointer"
+    type="submit"
+    value="Enviar"
+  />
+  <p id="formulario__mensaje-exito" class="text-green-600 text-sm hidden">
+    Formulario enviado exitosamente!
+  </p>
+</form>
+
+<script>
+  const formulario = document.getElementById("formulario-contacto");
+  const inputs = document.querySelectorAll("#formulario-contacto input");
+
+  const expresiones = {
+    usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+    nombre: /^[a-zA-ZÀ-ÿ\s]{4,40}$/, // Letras y espacios, pueden llevar acentos.
+    password: /^.{4,12}$/, // 4 a 12 digitos.
+    correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+    telefono: /^\d{7,14}$/, // 7 a 14 numeros.
+  };
+
+  const campos = {
+    nombre: false,
+    correo: false,
+    telefono: false,
+  };
+
+  const validarFormulario = (e) => {
+    switch (e.target.name) {
+      case "nombre":
+        validarCampo(expresiones.nombre, e.target, "nombre");
+        if (e.target.name == "")
+          document
+            .getElementById("text-field-nombre")
+            .classList.remove("border-red-500");
+        break;
+      case "correo":
+        validarCampo(expresiones.correo, e.target, "correo");
+        break;
+      case "telefono":
+        validarCampo(expresiones.telefono, e.target, "telefono");
+        break;
+    }
+  };
+
+  const validarCampo = (expresion, input, campo) => {
+    if (expresion.test(input.value)) {
+      document
+        .getElementById(`text-field-${campo}`)
+        .classList.remove("border-red-500");
+      document
+        .getElementById(`text-field-${campo}`)
+        .classList.add("border-green-500");
+      document.getElementById(`text-${campo}`).classList.remove("block");
+      document.getElementById(`text-${campo}`).classList.add("hidden");
+      campos[campo] = true;
+    } else {
+      document
+        .getElementById(`text-field-${campo}`)
+        .classList.remove("border-green-500");
+      document
+        .getElementById(`text-field-${campo}`)
+        .classList.add("border-red-500");
+      document.getElementById(`text-${campo}`).classList.remove("hidden");
+      document.getElementById(`text-${campo}`).classList.add("block");
+      campos[campo] = false;
+    }
+  };
+  inputs.forEach((input) => {
+    input.addEventListener("keyup", validarFormulario);
+    input.addEventListener("blur", validarFormulario);
+  });
+
+  formulario.addEventListener("submit", (e) => {
+    e.preventDefault(); // Para evitar que se recargue la pagina
+
+    if (campos.nombre && campos.correo && campos.telefono) {
+      document
+        .getElementById("text-field-nombre")
+        .classList.remove("border-green-500");
+      document
+        .getElementById("text-field-correo")
+        .classList.remove("border-green-500");
+      document
+        .getElementById("text-field-telefono")
+        .classList.remove("border-green-500");
+
+      formulario.reset();
+
+      document.getElementById("formulario__mensaje").classList.add("hidden");
+
+      document
+        .getElementById("formulario__mensaje-exito")
+        .classList.remove("hidden");
+      document
+        .getElementById("formulario__mensaje-exito")
+        .classList.add("block");
+      setTimeout(() => {
+        document
+          .getElementById("formulario__mensaje-exito")
+          .classList.remove("block");
+        document
+          .getElementById("formulario__mensaje-exito")
+          .classList.add("hidden");
+      }, 5000);
+    } else {
+      document.getElementById("formulario__mensaje").classList.remove("hidden");
+    }
+  });
+</script>

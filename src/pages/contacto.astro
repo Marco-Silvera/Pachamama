@@ -1,0 +1,55 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FormularioContacto from "../components/FormularioContacto.astro";
+import ScrollingLogo from "../components/ScrollingLogo.astro";
+import ViajeAMedida from "../components/ViajeAMedida.astro";
+---
+
+<Layout title="Contacto">
+  <section class="flex gap-10 w-[1000px] self-center justify-center my-20">
+    <div class="w-[480px] flex flex-col gap-5">
+      <h2 class="text-6xl font-bold uppercase">Contacto</h2>
+      <p class="text-xl">
+        Ponte en contacto con nosotros para poder resolver cualquier duda o
+        consulta, estaremos gustosos de brindarte la mayor información posible.
+      </p>
+
+      <div
+        class="self-start w-[300px] flex flex-col text-gray-700 shadow-xl rounded-lg mt-5"
+      >
+        <nav
+          class="flex flex-col gap-3 p-2 font-sans text-base font-normal text-center"
+        >
+          <a
+            href="tel:+51981310819"
+            class="flex font-semibold justify-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-[#226428] hover:bg-opacity-50 hover:text-white focus:bg-opacity-60 active:bg-opacity-80 active:text-[#C9CE92]"
+          >
+            Central: (+51) 981 310 819
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=51933200365"
+            target="_blank"
+            class="flex font-semibold justify-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-[#226428] hover:bg-opacity-50 hover:text-white focus:bg-opacity-60 active:bg-opacity-80 active:text-[#C9CE92]"
+          >
+            Whatsapp: +51 933 200 365
+          </a>
+          <a
+            href="mailto:info@pachamamaturismo.org"
+            class="flex font-semibold justify-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-[#226428] hover:bg-opacity-50 hover:text-white focus:bg-opacity-60 active:bg-opacity-80 active:text-[#C9CE92]"
+          >
+            info@pachamamaturismo.org
+          </a>
+          <a
+            href="mailto:info@pachamamaturismo.org"
+            class="flex font-semibold items-center w-full p-3 leading-tight transition-all rounded-lg outline-none hover:bg-[#226428] hover:bg-opacity-50 hover:text-white focus:bg-opacity-60 active:bg-opacity-80 active:text-[#C9CE92]"
+          >
+            Av. Dominicos Mz C, Lt 11 Praderas del Sol - San Martin de Porres
+          </a>
+        </nav>
+      </div>
+    </div>
+    <FormularioContacto />
+  </section>
+  <ScrollingLogo />
+  <ViajeAMedida />
+</Layout>
