@@ -2,178 +2,161 @@
 
 ---
 
-<form action="" class="w-[480px] flex flex-col gap-5" id="formulario-contacto">
-  <label for="text-field-nombre" class="font-medium text-base"
-    >Nombre
+<form method="POST" id="form" class="flex flex-col gap-5 w-[480px]">
+  <input
+    type="hidden"
+    name="access_key"
+    value="1028b022-e1af-4a36-85cc-f5434091106c"
+  />
+  <input type="hidden" name="form_name" value="Contacto Pachamama" />
+  <input type="hidden" name="subject" value="Contacto" />
+  <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+  <!-- Custom Form Data -->
+  <div class="flex flex-col gap-2">
+    <label for="text-field-nombre" class="text-xl font-semibold">Nombre</label>
     <input
       id="text-field-nombre"
-      name="nombre"
-      class="text-field-nombre mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
       type="text"
-      placeholder="Ingresa tu nombre..."
+      name="name"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa nombre..."
     />
-    <p id="text-nombre" class="text-red-600 hidden">
-      El nombre no puede contener números ni simbolos especiales.
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 3 caracteres / no símbolos ni números)
     </p>
-  </label>
-  <label for="text-field-email" class="font-medium text-base"
-    >Correo
+  </div>
+  <div class="flex flex-col gap-2">
+    <label for="text-field-correo" class="text-xl font-semibold">Correo</label>
     <input
       id="text-field-correo"
-      name="correo"
-      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
       type="email"
-      placeholder="Ingresa tu correo..."
+      name="email"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa correo..."
     />
-    <p id="text-correo" class="text-red-600 hidden">
-      El correo solo puede contener letras, números, puntos, guiones y guion
-      bajo.
-    </p>
-  </label>
-  <label for="text-field-telefono" class="font-medium text-base"
-    >Telefono
-    <input
-      id="text-field-telefono"
-      name="telefono"
-      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2"
-      type="tel"
-      placeholder="Ingresa tu telefono..."
-    />
-    <p id="text-telefono" class="text-red-600 hidden">
-      El telefono solo puede contener números.
-    </p>
-  </label>
-  <label for="text-field-mensaje" class="font-medium text-base"
-    >Mensaje
-    <textarea
-      id="text-field-mensaje"
-      class="mt-2 mb-0.5 w-full rounded-lg border border-slate-200 px-3 text-xl font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 focus:border-[#226428] py-2 resize-none h-40"
-      name=""
-      placeholder="Ingresa tu mensaje..."></textarea>
-  </label>
-
-  <div id="grupo__terminos">
-    <label>
-      <input type="checkbox" name="terminos" id="terminos" />
-      Acepto los terminos y condiciones
-    </label>
   </div>
 
-  <p
-    id="formulario__mensaje"
-    class="hidden p-4 bg-red-500 text-white font-semibold"
-  >
-    <b>Error:</b> Por favor rellena el formulario.
-  </p>
+  <div class="flex flex-col gap-2">
+    <label for="text-field-telefono" class="text-xl font-semibold"
+      >Teléfono</label
+    >
+    <input
+      id="text-field-telefono"
+      type="tel"
+      name="phone"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 7 digitos / solo números)
+    </p>
+  </div>
 
-  <input
-    class="w-fit py-2 px-5 font-bold text-xl transition-all border-2 text-white border-[#226428] hover:bg-white hover:text-[#226428] bg-[#226428] cursor-pointer"
+  <div class="flex flex-col gap-2">
+    <label for="text-field-mensaje" class="text-xl font-semibold">Mensaje</label
+    >
+    <textarea
+      id="text-field-mensaje"
+      name="message"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
+      placeholder="Ingresa mensaje..."></textarea>
+    <p class="text-gray-400 font-semibold italic">(Mín. 4 caracteres)</p>
+  </div>
+
+  <button
     type="submit"
-    value="Enviar"
-  />
-  <p id="formulario__mensaje-exito" class="text-green-600 text-sm hidden">
-    Formulario enviado exitosamente!
-  </p>
+    class="border-2 border-[#226428] bg-[#226428] p-2 w-40 text-white font-semibold text-xl hover:bg-white hover:text-[#226428] transition-colors"
+    >Enviar</button
+  >
+
+  <div id="result"></div>
 </form>
-
 <script>
-  const formulario = document.getElementById("formulario-contacto");
-  const inputs = document.querySelectorAll("#formulario-contacto input");
+  const form = document.getElementById("form");
+  const result = document.getElementById("result");
 
-  const expresiones = {
-    usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
-    nombre: /^[a-zA-ZÀ-ÿ\s]{4,40}$/, // Letras y espacios, pueden llevar acentos.
-    password: /^.{4,12}$/, // 4 a 12 digitos.
-    correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
-    telefono: /^\d{7,14}$/, // 7 a 14 numeros.
-  };
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
 
-  const campos = {
-    nombre: false,
-    correo: false,
-    telefono: false,
-  };
+    //
 
-  const validarFormulario = (e) => {
-    switch (e.target.name) {
-      case "nombre":
-        validarCampo(expresiones.nombre, e.target, "nombre");
-        if (e.target.name == "")
-          document
-            .getElementById("text-field-nombre")
-            .classList.remove("border-red-500");
-        break;
-      case "correo":
-        validarCampo(expresiones.correo, e.target, "correo");
-        break;
-      case "telefono":
-        validarCampo(expresiones.telefono, e.target, "telefono");
-        break;
+    // Obtener valores de los campos
+    const name = form.name.value.trim();
+    const phone = form.phone.value.trim();
+    const message = form.message.value.trim();
+
+    // Validaciones
+    const nameRegex = /^[A-Za-z\s]{3,}$/;
+    const phoneRegex = /^[0-9]{7,}$/;
+
+    if (!nameRegex.test(name)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
+      </p>`;
+      return;
     }
-  };
 
-  const validarCampo = (expresion, input, campo) => {
-    if (expresion.test(input.value)) {
-      document
-        .getElementById(`text-field-${campo}`)
-        .classList.remove("border-red-500");
-      document
-        .getElementById(`text-field-${campo}`)
-        .classList.add("border-green-500");
-      document.getElementById(`text-${campo}`).classList.remove("block");
-      document.getElementById(`text-${campo}`).classList.add("hidden");
-      campos[campo] = true;
-    } else {
-      document
-        .getElementById(`text-field-${campo}`)
-        .classList.remove("border-green-500");
-      document
-        .getElementById(`text-field-${campo}`)
-        .classList.add("border-red-500");
-      document.getElementById(`text-${campo}`).classList.remove("hidden");
-      document.getElementById(`text-${campo}`).classList.add("block");
-      campos[campo] = false;
+    if (!phoneRegex.test(phone)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+      </p>`;
+      return;
     }
-  };
-  inputs.forEach((input) => {
-    input.addEventListener("keyup", validarFormulario);
-    input.addEventListener("blur", validarFormulario);
-  });
 
-  formulario.addEventListener("submit", (e) => {
-    e.preventDefault(); // Para evitar que se recargue la pagina
-
-    if (campos.nombre && campos.correo && campos.telefono) {
-      document
-        .getElementById("text-field-nombre")
-        .classList.remove("border-green-500");
-      document
-        .getElementById("text-field-correo")
-        .classList.remove("border-green-500");
-      document
-        .getElementById("text-field-telefono")
-        .classList.remove("border-green-500");
-
-      formulario.reset();
-
-      document.getElementById("formulario__mensaje").classList.add("hidden");
-
-      document
-        .getElementById("formulario__mensaje-exito")
-        .classList.remove("hidden");
-      document
-        .getElementById("formulario__mensaje-exito")
-        .classList.add("block");
-      setTimeout(() => {
-        document
-          .getElementById("formulario__mensaje-exito")
-          .classList.remove("block");
-        document
-          .getElementById("formulario__mensaje-exito")
-          .classList.add("hidden");
-      }, 5000);
-    } else {
-      document.getElementById("formulario__mensaje").classList.remove("hidden");
+    if (message.length < 4) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El mensaje debe tener al menos 4 caracteres.
+      </p>`;
+      return;
     }
+
+    //
+
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    result.innerHTML = `
+      <p class="font-semibold italic">
+        Espere por favor...
+      </p>`;
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.innerHTML = `
+      <p class="font-semibold italic text-green-500">
+        Enviado correctamente!
+      </p>`;
+        } else {
+          console.log(response);
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "¡Algo salió mal!";
+      })
+      .then(function () {
+        form.reset();
+        setTimeout(() => {
+          result.style.display = "none";
+        }, 3000);
+      });
   });
 </script>
