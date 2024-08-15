@@ -1,0 +1,25 @@
+---
+import FormularioReserva from "../components/FormularioReserva.astro";
+import ScrollingLogo from "../components/ScrollingLogo.astro";
+import ViajeAMedida from "../components/ViajeAMedida.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Reserva">
+  <section class="flex gap-10 w-[1000px] self-center justify-center my-20">
+    <div class="w-[480px] flex flex-col gap-5">
+      <h2 class="text-6xl font-bold uppercase">Reserva Ya</h2>
+      <p class="text-xl font-semibold">
+        Rellena los siguiente datos, para realizar una reserva del Programa
+        elegido.
+      </p>
+      <p class="text-base">
+        Una vez que rellene el formulario, uno de nuestros asesores se
+        comunicará con usted a la brevedad posible.
+      </p>
+    </div>
+    <FormularioReserva />
+  </section>
+  <ScrollingLogo />
+  <ViajeAMedida />
+</Layout>

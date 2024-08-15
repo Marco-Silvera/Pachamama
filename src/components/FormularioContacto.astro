@@ -18,7 +18,7 @@
     <input
       id="text-field-nombre"
       type="text"
-      name="name"
+      name="nombre"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
       placeholder="Ingresa nombre..."
@@ -32,7 +32,7 @@
     <input
       id="text-field-correo"
       type="email"
-      name="email"
+      name="correo"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
       placeholder="Ingresa correo..."
@@ -46,7 +46,7 @@
     <input
       id="text-field-telefono"
       type="tel"
-      name="phone"
+      name="telefono"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
       placeholder="Ingresa telefono..."
@@ -61,7 +61,7 @@
     >
     <textarea
       id="text-field-mensaje"
-      name="message"
+      name="mensaje"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
       placeholder="Ingresa mensaje..."></textarea>
@@ -86,15 +86,15 @@
     //
 
     // Obtener valores de los campos
-    const name = form.name.value.trim();
-    const phone = form.phone.value.trim();
-    const message = form.message.value.trim();
+    const nombre = form.nombre.value.trim();
+    const telefono = form.telefono.value.trim();
+    const mensaje = form.mensaje.value.trim();
 
     // Validaciones
-    const nameRegex = /^[A-Za-z\s]{3,}$/;
-    const phoneRegex = /^[0-9]{7,}$/;
+    const nombreRegex = /^[A-Za-z\s]{3,}$/;
+    const telefonoRegex = /^[0-9]{7,}$/;
 
-    if (!nameRegex.test(name)) {
+    if (!nombreRegex.test(nombre)) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
         El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
@@ -102,7 +102,7 @@
       return;
     }
 
-    if (!phoneRegex.test(phone)) {
+    if (!telefonoRegex.test(telefono)) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
         El teléfono debe tener al menos 7 dígitos y solo puede contener números.
@@ -110,7 +110,7 @@
       return;
     }
 
-    if (message.length < 4) {
+    if (mensaje.length < 4) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
         El mensaje debe tener al menos 4 caracteres.

@@ -1,0 +1,309 @@
+---
+
+---
+
+<form method="POST" id="formreserva" class="flex flex-col gap-5 w-[480px]">
+  <input
+    type="hidden"
+    name="access_key"
+    value="1028b022-e1af-4a36-85cc-f5434091106c"
+  />
+  <input type="hidden" name="form_name" value="Contacto Reserva" />
+  <input type="hidden" name="subject" value="Reserva" />
+  <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+  <!-- Custom Form Data -->
+  <div class="flex flex-col gap-2">
+    <label for="text-field-nombrereserva" class="text-xl font-semibold"
+      >Nombre</label
+    >
+    <input
+      id="text-field-nombrereserva"
+      type="text"
+      name="nombrereserva"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa nombre..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 3 caracteres / no símbolos ni números)
+    </p>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-correoreserva" class="text-xl font-semibold"
+      >Correo</label
+    >
+    <input
+      id="text-field-correoreserva"
+      type="email"
+      name="correoreserva"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa correo..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-telefonoreserva" class="text-xl font-semibold"
+      >Teléfono</label
+    >
+    <input
+      id="text-field-telefonoreserva"
+      type="tel"
+      name="telefonoreserva"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 7 digitos / solo números)
+    </p>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-edad" class="text-xl font-semibold">Edad</label>
+    <input
+      id="text-field-edad"
+      type="number"
+      name="edad"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-pasajeros" class="text-xl font-semibold"
+      >Número de pasajeros</label
+    >
+    <input
+      id="text-field-pasajeros"
+      type="number"
+      name="pasajeros"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de pasajeros..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-circuito" class="text-xl font-semibold"
+      >Circuito</label
+    >
+    <select
+      id="text-field-circuito"
+      name="circuito"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona un circuito</option>
+      <option value="aventura-inca">Aventura Inca</option>
+      <option value="misterios-amazonicos">Corazón del Imperio Inca</option>
+      <option value="ruta-del-pisco">Esencia del Perú</option>
+      <option value="ruta-del-pisco">Panorama Peruano</option>
+      <option value="ruta-del-pisco">Del Pacífico al Amazonas</option>
+      <option value="ruta-del-pisco">Tesoros del Norte</option>
+      <option value="ruta-del-pisco">A lo largo de los Andes</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-llegada" class="text-xl font-semibold"
+      >Día de llegada</label
+    >
+    <input
+      id="text-field-llegada"
+      type="date"
+      name="llegada"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de pasajeros..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-estancia" class="text-xl font-semibold"
+      >Días de estancia</label
+    >
+    <input
+      id="text-field-estancia"
+      type="number"
+      name="estancia"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de pasajeros..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-pais" class="text-xl font-semibold"
+      >País de origen</label
+    >
+    <input
+      id="text-field-pais"
+      type="text"
+      name="pais"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa nombre..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-idioma-guia" class="text-xl font-semibold"
+      >Idioma del Guía</label
+    >
+    <select
+      id="text-field-circuito"
+      name="circuito"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona idioma</option>
+      <option value="espanol">Español</option>
+      <option value="ingles">Inglés</option>
+      <option value="frances">Francés</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-idioma-guia" class="text-xl font-semibold"
+      >Categoría del Hotel</label
+    >
+    <select
+      id="text-field-circuito"
+      name="circuito"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona categoría</option>
+      <option value="dos-estrellas">2 Estrellas</option>
+      <option value="tres-estrellas">3 Estrellas</option>
+      <option value="cuatro-estrellas">4 Estrellas</option>
+      <option value="cinco-estrellas">5 Estrellas</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-mensaje" class="text-xl font-semibold">Mensaje</label
+    >
+    <textarea
+      id="text-field-mensaje"
+      name="message"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
+      placeholder="Ingresa mensaje..."></textarea>
+    <p class="text-gray-400 font-semibold italic">(Mín. 4 caracteres)</p>
+  </div>
+
+  <button
+    type="submit"
+    class="border-2 border-[#226428] bg-[#226428] p-2 w-40 text-white font-semibold text-xl hover:bg-white hover:text-[#226428] transition-colors"
+    >Enviar</button
+  >
+
+  <div id="resultreserva"></div>
+</form>
+
+<style>
+  select option {
+    font-weight: 600; /* Texto más grueso */
+  }
+
+  option:hover {
+    background-color: #226428; /* Cambia el color del fondo al hacer hover */
+    color: white; /* Cambia el color del texto al hacer hover */
+  }
+</style>
+
+<script>
+  const form = document.getElementById("formreserva");
+  const result = document.getElementById("resultreserva");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    //
+
+    // Obtener valores de los campos
+    const nombrereserva = form.nombrereserva.value.trim();
+    const telefonoreserva = form.telefonoreserva.value.trim();
+    const mensaje = form.mensaje.value.trim();
+
+    // Validaciones
+    const nombrereservaRegex = /^[A-Za-z\s]{3,}$/;
+    const telefonoreservaRegex = /^[0-9]{7,}$/;
+
+    if (!nombrereservaRegex.test(nombrereserva)) {
+      result.innerHTML = `
+        <p class="font-semibold italic text-red-500">
+          El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
+        </p>`;
+      return;
+    }
+
+    if (!telefonoreservaRegex.test(telefonoreserva)) {
+      result.innerHTML = `
+        <p class="font-semibold italic text-red-500">
+          El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+        </p>`;
+      return;
+    }
+
+    if (mensaje.length < 4) {
+      result.innerHTML = `
+        <p class="font-semibold italic text-red-500">
+          El mensaje debe tener al menos 4 caracteres.
+        </p>`;
+      return;
+    }
+
+    //
+
+    const formDataReserva = new FormData(form);
+    const object = Object.fromEntries(formDataReserva);
+    const json = JSON.stringify(object);
+    result.innerHTML = `
+        <p class="font-semibold italic">
+          Espere por favor...
+        </p>`;
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.innerHTML = `
+        <p class="font-semibold italic text-green-500">
+          Enviado correctamente!
+        </p>`;
+        } else {
+          console.log(response);
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "¡Algo salió mal!";
+      })
+      .then(function () {
+        form.reset();
+        setTimeout(() => {
+          result.style.display = "none";
+        }, 3000);
+      });
+  });
+</script>

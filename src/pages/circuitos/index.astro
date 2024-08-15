@@ -14,17 +14,38 @@ import ViajeAMedida from "../../components/ViajeAMedida.astro";
       <div class="flex flex-wrap justify-center gap-5">
         {
           circuitosData.map((circuito) => (
-            <article class="relative w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
+            // MODELO ANTIGUO
+            //   <article class="relative w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
+            //     <a
+            //       href={`/circuitos/${circuito.path}`}
+            //       class="group block h-full"
+            //     >
+            //       <img
+            //         class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
+            //         src={circuito.imagenes[0]}
+            //         alt={`Caratula de ${circuito.nombre}`}
+            //       />
+            //       <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 bottom-0 group-hover:bg-[#C9CE92] group-hover:text-[#226428] transition-all duration-500 ease-in-out">
+            //         <h3 class="Circuits-overlay-title font-bold">
+            //           {circuito.nombre}
+            //         </h3>
+            //       </div>
+            //     </a>
+            //   </article>
+
+            <article class=" w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
               <a
                 href={`/circuitos/${circuito.path}`}
                 class="group block h-full"
               >
-                <img
-                  class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
-                  src={circuito.imagenes[0]}
-                  alt={`Caratula de ${circuito.nombre}`}
-                />
-                <div class="absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 bottom-0 group-hover:bg-[#C9CE92] group-hover:text-[#226428] transition-all duration-500 ease-in-out">
+                <div class="-z-1 overflow-hidden">
+                  <img
+                    class="w-full h-[532px] bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500 overflow-hidden -z-10"
+                    src={circuito.imagenes[0]}
+                    alt={`Caratula de ${circuito.nombre}`}
+                  />
+                </div>
+                <div class="h-[68px] bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 bottom-0 group-hover:bg-[#C9CE92] group-hover:text-[#226428] transition-all duration-500 ease-in-out z-40">
                   <h3 class="Circuits-overlay-title font-bold">
                     {circuito.nombre}
                   </h3>

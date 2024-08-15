@@ -1,30 +1,19 @@
 ---
+import { FeaturedImageGallery } from "./FeaturedImageGallery.jsx";
 import experienciasData from "../db/experiencias.json";
 
-const { circuito } = Astro.props;
-const experienciaActual = experienciasData.find(
-  (experiencia) => experiencia.nombre == circuito.path
-);
-
-const imagenes = experienciaActual ? experienciaActual.imagenes : [];
+const { nombre } = Astro.props.circuito;
+const experiencias = experienciasData.find((e) => e.nombre === nombre);
+const images = experiencias ? experiencias.imagenes : [];
 ---
 
-<section class="flex flex-col gap-10 items-center my-24">
-  <h2 class="text-[60px] font-bold uppercase text-center">
-    Experiencias que vivirás
-  </h2>
-  <section class="w-[1000px] grid grid-cols-4 gap-4">
-    {
-      experienciaActual &&
-        experienciaActual.imagenes.map((imagen, index) => (
-          <article>
-            <img
-              class="aspect-square object-cover rounded-lg"
-              src={imagen}
-              alt=""
-            />
-          </article>
-        ))
-    }
-  </section>
-</section>
+<div>
+  <h2>Experiencias</h2>
+  {
+    images.length > 0 ? (
+      <FeaturedImageGallery images={images} />
+    ) : (
+      <p>No hay imágenes disponibles para este circuito.</p>
+    )
+  }
+</div>
