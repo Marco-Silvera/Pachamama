@@ -2,12 +2,15 @@
 import HeroCircuito from "../../components/HeroCircuito.astro";
 import ViajeAMedida from "../../components/ViajeAMedida.astro";
 import Guia from "../../components/Guia.astro";
-import Experiencias from "../../components/Experiencias.astro";
-import FeaturedImageGallery from "../../components/FeaturedImageGallery.jsx";
+// import Experiencias from "../../components/Experiencias.astro";
+
+import alternativasData from "../../db/alternativas.json";
+
 import circuitosData from "../../db/circuitos.json";
 import experienciasData from "../../db/experiencias.json";
 import Layout from "../../layouts/Layout.astro";
 import Tab from "../../components/Tab.astro";
+import { FeaturedImageGallery } from "../../components/FeaturedImageGallery.jsx";
 
 const { path } = Astro.params;
 const circuito = circuitosData.find((c) => c.path === path);
@@ -20,6 +23,7 @@ export function getStaticPaths() {
   return paths;
 }
 
+// Buscamos las imagenes segun el path
 const experiencias = experienciasData.find((e) => e.nombre === path);
 const images = experiencias ? experiencias.imagenes : [];
 ---
@@ -33,8 +37,8 @@ const images = experiencias ? experiencias.imagenes : [];
 
   <Tab circuito={circuito} />
 
-  <FeaturedImageGallery images={images} />
-
   <Guia />
+
+  <FeaturedImageGallery images={images} client:load />
   <ViajeAMedida />
 </Layout>
