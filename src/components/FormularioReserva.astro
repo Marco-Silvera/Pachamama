@@ -195,8 +195,8 @@
     <label for="text-field-mensaje" class="text-xl font-semibold">Mensaje</label
     >
     <textarea
-      id="text-field-mensaje"
-      name="message"
+      id="text-field-mensajereserva"
+      name="mensajereserva"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
       placeholder="Ingresa mensaje..."></textarea>
@@ -235,7 +235,7 @@
     // Obtener valores de los campos
     const nombrereserva = form.nombrereserva.value.trim();
     const telefonoreserva = form.telefonoreserva.value.trim();
-    const mensaje = form.mensaje.value.trim();
+    const mensajereserva = form.mensajereserva.value.trim();
 
     // Validaciones
     const nombrereservaRegex = /^[A-Za-z\s]{3,}$/;
@@ -257,7 +257,7 @@
       return;
     }
 
-    if (mensaje.length < 4) {
+    if (mensajereserva.length < 4) {
       result.innerHTML = `
         <p class="font-semibold italic text-red-500">
           El mensaje debe tener al menos 4 caracteres.
