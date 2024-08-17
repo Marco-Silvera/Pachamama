@@ -5,6 +5,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
 import ScrollingLogo from "../components/ScrollingLogo.astro";
 import destacados from "../db/destacados.json";
 import alternativas from "../db/alternativas.json";
+import TestimonialSlider from "../components/TestimonialSlider.astro";
 ---
 
 <Layout title="Pachamama Turismo">
@@ -118,6 +119,7 @@ import alternativas from "../db/alternativas.json";
     </section>
   </section>
 
+  <!-- REEMPLAZAMOS EL ANTIGUO SECTION DE TESTIMONIOS POR EL COMPONENTE TestimonialSlider 
   <section
     class='relative w-full h-[600px] before:content-[""] before:absolute before:w-full before:h-full before:bg-[black] before:opacity-60 before:pointer-events-none before:left-0 before:top-0'
   >
@@ -145,8 +147,8 @@ import alternativas from "../db/alternativas.json";
         <h3 class="text-[32px] text-center">Christine GROS</h3>
       </div>
     </div>
-  </section>
-
+  </section> -->
+  <TestimonialSlider />
   <ScrollingLogo />
   <ViajeAMedida />
 </Layout>
