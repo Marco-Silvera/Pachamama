@@ -71,12 +71,14 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
     </div>
   </section>
 
-  <section class="flex flex-col items-center gap-20 p-20">
-    <h3 class="text-6xl font-bold uppercase">Circuitos Destacados</h3>
+  <section class="flex flex-col items-center gap-20 py-20 px-5">
+    <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
+      Circuitos Destacados
+    </h3>
     <section class="flex gap-10 flex-wrap justify-center">
       {
         destacados.map((destacado) => (
-          <article class="relative w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
+          <article class="relative w-full max-w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
             <a href={destacado.path} class="group block h-full">
               <img
                 class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
@@ -95,12 +97,14 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
     </section>
   </section>
 
-  <section class="flex flex-col items-center gap-20 p-20">
-    <h3 class="text-6xl font-bold uppercase">Experiencias Alternativas</h3>
+  <section class="flex flex-col items-center gap-20 py-20 px-5">
+    <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
+      Experiencias Alternativas
+    </h3>
     <section class="flex gap-10 flex-wrap justify-center">
       {
         alternativas.map((alternativa) => (
-          <article class="relative w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
+          <article class="relative w-full max-w-[380px] h-[600px] overflow-hidden group transition-all ease-in-out duration-500 rounded-lg shadow-xl">
             <a href={alternativa.path}>
               <img
                 class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
