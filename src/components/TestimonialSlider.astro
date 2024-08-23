@@ -49,11 +49,13 @@
   keenSliderNextDesktop.addEventListener("click", () => keenSlider.next());
 </script>
 
-<section class="bg-gray-50 w-[1000px] self-center">
+<section class="max-w-[1000px] w-full self-center">
   <div class="py-12">
-    <div class="flex flex-col xl:flex-row gap-8 justify-between items-center">
+    <div
+      class="flex flex-col xl:flex-row gap-5 sm:gap-8 justify-between items-center"
+    >
       <div
-        class="max-w-[450px] w-full flex flex-col gap-5 ltr:sm:text-left rtl:sm:text-right bg-green-600"
+        class="max-w-[450px] w-full flex flex-col px-5 gap-5 ltr:sm:text-left rtl:sm:text-right text-center"
       >
         <h2 class="text-3xl md:text-6xl font-bold uppercase">Testimonios</h2>
 
@@ -62,11 +64,11 @@
           experiencias.
         </p>
 
-        <div class="hidden self-center lg:mt-8 lg:flex lg:gap-4">
+        <div class="hidden self-center lg:flex lg:gap-4">
           <button
             aria-label="Previous slide"
             id="keen-slider-previous-desktop"
-            class="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+            class="rounded-full border border-[#225428] p-3 text-[#226428] transition hover:bg-[#226428] hover:text-white"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +88,7 @@
           <button
             aria-label="Next slide"
             id="keen-slider-next-desktop"
-            class="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+            class="rounded-full border border-[#225428] p-3 text-[#226428] transition hover:bg-[#226428] hover:text-white"
           >
             <svg
               class="size-5 rtl:rotate-180"
@@ -105,14 +107,12 @@
         </div>
       </div>
 
-      <div class="max-w-[500px] w-full bg-red-400">
-        <div id="keen-slider" class="keen-slider">
-          <div class="keen-slider__slide">
-            <blockquote
-              class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
-            >
+      <div class="max-w-[500px] w-full">
+        <div id="keen-slider" class="keen-slider h-full py-3">
+          <div class="keen-slider__slide shadow-md rounded-lg">
+            <blockquote class="flex h-full flex-col justify-between p-5 lg:p-8">
               <div class="flex flex-col gap-5">
-                <div class="flex gap-0.5 text-green-500">
+                <div class="flex gap-0.5 text-[#C9CE92]">
                   <svg
                     class="size-5"
                     fill="currentColor"
@@ -170,11 +170,11 @@
                 </div>
 
                 <div class="flex flex-col gap-5">
-                  <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
-                    Christine GROS
+                  <p class="text-xl font-bold text-[#226428] sm:text-3xl">
+                    Christine Gros
                   </p>
 
-                  <p class="leading-relaxed text-gray-700">
+                  <p class="leading-relaxed text-gray-700 text-sm sm:text-base">
                     Tout au long du séjour, nous avons apprécié la qualite et
                     les compétences de nos guides ainsi que le professionnalisme
                     de PACHAMAMA, petite structure souple qui sait s’adapter aux
@@ -184,18 +184,18 @@
                 </div>
               </div>
 
-              <footer class="text-sm font-medium text-gray-700">
-                &mdash; Christine GROS
+              <footer class="text-sm font-medium text-[#0f2c12]">
+                &mdash; Christine Gros
               </footer>
             </blockquote>
           </div>
 
-          <div class="keen-slider__slide w-[500px]">
+          <div class="keen-slider__slide w-[500px] shadow-md rounded-lg">
             <blockquote
-              class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
+              class="flex h-full flex-col justify-between shadow-sm p-5 lg:p-8"
             >
               <div class="flex flex-col gap-5">
-                <div class="flex gap-0.5 text-green-500">
+                <div class="flex gap-0.5 text-[#C9CE92]">
                   <svg
                     class="size-5"
                     fill="currentColor"
@@ -253,11 +253,11 @@
                 </div>
 
                 <div class="flex flex-col gap-5">
-                  <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+                  <p class="text-2xl font-bold text-[#226428] sm:text-3xl">
                     Deladriere
                   </p>
 
-                  <p class="leading-relaxed text-gray-700">
+                  <p class="leading-relaxed text-gray-700 text-sm sm:text-base">
                     On revient du Pérou, nous étions 8 personnes. Pachamama a
                     fait un travail fantastique et de grandes qualités. Les
                     hôtels étaient conformes à nos attentes, les guides
@@ -269,18 +269,18 @@
                 </div>
               </div>
 
-              <footer class="text-sm font-medium text-gray-700">
+              <footer class="text-sm font-medium text-[#0f2c12] mt-3">
                 &mdash; Deladriere
               </footer>
             </blockquote>
           </div>
 
-          <div class="keen-slider__slide">
+          <div class="keen-slider__slide shadow-md rounded-lg">
             <blockquote
-              class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
+              class="flex h-full flex-col justify-between shadow-sm p-5 lg:p-8"
             >
               <div class="flex flex-col gap-5">
-                <div class="flex gap-0.5 text-green-500">
+                <div class="flex gap-0.5 text-[#C9CE92]">
                   <svg
                     class="size-5"
                     fill="currentColor"
@@ -338,11 +338,11 @@
                 </div>
 
                 <div class="flex flex-col gap-5">
-                  <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+                  <p class="text-2xl font-bold text-[#226428] sm:text-3xl">
                     Rousseau Odile
                   </p>
 
-                  <p class="leading-relaxed text-gray-700">
+                  <p class="leading-relaxed text-gray-700 text-sm sm:text-base">
                     Tout au long du séjour, nous avons apprécié la qualité et
                     les compétences de nos guides ainsi que le professionnalisme
                     de PACHAMAMA, petite structure souple qui sait s’adapter aux
@@ -352,17 +352,17 @@
                 </div>
               </div>
 
-              <footer class="text-sm font-medium text-gray-700">
+              <footer class="text-sm font-medium text-[#0f2c12]">
                 &mdash; Rousseau Odile
               </footer>
             </blockquote>
           </div>
-          <div class="keen-slider__slide">
+          <div class="keen-slider__slide shadow-md rounded-lg">
             <blockquote
-              class="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12"
+              class="flex h-full flex-col justify-between shadow-sm p-5 lg:p-8"
             >
               <div class="flex flex-col gap-5">
-                <div class="flex gap-0.5 text-green-500">
+                <div class="flex gap-0.5 text-[#C9CE92]">
                   <svg
                     class="size-5"
                     fill="currentColor"
@@ -420,11 +420,11 @@
                 </div>
 
                 <div class="flex flex-col gap-5">
-                  <p class="text-2xl font-bold text-rose-600 sm:text-3xl">
+                  <p class="text-2xl font-bold text-[#226428] sm:text-3xl">
                     Brigitte Van Haute
                   </p>
 
-                  <p class="leading-relaxed text-gray-700 text-pretty">
+                  <p class="leading-relaxed text-gray-700 text-sm sm:text-base">
                     Tout au long du séjour, nous avons apprécié la qualité et
                     les compétences de nos guides ainsi que le professionnalisme
                     de PACHAMAMA, petite structure souple qui sait s’adapter aux
@@ -434,7 +434,7 @@
                 </div>
               </div>
 
-              <footer class="text-sm font-medium text-gray-700">
+              <footer class="text-sm font-medium text-[#0f2c12]">
                 &mdash; Brigitte Van Haute
               </footer>
             </blockquote>
@@ -447,7 +447,7 @@
       <button
         aria-label="Previous slide"
         id="keen-slider-previous"
-        class="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+        class="rounded-full border border-[#225428] p-4 text-[#226428] transition hover:bg-[#226428] hover:text-white"
       >
         <svg
           class="size-5 -rotate-180 transform"
@@ -467,7 +467,7 @@
       <button
         aria-label="Next slide"
         id="keen-slider-next"
-        class="rounded-full border border-rose-600 p-4 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+        class="rounded-full border border-[#225428] p-4 text-[#226428] transition hover:bg-[#226428] hover:text-white"
       >
         <svg
           class="size-5"
