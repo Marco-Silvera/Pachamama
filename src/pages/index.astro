@@ -12,28 +12,32 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
   <Hero />
 
   <section
-    class="w-full flex gap-[200px] justify-center items-center h-[500px] p-20"
+    class="w-full max-w-[1000px] flex lg:flex-row flex-col gap-5 sm:gap-10 justify-center items-center min-h-[500px] py-20 px-5 self-center"
   >
     <div class="flex flex-col items-center">
-      <h2 class="text-[40px] animate-slidein font-bold uppercase">
+      <h2 class="text-2xl sm:text-4xl animate-slidein font-bold uppercase">
         ¿Por qué elegir
       </h2>
-      <h2 class="text-[80px] text-[#226428] font-bold uppercase">Pachamama</h2>
-      <h2 class="text-[64px] text-[#C9CE92] font-bold uppercase">Turismo?</h2>
+      <h2 class="text-3xl sm:text-6xl text-[#226428] font-bold uppercase">
+        Pachamama
+      </h2>
+      <h2 class="text-3xl sm:text-6xl text-[#C9CE92] font-bold uppercase">
+        Turismo?
+      </h2>
     </div>
-    <div class="text-2xl">
+    <div class="text-lg sm:text-2xl flex flex-col gap-5">
       <p>
-        Pertenecemos a la familia CIAP, una organización de artesanos <br /> peruanos
+        Pertenecemos a la familia CIAP, una organización de artesanos peruanos
         que apoya al comercio justo y la economía social.
       </p>
-      <ul class="list-inside">
-        <li class="indent-[30px] list-disc">
+      <ul class="list-inside flex flex-col gap-3">
+        <li class="pl-5 list-disc text-base sm:text-xl">
           Nuestra experiencia en el sector del turismo alternativo.
         </li>
-        <li class="indent-[30px] list-disc">
+        <li class="pl-5 list-disc text-base sm:text-xl">
           Promoveremos un turismo responsable, sostenible y alternativo en Perú.
         </li>
-        <li class="indent-[30px] list-disc">
+        <li class="pl-5 list-disc text-base sm:text-xl">
           Buscamos involucrar al viajero responsable en el desarrollo local de
           nuestros pueblos.
         </li>
@@ -42,7 +46,7 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
   </section>
 
   <section
-    class="relative inline-block w-full h-[600px] before:content-[''] before:absolute before:w-full before:h-full before:bg-[black] before:opacity-50 before:pointer-events-none before:left-0 before:top-0"
+    class="relative inline-block w-full h-[600px] md:h-[800px] xl:h-[600px] before:content-[''] before:absolute before:w-full before:h-full before:bg-[black] before:opacity-50 before:pointer-events-none before:left-0 before:top-0"
   >
     <img
       src="amazonas-bote.webp"
@@ -50,28 +54,31 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
       class="w-full h-full bg-cover object-center object-cover"
     />
     <div
-      class="absolute w-full h-full flex gap-[100px] justify-center items-center text-[white] p-5 left-0 top-0"
+      class="absolute inset-0 h-full flex xl:flex-row flex-col max-w-[1000px] mx-auto w-full gap-10 xl:gap-20 justify-center items-center text-[white] p-5 top-0 self-center"
     >
-      <div class="text-center">
-        <h3 class="text-6xl font-bold uppercase">Compromiso Sostenible</h3>
-        <p class="text-[32px]">
-          No dejes para mañana el viaje que <br /> puedes hacer hoy, conoce nuestros
-          <br /> más atractivos circuitos.
+      <div
+        class="text-center xl:max-w-[440px] w-full flex flex-col gap-5 md:gap-10"
+      >
+        <h3 class="text-3xl md:text-6xl font-bold uppercase">
+          Compromiso Sostenible
+        </h3>
+        <p class="text-xl md:text-[32px] text-pretty">
+          No dejes para mañana el viaje que puedes hacer hoy, conoce nuestros
+          más atractivos circuitos.
         </p>
       </div>
       <iframe
-        width="560"
-        height="315"
         src="https://www.youtube-nocookie.com/embed/3ETVsjQngRQ?si=qrZMIOTf-lJcd_x_&controls=0"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen></iframe>
+        allowfullscreen
+        class="aspect-video xl:max-w-[440px] max-w-[600px] w-full"></iframe>
     </div>
   </section>
 
-  <section class="flex flex-col items-center gap-20 py-20 px-5">
+  <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
     <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
       Circuitos Destacados
     </h3>
@@ -97,7 +104,7 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
     </section>
   </section>
 
-  <section class="flex flex-col items-center gap-20 py-20 px-5">
+  <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
     <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
       Experiencias Alternativas
     </h3>
