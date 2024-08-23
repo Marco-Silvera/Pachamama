@@ -4,7 +4,7 @@
 
 <section class="relative w-full h-[1000px]">
   <div
-    class="absolute inset-x-0 top-0 h-1/5 bg-gradient-to-b from-white to-transparent z-[1]"
+    class="absolute inset-x-0 top-0 h-1/5 bg-gradient-to-b from-white to-transparent z-[0]"
   >
   </div>
 
@@ -14,18 +14,26 @@
     alt="Machu Picchu Maravilla del mundo"
   />
   <div
-    class="absolute flex flex-col gap-5 -translate-x-2/4 -translate-y-2/4 text-center text-[white] left-2/4 top-[30%]"
+    class="absolute flex flex-col gap-5 max-w-[1000px] w-full px-5 -translate-x-2/4 -translate-y-2/4 text-center text-[white] left-2/4 top-[28%] sm:top-[33%]"
   >
-    <h3 class="text-[64px] uppercase font-bold drop-shadow-xl">
+    <h3
+      class="text-5xl sm:text-6xl uppercase text-[#C9CE92] stroke-1 font-bold drop-shadow-xl text-stroke z-50"
+    >
       Viaja a tu medida
     </h3>
-    <p class="text-2xl">
+    <p class="text-xl sm:text-2xl">
       Personaliza tu viaje y descubre destinos turísticos con el sello global de
       SAFE TRAVELS
     </p>
     <a
-      class="bg-[rgb(34,100,22)] text-[rgb(201,206,146)] text-[28px] uppercase w-[300px] self-center px-5 py-2.5"
+      class="bg-[#226428] text-white border-2 font-semibold border-[#226428] transition-colors hover:text-[#226428] hover:bg-white text-xl sm:text-2xl uppercase max-w-[300px] w-full self-center px-5 py-2.5"
       href="">Más Información</a
     >
   </div>
 </section>
+
+<style>
+  .text-stroke {
+    -webkit-text-stroke: 1px #226428;
+  }
+</style>
