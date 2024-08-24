@@ -8,20 +8,24 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
 <Layout title="Nosotros">
   <HeroNosotros />
 
-  <section class="flex justify-center py-20">
-    <div class="w-[1000px] flex flex-col gap-10">
+  <section class="flex w-full justify-center py-20 px-5">
+    <div class="max-w-[1000px] w-full flex flex-col gap-10">
       <div class="flex flex-col gap-10 items-center text-center">
-        <h2 class="text-6xl font-bold uppercase">La Ciap</h2>
-        <p class="text-2xl font-medium w-[600px]">
+        <h2 class="text-3xl lg:text-6xl font-bold uppercase">La Ciap</h2>
+        <p
+          class="text-lg lg:text-2xl font-medium max-w-[600px] lg:w-full text-pretty"
+        >
           La familia CIAP cuenta con 4 miembros, empresas independientes con
           personalidad jurídica propia:
         </p>
       </div>
-      <ul class="text-base font-normal flex flex-wrap justify-around">
+      <ul
+        class="text-base font-normal flex flex-wrap justify-center gap-5 lg:gap-x-10 lg:gap-y-12"
+      >
         <li
-          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition-all text-pretty mb-10 ease-in-out"
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition-all text-pretty ease-in-out"
         >
-          <p>
+          <p class="text-sm sm:text-base">
             <span class="font-bold uppercase group-hover:text-[#C9CE92]"
               >InterCarfts:</span
             >
@@ -37,9 +41,9 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
           </div>
         </li>
         <li
-          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition mb-10 ease-in-out"
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition ease-in-out"
         >
-          <p>
+          <p class="text-sm sm:text-base">
             <span class="font-bold uppercase group-hover:text-[#C9CE92]"
               >La COOPAC:</span
             >
@@ -56,9 +60,9 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
           </div>
         </li>
         <li
-          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition mb-10 ease-in-out"
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition ease-in-out"
         >
-          <p>
+          <p class="text-sm sm:text-base text-pretty">
             <span class="font-bold uppercase group-hover:text-[#C9CE92]"
               >PACHAMAMA,</span
             >
@@ -75,9 +79,9 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
           </div>
         </li>
         <li
-          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition text-pretty mb-10 ease-in-out"
+          class="relative group flex items-center w-[400px] p-3 rounded-lg shadow-md hover:shadow-[#226428] transition text-pretty ease-in-out"
         >
-          <p>
+          <p class="text-sm sm:text-base">
             <span class="font-bold uppercase group-hover:text-[#C9CE92]"
               >ECOSOL PERÚ,</span
             >
@@ -96,11 +100,11 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
           >
           </div>
         </li>
-        <li class="mb-10">
+        <li class="">
           <button
-            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500"
+            class="group before:ease max-w-[400px] min-h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500 p-3"
           >
-            <p class="relative">
+            <p class="relative text-sm sm:text-base">
               <span class="font-bold uppercase group-hover:text-[#C9CE92]"
                 >InterCarfts:</span
               >
@@ -112,11 +116,11 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
             </p>
           </button>
         </li>
-        <li class="mb-10">
+        <li class="">
           <button
-            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500"
+            class="group before:ease max-w-[400px] min-h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500 p-3"
           >
-            <p class="relative">
+            <p class="relative text-sm sm:text-base">
               <span class="font-bold uppercase group-hover:text-[#C9CE92]"
                 >La COOPAC:</span
               >
@@ -129,11 +133,11 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
             </p>
           </button>
         </li>
-        <li class="mb-10">
+        <li class="">
           <button
-            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500"
+            class="group before:ease max-w-[400px] min-h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500 p-3"
           >
-            <p class="relative">
+            <p class="relative text-sm sm:text-base text-pretty">
               <span class="font-bold uppercase group-hover:text-[#C9CE92]"
                 >PACHAMAMA,</span
               >
@@ -147,11 +151,11 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
             </p>
           </button>
         </li>
-        <li class="mb-10">
+        <li class="">
           <button
-            class="group before:ease w-[400px] h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500"
+            class="group before:ease max-w-[400px] min-h-[200px] relative overflow-hidden shadow-md transition-all before:absolute before:top-1/2 before:h-0 before:w-[600px] before:origin-center before:-translate-x-[300px] before:rotate-[25deg] before:bg-[#226428] before:duration-500 hover:text-white hover:shadow-[#226428] hover:before:h-[600px] hover:before:-translate-y-[200px] rounded-lg duration-500 p-3"
           >
-            <p class="relative">
+            <p class="relative text-sm sm:text-base">
               <span class="font-bold uppercase group-hover:text-[#C9CE92]"
                 >ECOSOL PERÚ,</span
               >
@@ -171,11 +175,13 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
     </div>
   </section>
 
-  <section class="flex justify-center text-center py-20">
-    <article class="w-[1000px] flex flex-col gap-10">
+  <section class="flex justify-center text-center py-20 px-5">
+    <article class="max-w-[1000px] flex flex-col gap-5 lg:gap-10">
       <div class="flex flex-col gap-5">
-        <h2 class="text-6xl font-bold uppercase">Compromiso Sostenible</h2>
-        <p class="text-xl font-medium">
+        <h2 class="text-3xl lg:text-6xl font-bold uppercase">
+          Compromiso Sostenible
+        </h2>
+        <p class="text-lg lg:text-xl font-medium text-pretty">
           Pachamama tiene como prioridad fomentar la participación de las
           comunidades y de los turistas en la preservación del medio ambiente.
         </p>
@@ -188,25 +194,27 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
     </article>
   </section>
 
-  <section class="flex justify-center py-20">
-    <article class="w-[1000px] flex flex-col gap-10">
+  <section class="flex justify-center py-20 px-5">
+    <article class="max-w-[1000px] flex flex-col gap-10">
       <div class="flex flex-col gap-5">
-        <h3 class="text-3xl font-bold">El turismo responsable y alternativo</h3>
-        <p class="text-xl">
+        <h3 class="text-2xl lg:text-3xl font-bold text-center">
+          El turismo responsable y alternativo
+        </h3>
+        <p class="text-base lg:text-xl">
           <span class="font-bold">El turismo alternativo,</span> se consibe como
           un turismo diferente al tiurismo de masas. Se trata de un turismo que respeta
           la cultura y la naturaleza de los destinos, que promueve la participación
           de las comunidades locales y que busca la sostenibilidad del destino.
         </p>
-        <p class="text-xl">
+        <p class="text-base lg:text-xl">
           <span class="font-bold">El turismo responsable,</span> trabaja bajo los
           principios del desarrollo sostenible y fomenta una actitud respetuosa entre
           sus diversos actores y frente a los destinos visitados.
         </p>
       </div>
       <div class="flex flex-col gap-5">
-        <h3 class="text-3xl font-bold">Nuestra misión</h3>
-        <p class="text-xl">
+        <h3 class="text-xl lg:text-3xl font-bold">Nuestra misión</h3>
+        <p class="text-base lg:text-xl">
           Pachamama tiene como prioridad fomentar la participación de las
           comunidades y de los turistas en la preservación del medio ambiente, y
           en el desarrollo socio económico local. En este sentido proponemos
@@ -215,8 +223,10 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
         </p>
       </div>
       <div class="flex flex-col gap-5">
-        <h3 class="text-3xl font-bold">Alianzas de trabajo y Comunidades</h3>
-        <ul class="text-xl list-disc ml-10">
+        <h3 class="text-xl lg:text-3xl font-bold">
+          Alianzas de trabajo y Comunidades
+        </h3>
+        <ul class="text-base lg:text-xl list-disc ml-10 text-pretty">
           <li>
             Centro Bartolomé de las Casas – Cuzco (Ruta de las tejedoras).
           </li>
@@ -234,8 +244,10 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
         </ul>
       </div>
       <div class="flex flex-col gap-5">
-        <h3 class="text-3xl font-bold">Nuestras Acciones y Proyectos</h3>
-        <p class="text-xl">
+        <h3 class="text-xl lg:text-3xl font-bold">
+          Nuestras Acciones y Proyectos
+        </h3>
+        <p class="text-base lg:text-xl">
           Pachamama apoya a las organizaciones artesanales y a las comunidades
           locales a través de proyectos y entablando alianzas con ONGs y
           gobiernos locales, para mejorar los servicios turísticos y fomentar el
@@ -243,7 +255,7 @@ import ScrollingLogo from "../components/ScrollingLogo.astro";
           <br />
           Algunas acciones que hemos desarrollado:
         </p>
-        <ul class="text-xl list-disc ml-10">
+        <ul class="text-base lg:text-xl list-disc ml-10 text-pretty">
           <li>
             Apoyo a la Asociación Sur Andino para implementación de albergue en
             Chinchera, Puno.
