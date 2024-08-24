@@ -2,7 +2,11 @@
 
 ---
 
-<form method="POST" id="formreserva" class="flex flex-col gap-5 w-[480px]">
+<form
+  method="POST"
+  id="formreserva"
+  class="flex flex-col gap-5 max-w-[480px] w-full"
+>
   <input
     type="hidden"
     name="access_key"
@@ -14,7 +18,7 @@
 
   <!-- Custom Form Data -->
   <div class="flex flex-col gap-2">
-    <label for="text-field-nombrereserva" class="text-xl font-semibold"
+    <label for="text-field-nombrereserva" class="text-lg md:text-xl font-semibold"
       >Nombre</label
     >
     <input
@@ -31,7 +35,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-correoreserva" class="text-xl font-semibold"
+    <label for="text-field-correoreserva" class="text-lg md:text-xl font-semibold"
       >Correo</label
     >
     <input
@@ -45,7 +49,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-telefonoreserva" class="text-xl font-semibold"
+    <label for="text-field-telefonoreserva" class="text-lg md:text-xl font-semibold"
       >Teléfono</label
     >
     <input
@@ -62,7 +66,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-edad" class="text-xl font-semibold">Edad</label>
+    <label for="text-field-edad" class="text-lg md:text-xl font-semibold">Edad</label>
     <input
       id="text-field-edad"
       type="number"
@@ -76,7 +80,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-pasajeros" class="text-xl font-semibold"
+    <label for="text-field-pasajeros" class="text-lg md:text-xl font-semibold"
       >Número de pasajeros</label
     >
     <input
@@ -92,7 +96,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-circuito" class="text-xl font-semibold"
+    <label for="text-field-circuito" class="text-lg md:text-xl font-semibold"
       >Circuito</label
     >
     <select
@@ -113,7 +117,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-llegada" class="text-xl font-semibold"
+    <label for="text-field-llegada" class="text-lg md:text-xl font-semibold"
       >Día de llegada</label
     >
     <input
@@ -127,7 +131,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-estancia" class="text-xl font-semibold"
+    <label for="text-field-estancia" class="text-lg md:text-xl font-semibold"
       >Días de estancia</label
     >
     <input
@@ -143,7 +147,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-pais" class="text-xl font-semibold"
+    <label for="text-field-pais" class="text-lg md:text-xl font-semibold"
       >País de origen</label
     >
     <input
@@ -157,7 +161,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-idioma-guia" class="text-xl font-semibold"
+    <label for="text-field-idioma-guia" class="text-lg md:text-xl font-semibold"
       >Idioma del Guía</label
     >
     <select
@@ -174,7 +178,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-idioma-guia" class="text-xl font-semibold"
+    <label for="text-field-idioma-guia" class="text-lg md:text-xl font-semibold"
       >Categoría del Hotel</label
     >
     <select
@@ -192,7 +196,7 @@
   </div>
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-mensaje" class="text-xl font-semibold">Mensaje</label
+    <label for="text-field-mensaje" class="text-lg md:text-xl font-semibold">Mensaje</label
     >
     <textarea
       id="text-field-mensajereserva"
@@ -229,8 +233,6 @@
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
-
-    //
 
     // Obtener valores de los campos
     const nombrereserva = form.nombrereserva.value.trim();
