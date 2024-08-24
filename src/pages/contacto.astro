@@ -6,16 +6,22 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
 ---
 
 <Layout title="Contacto">
-  <section class="flex gap-10 w-[1000px] self-center justify-center my-20">
-    <div class="w-[480px] flex flex-col gap-5">
-      <h2 class="text-6xl font-bold uppercase">Contacto</h2>
-      <p class="text-xl">
+  <section
+    class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center py-20 p-5"
+  >
+    <div class="max-w-[480px] w-full flex flex-col gap-5">
+      <h2
+        class="text-3xl md:text-6xl text-center lg:text-start font-bold uppercase"
+      >
+        Contacto
+      </h2>
+      <p class="text-base md:text-xl">
         Ponte en contacto con nosotros para poder resolver cualquier duda o
         consulta, estaremos gustosos de brindarte la mayor información posible.
       </p>
 
       <div
-        class="self-start w-[300px] flex flex-col text-gray-700 shadow-xl rounded-lg mt-5"
+        class="self-center lg:self-start max-w-[300px] w-full flex flex-col text-gray-700 shadow-xl rounded-lg mt-5"
       >
         <nav
           class="flex flex-col gap-3 p-2 font-sans text-base font-normal text-center"
