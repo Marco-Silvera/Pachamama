@@ -7,24 +7,24 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
 <Layout title="Noticias">
   <HeroNoticia />
   <section
-    class="flex gap-10 w-[1000px] self-center justify-center items-center my-20"
+    class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center items-center py-20 px-5"
   >
-    <div class="w-[480px] flex flex-col gap-5">
-      <h2 class="text-6xl font-bold uppercase">
+    <div class="max-w-[480px] w-full flex flex-col gap-5">
+      <h2 class="text-3xl lg:text-6xl font-bold uppercase">
         Enterate de nuestras novedades
       </h2>
-      <p class="text-xl">
+      <p class="text-lg lg:text-xl">
         Nos encanta interactuar con nuestros viajeros, es por ello que te
         invitamos a que nos sigas en nuestras Redes Sociales.
       </p>
-      <ul class="flex justify-center gap-10 transition-all">
+      <ul class="flex justify-center gap-3 md:gap-10 transition-all">
         <li>
           <a
             href="https://www.facebook.com/pachamamaturismoalternativo"
             target="_blank"
           >
             <img
-              class="hover:scale-90 transition-all"
+              class="hover:scale-90 h-10 lg:h-16 transition-all"
               src="/redes/Redes - Facebook.webp"
               alt="Facebook de Pachamama Turismo"
             />
@@ -36,7 +36,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
             target="_blank"
           >
             <img
-              class="hover:scale-90 transition-all"
+              class="hover:scale-90 transition-all h-10 lg:h-16"
               src="/redes/Redes - Instagram.webp"
               alt="Instagram de Pachamama Turismo"
             />
@@ -48,7 +48,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
             target="_blank"
           >
             <img
-              class="hover:scale-90 transition-all"
+              class="hover:scale-90 transition-all h-10 lg:h-16"
               src="/redes/Redes - Youtube.webp"
               alt="Youtube de Pachamama Turismo"
             />
@@ -57,7 +57,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
         <li>
           <a href="https://www.tiktok.com/@pachamama.turismo" target="_blank">
             <img
-              class="hover:scale-90 transition-all"
+              class="hover:scale-90 transition-all h-10 lg:h-16"
               src="/redes/Redes - Tiktok.webp"
               alt="Tiktok de Pachamama Turismo"
             />
@@ -69,7 +69,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
             target="_blank"
           >
             <img
-              class="hover:scale-90 transition-all"
+              class="hover:scale-90 transition-all h-10 lg:h-16"
               src="/redes/Redes - Whatsapp.webp"
               alt="Whatsapp de Pachamama Turismo"
             />
@@ -78,10 +78,10 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
       </ul>
     </div>
     <div
-      class="fb-page w-[480px]"
+      class="fb-page max-w-[480px] w-full"
       data-href="https://www.facebook.com/pachamamaturismoalternativo/?ref=embed_page"
       data-tabs="timeline"
-      data-width="480"
+      data-width="w-full"
       data-height=""
       data-small-header="false"
       data-adapt-container-width="true"
@@ -100,12 +100,14 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
     </div>
   </section>
 
-  <section class="w-[1000px] self-center flex flex-col gap-20 my-20">
-    <h3 class="text-6xl uppercase font-bold text-center">
+  <section
+    class="max-w-[1000px] self-center flex flex-col gap-10 lg:gap-20 py-20 px-5"
+  >
+    <h3 class="text-3xl lg:text-6xl uppercase font-bold text-center">
       Nuestro canal de Youtube
     </h3>
     <div class="flex justify-center flex-wrap gap-10">
-      <article class="w-[400px] flex flex-col gap-5">
+      <article class="max-w-[400px] flex flex-col gap-5">
         <iframe
           class="w-full aspect-video"
           src="https://www.youtube.com/embed/2RO57PxUcpE"
@@ -114,13 +116,13 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-        <p>
+        <p class="text-sm lg:text-base">
           No dejes para mañana el viaje que puedes hacer hoy, conoce nuestros
           más atractivos circuitos.
         </p>
       </article>
 
-      <article class="w-[400px] flex flex-col gap-5">
+      <article class="max-w-[400px] flex flex-col gap-5">
         <iframe
           class="w-full aspect-video"
           src="https://www.youtube.com/embed/Q8g1fHamJhw"
@@ -129,9 +131,11 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-        <p>Les invitamos a conocer el Taller Artesanal de Llinco Perú.</p>
+        <p class="text-sm lg:text-base">
+          Les invitamos a conocer el Taller Artesanal de Llinco Perú.
+        </p>
       </article>
-      <article class="w-[400px] flex flex-col gap-5">
+      <article class="max-w-[400px] flex flex-col gap-5">
         <iframe
           class="w-full aspect-video"
           src="https://www.youtube.com/embed/iBbYZByTDZw"
@@ -140,7 +144,7 @@ import ViajeAMedida from "../components/ViajeAMedida.astro";
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
-        <p>
+        <p class="text-sm lg:text-base">
           Ver el mundo con tus propios ojos siempre será mejor que solo soñar
           con ello.
         </p>
