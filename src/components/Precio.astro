@@ -2,30 +2,34 @@
 const { circuito } = Astro.props;
 ---
 
-<section class="flex flex-col gap-5 self-center w-full mt-20 mb-40">
-  <h2 class="text-center text-[32px] font-bold text-[#226428] uppercase">
+<section
+  class="flex flex-col gap-5 self-center w-full mb-20 mt-6 md:mt-10 md:mb-40"
+>
+  <h2
+    class="text-center text-xl md:text-3xl font-bold text-[#226428] uppercase"
+  >
     Precios
   </h2>
-  <h3 class="text-2xl font-medium text-black">Incluye</h3>
-  <ul class="list-disc ml-4 pl-4">
+  <h3 class="text-xl md:text-2xl font-medium text-black">Incluye</h3>
+  <ul class="list-disc ml-0 md:ml-4 pl-4 mb-3">
     {
       circuito.precio.incluye.map((item) => (
-        <li class="text-base font-normal">{item}</li>
+        <li class="text-sm md:text-base font-normal text-pretty">{item}</li>
       ))
     }
   </ul>
-  <h3 class="text-2xl font-medium text-black">No Incluye</h3>
-  <ul class="list-disc ml-4 pl-4">
+  <h3 class="text-xl md:text-2xl font-medium text-black">No Incluye</h3>
+  <ul class="list-disc ml-0 md:ml-4 pl-4 mb-3">
     {
       circuito.precio["no-incluye"].map((item) => (
-        <li class="text-base font-normal">{item}</li>
+        <li class="text-sm md:text-base font-normal">{item}</li>
       ))
     }
   </ul>
-  <h3 class="text-2xl font-medium text-black uppercase">
+  <h3 class="text-xl md:text-2xl font-medium text-black">
     Información del Equipaje
   </h3>
-  <p class="text-base font-normal">
+  <p class="text-sm md:text-base font-normal">
     Está permitido hasta 23 kg/ persona en los vuelos nacionales y 20kg/persona
     en los buses de línea. <br />
     Para el vuelo internacional, consultar la compañía elegida. <br />

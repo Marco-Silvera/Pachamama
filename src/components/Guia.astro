@@ -2,26 +2,32 @@
 import guiasData from "../db/guias.json";
 ---
 
-<section class="flex flex-col gap-16 self-center w-[1000px] my-24">
-  <div class="flex flex-col gap-10">
-    <h2 class="text-[60px] font-bold uppercase text-center">Nuestros Guias</h2>
-    <p class="text-base font-normal">
+<section
+  class="flex flex-col gap-5 md:gap-10 self-center max-w-[1000px] w-full py-20 px-5"
+>
+  <div class="flex flex-col gap-5 md:gap-10">
+    <h2 class="text-3xl md:text-6xl font-bold uppercase text-center">
+      Nuestros Guias
+    </h2>
+    <p class="text-base font-normal text-center text-pretty">
       Están en constante capacitación, para que puedan hacer de tu viaje una de
       las mejores experiencias de sus vidas. Te presentamos a continuación:
     </p>
   </div>
-  <section class="flex flex-wrap justify-center gap-5">
+  <section class="flex flex-wrap justify-center gap-10">
     {
       guiasData.map((guia) => (
         <article class="w-[235px] flex flex-col gap-5 items-center">
           <img
-            class="aspect-[2/3] object-cover"
+            class="aspect-[2/3] object-cover rounded-lg"
             src={guia.imagen}
             alt={`Guia ${guia.nombre}`}
           />
           <div class="flex flex-col gap-5">
-            <h3 class="text-2xl font-bold uppercase">{guia.nombre}</h3>
-            <p class="text-base font-medium text-[#7A7A7A] text-pretty">
+            <h3 class="text-xl md:text-2xl font-bold uppercase">
+              {guia.nombre}
+            </h3>
+            <p class="text-sm md:text-base font-medium text-[#7A7A7A] text-pretty">
               {guia.descripcion}
             </p>
           </div>
