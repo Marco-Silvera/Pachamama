@@ -2,7 +2,11 @@
 
 ---
 
-<form method="POST" id="form" class="flex flex-col gap-5 w-full max-w-[480px]">
+<form
+  method="POST"
+  id="formviajeamedida"
+  class="flex flex-col gap-5 w-full max-w-[480px]"
+>
   <input
     type="hidden"
     name="access_key"
@@ -13,13 +17,13 @@
   <input type="checkbox" name="botcheck" id="" style="display: none;" />
 
   <div class="flex flex-col gap-2">
-    <label for="text-field-nombre" class="text-lg md:text-xl font-semibold"
+    <label for="text-field-nombreviajeamedida" class="text-lg md:text-xl font-semibold"
       >Nombre</label
     >
     <input
       id="text-field-nombre"
       type="text"
-      name="nombre"
+      name="nombreviajeamedida"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
       placeholder="Ingresa nombre..."
@@ -78,11 +82,11 @@
     >Enviar</button
   >
 
-  <div id="result"></div>
+  <div id="resultviajeamedida"></div>
 </form>
 <script>
-  const form = document.getElementById("form");
-  const result = document.getElementById("result");
+  const form = document.getElementById("formviajeamedida");
+  const result = document.getElementById("resultviajeamedida");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -90,7 +94,7 @@
     //
 
     // Obtener valores de los campos
-    const nombre = form.nombre.value.trim();
+    const nombreviajeamedida = form.nombreviajeamedida.value.trim();
     const telefono = form.telefono.value.trim();
     const mensaje = form.mensaje.value.trim();
 
@@ -98,27 +102,27 @@
     const nombreRegex = /^[A-Za-z\s]{3,}$/;
     const telefonoRegex = /^[0-9]{7,}$/;
 
-    if (!nombreRegex.test(nombre)) {
+    if (!nombreRegex.test(nombreviajeamedida)) {
       result.innerHTML = `
-      <p class="font-semibold italic text-red-500">
-        El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
-      </p>`;
+        <p class="font-semibold italic text-red-500">
+          El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
+        </p>`;
       return;
     }
 
     if (!telefonoRegex.test(telefono)) {
       result.innerHTML = `
-      <p class="font-semibold italic text-red-500">
-        El teléfono debe tener al menos 7 dígitos y solo puede contener números.
-      </p>`;
+        <p class="font-semibold italic text-red-500">
+          El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+        </p>`;
       return;
     }
 
     if (mensaje.length < 4) {
       result.innerHTML = `
-      <p class="font-semibold italic text-red-500">
-        El mensaje debe tener al menos 4 caracteres.
-      </p>`;
+        <p class="font-semibold italic text-red-500">
+          El mensaje debe tener al menos 4 caracteres.
+        </p>`;
       return;
     }
 
@@ -128,9 +132,9 @@
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     result.innerHTML = `
-      <p class="font-semibold italic">
-        Espere por favor...
-      </p>`;
+        <p class="font-semibold italic">
+          Espere por favor...
+        </p>`;
 
     fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -144,9 +148,9 @@
         let json = await response.json();
         if (response.status == 200) {
           result.innerHTML = `
-      <p class="font-semibold italic text-green-500">
-        Enviado correctamente!
-      </p>`;
+        <p class="font-semibold italic text-green-500">
+          Enviado correctamente!
+        </p>`;
         } else {
           console.log(response);
           result.innerHTML = json.message;

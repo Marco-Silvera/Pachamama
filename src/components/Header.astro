@@ -1,208 +1,21 @@
 ---
-
+const { rutaEsp, rutaFr } = Astro.props;
 ---
 
-<!-- <header
-  class="bg-[white] h-[70px]  flex justify-between  items-center gap-10 sticky z-[20] top-0 transition-all"
->
-  <a href="/">
-    <img class="h-[50px]" src="/logo.webp" alt="Logo Pachamama Turismo" />
-  </a>
-  <div class="flex items-center gap-10">
-    <ul class="gap-5 hidden xl:flex">
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/">Inicio</a
-        >
-      </li>
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/nosotros">Nosotros</a
-        >
-      </li>
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/circuitos">Circuitos</a
-        >
-      </li>
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/testimonios">Testimonios</a
-        >
-      </li>
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/noticias">Noticias</a
-        >
-      </li>
-      <li>
-        <a
-          class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-          href="/contacto">Contacto</a
-        >
-      </li>
-    </ul>
-    <div class="flex gap-2.5">
-      <a href="">
-        <img class="h-10" src="/españa.webp" alt="Bandera Española" />
-      </a>
-      <a href="">
-        <img class="h-10" src="/francia.webp" alt="Bandera Francesa" />
-      </a>
-    </div>
-    <svg
-      class="w-8 h-8 block xl:hidden"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="2"
-        d="M4 6h16M4 12h16m-7 6h7"></path>
-    </svg>
-  </div>
-</header>
-<style>
-  .scrolled {
-    /* Tailwind gray-300 */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
-  }
-</style>
-
-<script type="module" is:inline>
-  window.addEventListener("scroll", () => {
-    const header = document.querySelector("header");
-    if (window.scrollY > 0) {
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-  });
-</script> --><!-- este header si funciona --><!-- <header
-  class="bg-[white] h-[70px] w-full sticky z-[20] top-0 transition-all flex items-center"
->
-  <div
-    class="max-w-[1000px] w-full mx-auto flex justify-between items-center gap-5 md:gap-10 px-4"
-  >
-    <a href="/" class="hidden sm:block">
-      <img
-        class="h-[50px] hidden sm:block"
-        src="/logo.webp"
-        alt="Logo Pachamama Turismo"
-      />
-    </a>
-    <a href="/" class="block sm:hidden">
-      <img
-        class="block h-10 sm:hidden"
-        src="/Logo-mini.png"
-        alt="Logo Pachamama Turismo"
-      />
-    </a>
-    <div class="flex items-center gap-5 md:gap-10">
-      <ul class="gap-5 hidden xl:flex">
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/">Inicio</a
-          >
-        </li>
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/nosotros">Nosotros</a
-          >
-        </li>
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/circuitos">Circuitos</a
-          >
-        </li>
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/testimonios">Testimonios</a
-          >
-        </li>
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/noticias">Noticias</a
-          >
-        </li>
-        <li>
-          <a
-            class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors"
-            href="/contacto">Contacto</a
-          >
-        </li>
-      </ul>
-
-      <div class="flex gap-2.5">
-        <a href="">
-          <img class="h-6 sm:h-10" src="/españa.webp" alt="Bandera Española" />
-        </a>
-        <a href="">
-          <img class="h-6 sm:h-10" src="/francia.webp" alt="Bandera Francesa" />
-        </a>
-      </div>
-
-      <svg
-        class="w-8 h-8 block xl:hidden"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="M4 6h16M4 12h16m-7 6h7"></path>
-      </svg>
-    </div>
-  </div>
-</header>
-
-<style>
-  .scrolled {
-    /* Tailwind gray-300 */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
-  }
-</style>
-
-<script type="module" is:inline>
-  window.addEventListener("scroll", () => {
-    const header = document.querySelector("header");
-    if (window.scrollY > 0) {
-      header.classList.add("scrolled");
-    } else {
-      header.classList.remove("scrolled");
-    }
-  });
-</script> -->
 <header
   class="bg-[white] h-[70px] w-full sticky z-[20] top-0 transition-all flex items-center"
 >
   <div
     class="max-w-[1000px] w-full mx-auto flex justify-between items-center gap-5 md:gap-10 px-4"
   >
-    <a href="/" class="hidden sm:block">
+    <a href="/inicio" class="hidden sm:block">
       <img
         class="h-[50px] hidden sm:block"
         src="/logo.webp"
         alt="Logo Pachamama Turismo"
       />
     </a>
-    <a href="/" class="block sm:hidden">
+    <a href="/inicio" class="block sm:hidden">
       <img
         class="block h-10 sm:hidden"
         src="/Logo-mini.webp"
@@ -220,7 +33,7 @@
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/">Inicio</a
+              href="/inicio">Inicio</a
             >
           </li>
           <li
@@ -266,10 +79,10 @@
         </ul>
       </div>
       <div class="flex gap-2.5">
-        <a href="">
+        <a href={rutaEsp}>
           <img class="h-6 sm:h-10" src="/españa.webp" alt="Bandera Española" />
         </a>
-        <a href="">
+        <a href={rutaFr}>
           <img class="h-6 sm:h-10" src="/francia.webp" alt="Bandera Francesa" />
         </a>
       </div>

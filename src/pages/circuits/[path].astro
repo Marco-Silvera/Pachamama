@@ -3,23 +3,23 @@ import HeroCircuito from "../../components/HeroCircuito.astro";
 import Guia from "../../components/Guia.astro";
 // import Experiencias from "../../components/Experiencias.astro";
 
-import alternativasData from "../../db/es/alternativas.json";
-
+import alternativasData from "../../db/fr/alternativas.json";
 import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
-import experienciasData from "../../db/es/experiencias.json";
+import experienciasData from "../../db/fr/experiencias.json";
 import Layout from "../../layouts/Layout.astro";
 import Tab from "../../components/Tab.astro";
 import { FeaturedImageGallery } from "../../components/FeaturedImageGallery.jsx";
+import Francia from "../../components/Francia.astro";
 
 const { path } = Astro.params;
-const circuito = circuitosData.find((c) => c.path === path);
+const circuito = circuitosDatafr.find((c) => c.path === path);
 
-// Encontrar la ruta equivalente en francés
-const circuitoFr = circuitosDatafr.find((c) => c.nombre === circuito.nombre);
+// Encontrar la ruta equivalente en español
+const circuitoEs = circuitosData.find((c) => c.nombre === circuito.nombre);
 
 export function getStaticPaths() {
-  const paths = circuitosData.map((circuito) => ({
+  const paths = circuitosDatafr.map((circuito) => ({
     params: { path: circuito.path },
   }));
 
@@ -33,9 +33,10 @@ const images = experiencias ? experiencias.imagenes : [];
 
 <Layout
   title={circuito.nombre}
-  rutaEsp={`/circuitos/${circuito.path}`}
-  rutaFr={circuitoFr ? `/circuits/${circuitoFr.path}` : "#"}
+  rutaEsp={circuitoEs ? `/circuitos/${circuitoEs.path}` : "#"}
+  rutaFr={circuito.path}
 >
+  <Francia />
   <HeroCircuito
     imagen={circuito.imagenes[1]}
     nombre={circuito.nombre}

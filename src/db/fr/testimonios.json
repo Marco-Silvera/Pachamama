@@ -1,0 +1,26 @@
+[
+    {
+        "nombre": "Christine Gros",
+        "pais": "Francia",
+        "testimonio": "Tout au long du séjour, nous avons apprécié la qualité et les compétences de nos guides ainsi que le professionnalisme de PACHAMAMA, petite structure souple qui sait s’adapter aux désirs de ses clients et leur proposer un programme riche et passionnant.",
+        "imagen": "/testimonios/Testimonio - Christine-Gros.webp"
+    },
+    {
+        "nombre": "Deladriere",
+        "pais": "Belgica",
+        "testimonio": "On revient du Pérou, nous étions 8 personnes. Pachamama a fait un travail fantastique et de grandes qualités. Les hôtels étaient conformes à nos attentes, les guides connaissaient leurs matières. On n’a jamais été laissé au dépourvu, tout a été pris en main de manière très professionnelle. On compte revenir vers eux pour un séjour en Bolivie et au nord du Pérou.",
+        "imagen": "/testimonios/Testimonio - Deladriere.webp"
+    },
+    {
+        "nombre": "Rousseau Odile",
+        "pais": "Francia",
+        "testimonio": "Tout au long du séjour, nous avons apprécié la qualité et les compétences de nos guides ainsi que le professionnalisme de PACHAMAMA, petite structure souple qui sait s’adapter aux désirs de ses clients et leur proposer un programme riche et passionnant.",
+        "imagen": "/testimonios/Testimonio - Rosseau-Odile.webp"
+    },
+    {
+        "nombre": "Brigitte Van Haute",
+        "pais": "Francia",
+        "testimonio": "Tout au long du séjour, nous avons apprécié la qualité et les compétences de nos guides ainsi que le professionnalisme de PACHAMAMA, petite structure souple qui sait s’adapter aux désirs de ses clients et leur proposer un programme riche et passionnant.",
+        "imagen": "/testimonios/Testimonio - Brigitte-Van-Haute.webp"
+    }
+]

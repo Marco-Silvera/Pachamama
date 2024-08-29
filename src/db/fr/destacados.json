@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Corazón del Imperio Inca",
+        "portada": "/destacados/Portada - Corazon del Imperio Inca.png",
+        "path": "/circuitos/corazon-del-imperio-inca"
+    },
+    {
+        "nombre": "Esencia del Perú",
+        "portada": "/destacados/Portada - Esencia del Peru.png",
+        "path": "/circuitos/esencia-del-peru"
+    },
+    {
+        "nombre": "Del Pacífico al Amazonas",
+        "portada": "/destacados/Portada - Del Pacifico al Amazonas.png",
+        "path": "/circuitos/del-pacifico-al-amazonas"
+    }
+]

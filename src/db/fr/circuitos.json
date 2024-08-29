@@ -1,0 +1,985 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aventura Inca",
+        "path": "aventura-incafr",
+        "descripcion": "Descripción breve del Circuito 1",
+        "descripcion-principal": {
+            "titulo-descripcion": "Descubre el Sur del Perú durante una aventura inolvidable",
+            "parrafo-descripcion": "A lo largo de la costa desértica, podrán admirar la fauna variada de las islas Ballestas, divertirse y relájense en medio de las dunas del oasis de Huacachina antes de sobrevolar las enigmáticas líneas de Nazca.\n\nDescubran Arequipa, la ciudad “blanca”; exploren el Cañón de Colca, y naveguen en las aguas del lago Titicaca.\n\nRespirar el aire Andino durante un trek que los llevará a descubrir las comunidades locales a través de los paisajes increíbles de la Cordillera de los Andes.\n\nVisiten la capital del Imperio Inca, Cuzco, y el Valle Sagrado hasta llegar al famoso Machu Picchu.\n\nEn cada uno de estos lugares, Lima, Arequipa, Puno y Cuzco tendrá la posibilidad de vivir distintas experiencias con comunidades locales compartiendo su cultura, sus tradiciones y su vida diaria, además de disfrutar de la naturaleza y apreciar impresionantes sitios arqueológicos."
+        },
+        "dias": 19,
+        "imagenes": [
+            "/circuitos/Portada - Aventura Inca.png",
+            "/circuitos/Portada extendida - Aventura Inca.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Llegada a Lima. Recepción en el aeropuerto por nuestro corresponsal. Traslado a su hotel en el centro de la ciudad."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima / Paracas",
+                "actividades": "Luego del desayuno iniciaremos la visita de la parte moderna de Lima, en los distritos de Miraflores y Larcomar, centro turístico y de ocio de la ciudad donde disfrutaremos de una espectacular vista panorámica del Océano Pacífico y el Puente de los Suspiros desde Barranco.\n\nLuego continuaremos nuestra visita por la parte colonial de Lima, pasando por la Plaza San Martín, el Palacio de Gobierno, la Plaza de Armas, la Gran Catedral de Lima y las Catacumbas de San Francisco. Se trata de una importante obra de arquitectura de estilo colonial donde podemos apreciar, entre otras cosas, la belleza de sus claustros adornados con notables azulejos y pinturas.\n\nPor la tarde traslado a la estación de bus para el viaje a la ciudad de Paracas (250kms) por la carretera Panamericana Sur, durante el viaje pasaremos por los pueblos de Cañete y Chincha hasta llegar a Paracas. Durante el viaje atravesaremos desiertos y valles con plantaciones de algodón y espárragos, el viaje dura alrededor de 4 horas. Arribo y traslado al hotel. (Almuerzo incluido, servido a bordo del bus)."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Paracas / Islas Ballestas / Ica / Nazca",
+                "actividades": "Después del desayuno, excursión a las Islas Ballestas en lancha rápida, donde en medio de un paisaje sorprendente apreciaremos el «Candelabro», una enigmática figura sobre la que se hacen muchas hipótesis sobre su origen.\n\nDurante el viaje observaremos montañas de roca sólida que se elevan desde las profundidades del océano, con las formaciones de arcos naturales y túneles que impresionarán incluso a los menos sensibles. Además, podremos admirar una gran fauna marina, como lobos marinos, aves guanera, pingüinos de Humbolt, etc.\n\nContinuación del viaje en minibús a Ica y breve visita al magnífico oasis de Huacachina, al borde de esta hermosa laguna se puede disfrutar de la tranquilidad del lugar y caminar en busca de hermosas fotos.\n\nActividad opcional: Fascinante excursión en vehículos todo terreno 4×4, especialmente diseñados para el entretenimiento en el desierto de Huacachina que ofrece uno de los paisajes desérticos más hermosos de Sudamérica.\n\nAl final de la tarde, viaje en bus a Nazca (157km). Llegada e instalación en el hotel."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Nazca / Arequipa",
+                "actividades": "Por la mañana, sobrevuelo en avión las líneas de Nazca, estas están conformadas por un conjunto de figuras zoomorfas y geométricas que aparecen grabadas en la superficie de las mesetas desérticas, para luego visitar el cementerio preinca de Chauchilla (cementerio prehispánico que ofrece diversidad de tumbas, tanto por su forma como por su tamaño). Dependiendo del tiempo disponible, visitaremos los Acueductos de Cantayoc y conoceremos más sobre el ingenioso sistema de riego inventado por eruditos hidrólogos precolombinos, en este lugar donde la lluvia es un fenómeno casi desconocido.\n\nPor la tarde viaje en bus cama hasta la ciudad de Arequipa (572 km), en el camino pasaremos por diferentes paisajes de interminables desiertos, acantilados, playas y dunas atravesados ​​por un estrecho de la costa y pasaremos por importantes sitios. como Marcona, Yauca, Chala, Ocoña, el valle de Camaná hasta llegar a Arequipa. Arribo y traslado al hotel.\n(Cena servida a bordo del bus incluida)."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Arequipa",
+                "actividades": "Después del desayuno, visita de la ciudad de Arequipa con sus torres de vigilancia de Yanahuara y Rinconada Alta, su Plaza de Armas construida con piedras labradas del período neorrenacentista, la Iglesia de la Compañía y su claustro construido por los jesuitas en el siglo XVII, el tradicional mercado de San Camilo, para apreciar una amplia variedad de productos de la zona y de las poblaciones locales, el famoso Convento de Santa Catalina, que es una ciudadela fortificada, con sus callejuelas, sus escaleras y sus plazas, el museo de la Momia Juanita «Dama de Ampato» o «Dama de Hielo». «Juanita» no pasó por el proceso de momificación artificial, el cuerpo mantiene intactos todos sus órganos gracias al congelamiento (momificación natural) del monte Ampato donde fue depositado como ofrenda. Por la tarde tiempo libre."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Arequipa / Cañon del Colca - Comunidad de Canocota",
+                "actividades": "Partirá en vehículo privado hacia el Cañón del Colca (165 kilómetros). Durante el viaje, podrá admirar paisajes excepcionales como la reserva Aguada Blanca donde tendrá mucho tiempo para apreciar la magnífica flora y fauna como el volcán Misti, los nevados y los rebaños de llamas, alpacas y vicuñas. Luego, continuaremos con el ascenso de Patapampa a una altitud de 4900 metros donde tendrá una vista de los diversos volcanes de la cordillera de los Andes centrales. El viaje continúa hasta el pueblo de Chivay. Posibilidad de relajarse en los baños termales (actividad opcional: presupuesto: +/- 3 €; S /. 15.00 por persona)\n\nDespués del almuerzo, nos dirigiremos al encantador pueblo de Canocota (a 30min de Chivay). Llegada e instalación con los lugareños, con quienes compartiremos comidas, actividades diarias y otras costumbres. Noche con los lugareños (comodidad básica). (Cena incluida)"
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Canocota / Cruz del Condor / San Juan de Chuccho (2400m) - Trek",
+                "actividades": "Después del desayuno, muy temprano, salida en vehículo privado hacia la Cruz del Cóndor donde es casi seguro ver a los majestuosos cóndores andinos volando desde un mirador natural. En el camino de regreso de Cruz del Cóndor por la vertiente sur del valle del Colca visitaremos los pueblos de Maca y Yanque.\n\nLuego, continuaremos el viaje hacia el pueblo de Cabanaconde (3250 m) donde iniciaremos la caminata cuesta abajo por el Cañón hasta el pequeño pueblo de San Juan de Chuccho a 2200 metros sobre el nivel del mar (microclima tropical). Noche en bungalow.\nActividades opcionales a cargo del cliente: pesca artesanal o cabalgatas.\nTiempo de caminata: aproximadamente 4-5 horas.\nIncluido: desayuno + almuerzo + cena"
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "San Juan de Chuccho / Oasis Sangalle (2225m) / Cabanaconde - Trek",
+                "actividades": "Después del desayuno, camine hasta el área de Sangalle conocida como el Oasis del Colca. Visitaremos los pueblos de Cosñirhua y Malata, en los alrededores apreciaremos varios sitios arqueológicos preincaicos.\nDespués del almuerzo, subiremos por unas 4 horas hasta el pueblo de Cabanaconde.\nNoche en el hotel.\nTiempo de caminata: aproximadamente 4-5 horas.\nIncluido: desayuno + almuerzo + cena"
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Cabanaconde / Chivay / Puno",
+                "actividades": "Por la mañana, viaje en vehículo privado a la ciudad de Puno (355Km), descenderemos por el camino corto hacia el valle, luego tomaremos la dirección de Patapampa para llegar a Puno por la Pampa Cañahuas. Cruzaremos el altiplano andino y en el camino, podrá admirar la fauna específica de los Andes: alpacas, llamas, una amplia variedad de aves así como pequeñas lagunas.\n\nEn el camino visitaremos las torres funerarias de las Chullpas de Sillustani, que son consideradas las tumbas de los Kollas.\nAl final de la tarde arribo a Puno y traslado al hotel.\nIncluido: desayuno + picnic"
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Puno / Islas de los Uros / Amantani (tour grupal, con guía privado de habla inglesa)",
+                "actividades": "Paseo en bote por el lago Titicaca. Deténgase en una de las islas de los Uros para descubrir una representación de la vida cotidiana y costumbres ancestrales de los habitantes, en este lugar el visitante puede participar o simplemente observar la cosecha de totoras, realizar caminatas en sus pequeñas lanchas de totora, etc.\n\nContinuará en nuestro bote hacia la encantadora isla de Amantani. Llegada e instalación en vivienda familiar. Puedes caminar por senderos de piedra y conocer a los habitantes de la isla.\n\nPor la tarde, podrá subir al templo de Pachatata para apreciar desde la isla, el panorama sobre Perú y Bolivia, y disfrutará de una espléndida puesta de sol. Pernocte con los lugareños en Amantani (comodidad básica). (almuerzo y cena incluidos)."
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Amantani / Taquile / Puno",
+                "actividades": "Luego del desayuno, continuará el viaje en bote hacia la isla de Taquile, esta isla se caracteriza por la amabilidad de sus habitantes quienes conservan sus tradiciones, sus creencias andinas, sus vestimentas y sus idiomas (quechua, aymara). Para llegar a la cima de la isla, tomaremos un sendero ligeramente inclinado (50min) que ofrece una vista espectacular del lago. Visitaremos su plaza principal y observaremos los impresionantes trabajos de telas tejidas a mano de alta calidad en varios colores.\nPor la tarde retorno a Puno y traslado al hotel. Tiempo libre. (desayuno y almuerzo incluidos)"
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Puno / Cuzco",
+                "actividades": "Viaje en bus turístico por el Altiplano y el Valle de Vilcanota hasta Cuzco. En el camino, hace una breve parada en el Paso La Raya (4,300m), luego visita (sin guía) el Templo Inca de Raqchi, la Iglesia de Andahuaylillas (considerada la «Capilla Sixtina» de los Andes). Llegada a Cuzco al final de la tarde y traslado al hotel.\nTodas las entradas a los sitios mencionados anteriormente son opcionales. (Menú buffet turístico incluido)"
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Luego del desayuno, visita a las afueras de la ciudad como Tambomachay conocido como el Tambo de la Caverne donde de sus dos acueductos construidos por los Incas emergen de las aguas de un cerro hacia los manantiales; las ruinas de Kenko talladas por los Incas donde se pueden apreciar las cuevas y los pequeños altares; y también Puka Pukará con sus construcciones que contienen reservas, cámaras, fuentes, canales y acueductos, y finalmente una visita a la fortaleza de Sacsayhuaman con sus imponentes construcciones incas.\n\nLuego continuaremos con una visita a la ciudad y su Place d’Armes, una de las más bellas de Latinoamérica; La Catedral (donde el visitante puede hacerse una idea del estilo exquisito y la gran habilidad de los artistas y artesanos locales, ilustrado en las piezas de platería y madera tallada, y en los lienzos que decoran este bellísimo templo cuzqueño), visita del magnífico templo de Koricancha, considerado el más sagrado y el más impresionante construido por los Incas.\nAl final de la tarde tiempo libre."
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Cuzco / Abra de Malaga / Santa María (Inca Jungle Trek)",
+                "actividades": "Después del desayuno, viaje en vehículo privado hacia el valle de Málaga (150Kms desde Cuzco, aproximadamente 4 horas). Pasaremos por el Valle Sagrado donde podremos apreciar sus pintorescos atractivos naturales y culturales.\n\nLlegada al valle de Málaga (4350 msnm), descenso en bicicleta de montaña durante aproximadamente 3 horas, durante las cuales atravesaremos pequeños pueblos, ríos y campos agrícolas hasta el pueblo de Huamanmarca, donde llegaremos alrededor de las 13:30. Luego nuestro bus nos llevará al pueblo de Santa María donde almorzaremos.\n\nActividad opcional a cargo del cliente: Después del almuerzo, continuaremos la aventura con una excursión en canoa o rafting con todo el equipo a su disposición. Las aguas rápidas de la ruta están clasificadas III-IV. La emoción y el riesgo se encuentran, siempre supervisados ​​por un equipo de profesionales.\n\nPor la tarde, traslado en bus hasta el pueblo de Santa Rosa donde iniciaremos una caminata de aproximadamente 45 minutos. antes de llegar al ecolodge La Choza, ubicado en el pueblo de Pispitayoc donde pasaremos nuestra primera noche rodeados de magníficos paisajes e increíble vegetación.\n(Servicios básicos) (Incluye almuerzo y cena)"
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Santa María / Santa Teresa (Inca Jungle Trek)",
+                "actividades": "Luego de un desayuno en medio de la naturaleza, iniciaremos nuestra caminata por el río. Subiremos durando 30 min. pasando pasando por la parte del tradicional camino Inca. En el camino podremos observar varias especies de aves de singular belleza así como diferentes variedades de flores y frutos. Una vez en la cima de la cumbre, podemos admirar la vista de Urubamba. Luego descenderemos por 2h30 hasta el pueblo de Kellomayo, donde almorzaremos.\n\nPor la tarde, continuaremos con otras 3 horas de caminata durante las cuales atravesaremos plantaciones de frutas, cascadas, arroyos hasta llegar a los baños termales de Santa Teresa. Estos baños termales combinan aguas medicinales y terapéuticas para disfrutar de un relajante y tonificante baño.\n\nLuego continuaremos nuestra caminata durante 40 minutos hasta el pueblo de Santa Teresa. Llegada e instalación con los lugareños.\n(Servicios básicos) (Incluye desayuno, almuerzo y cena)"
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Santa Teresa / Aguas Calientes (Inca Jungle Trek)",
+                "actividades": "Luego del desayuno, retomaremos la caminata por 3 horas por el valle hasta la Hidroeléctrica. Allí tendremos un gran almuerzo para recuperar energías. Después de descansar, continuaremos la caminata de 3 horas durante la cual tendremos la oportunidad de observar magníficas cascadas y cruzar plantaciones de frutas, hasta el pueblo de Aguas Calientes, al pie de Machu Picchu. Llegada e instalación en el hotel.\n(Incluye desayuno)\nActividad opcional a cargo del cliente: tirolina"
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Laguas Calientes / Machu Picchu / Aguas Calientes / Ollantaytambo (Inca JungleTrek)",
+                "actividades": "Temprano en la mañana, camine hasta Machu Picchu para disfrutar del sitio antes de la llegada de grandes grupos de turistas. Descubra el sitio más emblemático de los Incas, con sus cultivos en terrazas, su sistema de canales artificiales para riego, sus palacios, plazas, templos, sótanos, hórreos, cárceles, etc.\n\nDespués de la visita guiada, tendrá tiempo libre para dar un paseo por la ciudadela, hasta el templo del sol construido con enormes bloques de piedra, el lugar principal donde se realizaban las ceremonias durante el solsticio de junio. También se puede ir al cerro Intihuatana, que tiene forma de gran pirámide, al que se accede subiendo una escalera de 78 escalones.\n\nActividad opcional a cargo del cliente: Posibilidad de subir al Huayna Picchu por un pequeño sendero de piedra al borde del precipicio para tener una vista magnífica de toda la región y otros lugares antes de regresar a Aguas Calientes.\n\nPor la tarde, traslado a la estación para tomar el tren de regreso a Ollantaytambo. Arribo y traslado al hotel.raslado"
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Ollantaytambo / Moray / Salinas / Chinchero / Cuzco",
+                "actividades": "Después del desayuno, visitará las Salinas de Maras donde sus habitantes realizan todo el proceso de extracción de sal natural que ha sido su principal actividad durante cientos de años. También descubriremos las terrazas circulares de Moray, que constituyen todo un complejo Inca experimental y finalmente visitaremos al pueblo de Chinchero, un hermoso sitio Inca con su bonita plaza colonial cuyos muros datan de construcciones prehispánicas con adiciones coloniales y actuales, en el Tarde arribo a la ciudad del Cusco y traslado al hotel, tiempo libre."
+            },
+            {
+                "dia": 19,
+                "titulo-actividades": "Cuzco / Lima / Salida",
+                "actividades": "Traslado al aeropuerto y vuelo a Lima. En Lima visitaremos el Museo de Arqueología y Antropología que presenta un excelente panorama de todas las civilizaciones precolombinas peruanas. Luego a la hora indicada traslado al aeropuerto para tomar su vuelo internacional. Fin de nuestros servicios."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,500.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2021, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación doble o matrimonial con baño privado y agua caliente (a excepción del alojamiento familiar donde, dependiendo de la comunidad, se puede encontrar baño compartido y no agua caliente; en la Isla Amantani casas n. ° (no todas tienen ducha) y la electricidad funciona con paneles solares).\nDesayuno continental en todos los hoteles.",
+                "Transporte privado desde aeropuerto / estación de tren / terminal de autobuses / hotel.",
+                "Ticket de bus Lima-Paracas, Paracas-Ica-Nazca, Nazca-Arequipa, vehículo privado Arequipa-Colca-Cañón de Puno, tren (Machu Picchu- Ollantaytambo) y avión (Cuzco-Lima) según el programa a continuación.",
+                "Excursión en grupo a las Islas Ballestas.",
+                "Vuelo sobre las Líneas de Nazca, excepto impuesto de aeropuerto.",
+                "Caminata Cañon de Colca en servicio privado con pensión completa según programa.",
+                "Excursión en grupo a las islas del lago Titicaca y pensión completa.",
+                "Caminata Inca Jungle en servicio privado con guía francófono, Incluye: Transporte; Ticket de tren Aguas Calientes a Ollantaytambo; Guía turístico Inca Jungle; MTB, casco, guantes y chaleco protector.; comidas según los detalles del programa; 2 noches de alojamiento familiar con servicios básicos; 1 noche en hotel (baño privado y agua caliente); entrada al sitio de Machu Picchu; Kit de primeros auxilios.",
+                "Excursiones privadas para todas las demás visitas mencionadas en el programa, de acuerdo con el programa anterior.",
+                "Tickets de ingreso y guía francófono para visitas a los sitios turísticos indicados en el programa.",
+                "Asistencia permanente y personalizada."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Tasas de aeropuerto para vuelos sobre las Líneas de Nazca.",
+                "Comidas y bebidas, excepto desayuno en todos los hoteles; y como se indica en el programa.",
+                "Seguro de viaje.",
+                "Impuestos por exceso de equipaje.",
+                "Entrada a los baños termales La Calera – Chivay.",
+                "Ascenso a Huayna Picchu.",
+                "Noches y gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o eventos sociales en el país.",
+                "Traslados y tickets de ingreso a lugares no mencionados en el programa.",
+                "Consejos para guías y conductores.",
+                "Otros gastos personales."
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Corazón del imperio inca",
+        "path": "corazon-del-imperio-incafr",
+        "descripcion": "Descripción breve del Circuito 2",
+        "descripcion-principal": {
+            "titulo-descripcion": "¡Un recorrido por el sur del Perú que te llevará al Corazón del Imperio Inca!",
+            "parrafo-descripcion": "Pachamama es una agencia peruana de turismo alternativo promovida por la CIAP (Central Interregional de Artesanos del Perú), RELLACC (Red Latinoamericana de Comercialización) y 14 grupos de artesanos peruanos.\n\nNosotros proponemos programas de viajes con importantes actividades de sensibilización y una visión  más real y profunda del destino turístico, respetando la integridad cultural, los procesos ecológicos esenciales, la diversidad biológica y los modos de vida.\n\n Los invitamos a descubrir el Perú en un espíritu de intercambio, respeto de los valores humanos y de la solidaridad, características de un turismo responsable."
+        },
+        "dias": 18,
+        "imagenes": [
+            "/circuitos/Portada - Corazon del Imperio Inca.png",
+            "/circuitos/Portada extendida - Corazon del Imperio Inca.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Arribo a Lima en vuelo. Recepción en el aeropuerto a cargo de nuestro representante. Traslado al hotel."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Tours Lima",
+                "actividades": "Por la mañana visitaremos la parte moderna de Lima como Miraflores y Larcomar centro turístico y de entretenimiento, símbolo de la Lima Moderna y punto privilegiado para apreciar una espectacular vista panorámica del Océano Pacífico; también visitaremos Barranco, barrio bohemio, y el puente de los Suspiros. Luego continuaremos con visita a la parte colonial visitando la Plaza Mayor, la Catedral y las Catacumbas del Convento San Francisco, obra maestra de la arquitectura colonial.\n\nDespués del almuerzo, visita a talleres artesanales situados en los “pueblos jóvenes” (barrios pobres de la ciudad) donde el visitante podrá participar o simplemente observar el proceso de elaboración de productos artesanales, especialmente en cerámica y retablo. Al final de la tarde, retorno al hotel."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Lima / Paracas",
+                "actividades": "Después del desayuno, visitaremos el Museo Nacional de Arqueología, Antropología e Historia, que presenta un panorama excelente de todas las civilizaciones precolombinas del Perú.\n\nPor la tarde, viaje en bus con destino a Paracas (250km al sur) aproximadamente 4h de viaje. En el trayecto pasaremos por ciudades importantes como Cañete y Chincha. Arribo y traslado al hotel. (Almuerzo servido a bordo)"
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Paracas / Islas Ballestas / Ica / Nazca",
+                "actividades": "Por la mañana, excursión a las Islas Ballestas y el Candelabro en lancha, en el trayecto se observan montañas de roca sólida elevándose desde las profundidades del océano, con formaciones de arcos y túneles naturales que impresionan al más desinteresado, además se apreciará una gran fauna marina, como los lobos marinos, aves guaneras, pingüinos de Humbolt, etc.\n\nLuego continuamos el viaje en bus hasta Ica (54Km) y realizaremos una breve visita al oasis de la Huacachina, en esta hermosa laguna podrán disfrutar de la tranquilidad del lugar y caminar por sus alrededores.\n\nActividad opcional: Excursión abordo de maquinas areneras 4×4, especialmente diseñadas para la diversión en el desierto de Huacachina que ofrece uno de los paisajes desérticos más bellos de Sudamérica.\n\nPor la tarde se continúa el viaje en bus a la ciudad de Nazca (157Km). Arribo y traslado al hotel."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Nazca / Arequipa",
+                "actividades": "Por la mañana, sobrevuelo de las líneas de Nazca en avioneta, las imponentes y enigmáticas «Líneas de Nazca» que están compuestas por un conjunto de figuras zoomorfas y geométricas que aparecen grabadas sobre la superficie terrestre. Después continuaremos con la visita al cementerio Chauchilla (cementerio pre-hispánico que ofrece una diversidad de tumbas). Según el tiempo disponible, visitaremos los Acueductos de Cantayoc y aprenderemos más sobre el ingenioso sistema de irrigación inventado por sabios hidrólogos precolombinos, en este lugar donde la lluvia es un fenómeno casi desconocido.\n\nPor la tarde, viaje en bus hacia la ciudad de Arequipa (572 km). En el trayecto pasaremos por interminables desiertos, con acantilados que forman unos paisajes que se mezclan con playas y dunas desérticas a lo largo del litoral costero; asimismo se pasa por sitios importantes como Marcona, Yauca, Chala, Ocoña y el valle de Camana hasta llegar a Arequipa. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Arequipa",
+                "actividades": "Después del desayuno, iniciaremos nuestro recorrido por la ciudad visitando el Mirador de Yanahuará y Rinconada Alta; la Plaza de Armas edificada en sillar (piedra tallada) con un estilo neorrenacentista; La Iglesia de la Compañía y sus claustros,  construida por los jesuitas en el siglo XVII; el famoso convento Santa Catalina que es una ciudadela amurallada, con callejuelas, pasadizos, escalinatas y plazuelas; el Museo Santuarios Andinos donde se encuentra la momia “Juanita” conocida como la “Dama de Ampato”. Por la tarde retorno al hotel y tiempo libre."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Arequipa \"Aventura Culinaria\"",
+                "actividades": "Después del desayuno comenzaremos la organización para la aventura gastronómica. El recorrido comienza con traslado del hotel hacia al Mercado “San Camilo”; donde se expenden una gran variedad de legumbres, frutas, carnes y otros insumos peruanos de gran importancia. La compra de los productos se realiza bajo acompañamiento de un Chef quien dará la explicación de todo insumo que se va utilizar para la preparación de los platos típicos.\n\nDespués de comprar, nos dirigimos a nuestras instalaciones que cuentan con una cocina equipada, donde antes de empezar a cocinar recibiremos una charla sobre la comida Peruana.\nInicio de preparación de los platos típicos, con la ayuda de un asistente y bajo la supervisión de un chef; donde cada uno de los participantes podrá preparar platos bandera de nuestro país tales como: Ceviche, causa rellena, lomo saltado y rocoto relleno; todo esto acompañado del infaltable Pisco sour. Terminada la preparación de los platos nos deleitaremos en mesa familiar con lo preparado.\nExperimente este tour interactivo y conozca el Perú desde otra perspectiva… ¡Buen provecho!\n\nPor la tarde, traslado al hotel y tiempo libre. (Almuerzo incluido)"
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Arequipa / Cañon del Colca - Comunidad de Canocota",
+                "actividades": "Viaje en movilidad privada con destino al Cañón de Colca (165 km), durante el trayecto observaremos excepcionales paisajes como la Reserva Aguada Blanca, montañas enigmáticas y manadas de llamas, alpacas y vicuñas. Posteriormente continuaremos hasta llegar a la cumbre de Patapampa, 4900 de altitud, desde donde es posible apreciar los diferentes volcanes y la cordillera de los andes centrales, para luego llegar al pueblo de Chivay.\n\nDespués del almuerzo, nos dirigimos hacia el encantador pueblo  de Canocota (30min de Chivay). Arribo e instalación en casa familia, cuyos anfitriones compartirán con los visitantes sus alimentos y actividades cotidianas, entre otras costumbres. Noche en casa del habitante. (Servicios básicos) (Incluye cena)"
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Cañon del Colca / Chivay / Puno",
+                "actividades": "Después del desayuno, partiremos con dirección a la Cruz del Cóndor donde seguramente se podrá apreciar el vuelo del majestuoso Cóndor de los Andes desde un mirador natural. En trayecto pasaremos por los pueblos tradicionales de la margen izquierda del cañón como: Yanque, Achoma, Maca, Pinchollo, observando durante el recorrido el sistema andino de terrazas pre-incas que las poblaciones del valle emplean hasta hoy para la agricultura.\nDespués del almuerzo, viaje en movilidad privada con destino a la ciudad de Puno (355km). Atravesaremos el altiplano andino y apreciaremos en el trayecto una gran variedad de aves y pequeñas lagunas. Al final de la tarde arribo y traslado al hotel. (Box lunch incluido)"
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Puno / Islas de los Uros / Amantani (tour compartido - Excursión en grupo)",
+                "actividades": "Excursión en lancha compartida por el lago Titicaca. Durante recorrido se visita las islas flotantes de los Uros para descubrir su peculiar modo de vida y las costumbres de sus habitantes. Luego, se continúa el viaje en la embarcación rumbo a la encantadora isla de Amantani. Arribo e instalación en una casa familia.\nDespués del almuerzo ascenderemos a pie hasta el templo pré-inca de Pachatata en la cima de la isla, donde disfrutaremos de un espléndido panorama del lago Titicaca, de la Cordillera del altiplano Boliviano y de la puesta de sol. Noche en casa familia (Servicios Básicos) (Incluye almuerzo y cena)"
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Amantani / Taquile / Puno",
+                "actividades": "Después del desayuno, continuamos el viaje hacia la isla de Taquile, caracterizada por sus habitantes amables y que conservan sus costumbres ancestrales, sus tradiciones andinas, su vestimenta y sus lenguas (quechua y aymara).\n\nVisitaremos su plaza principal y apreciaremos los finos tejidos, de gran calidad y variedad de color hechos a mano. Por la tarde, retorno a Puno y traslado al hotel. Tiempo libre. (Incluye desayuno y almuerzo)"
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Puno / Cuzco",
+                "actividades": "Viaje en bus turístico a través del altiplano y el valle de Vilcanota hasta Cuzco. En el trayecto se realizará algunas paradas para visitar, sin guía, lugares como: Pukara, La Raya (4300 msnm.), Raqchi, Andahuaylillas (considerada como la capilla Sextina de los andes). Por la tarde arribo a Cuzco, traslado al hotel. (Los ingresos a estos sitios arqueológicos son opcionales, y las entradas lo asume cada pasajero). (Incluye Almuerzo Buffet Turístico)"
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Viaje a los alrededores de la ciudad como Tambomachay, conocido como Tambo de la Caverna; las ruinas de Kenko talladas por los incas; Puka Pukará con sus construcciones que contienen habitaciones, fuentes, canales, acueductos y finalmente visita a la fortaleza de Sacsayhuaman, imponente construcción inca.\nLuego continuaremos con la visita de la ciudad, su plaza de armas (una de las más bellas de América Latina); la Catedral, visita al magnífico templo de Koricancha, recinto sagrado dedicado al Inti, deidad inca, que destaca por sus impresionantes construcciones.\n\nPor la tarde, tiempo libre."
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Cuzco / Pisac / Ollantaytambo",
+                "actividades": "En la mañana, nos trasladaremos al Valle Sagrado de los Incas, en la ruta realizaremos una pequeña parada en el centro de exhibición de Awanakancha donde podrá contemplar la belleza del ande peruano, de los camélidos sudamericanos y la técnica tradicional (proceso de teñido, hilado, urdido y tejido) de tejido que utiliza la población local. Luego continuaremos el viaje al Pueblo de Pisac y visita a sus ruinas para apreciar los andenes más espectaculares de la región (visita aprox. 2 hrs.).\n\nDespués del almuerzo, continuamos con la visita a la fortaleza de Ollantaytambo, impresionante construcción Inca que fue un estratégico centro militar, religioso y agrícola. Tiempo libre y noche de hotel en Valle Sagrado."
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Ollantaytambo / Comunidad de Patacancha / Aguas Calientes",
+                "actividades": "Luego del desayuno, nos trasladamos en movilidad privada a la Comunidad de Patacancha. Realizaremos una visita de reconocimiento para apreciar las tierras de cultivo y participar en sus actividades, acompañados por un guía comunal que nos explicará el sistema organizativo de la comunidad y la base de su economía. \nAl mediodía, almuerzo a base de papa y verduras según las opciones propuestas por los anfitriones. Para después, visitar los talleres de tejido de lana de alpaca, y será el momento de despedirnos de nuestra familia anfitriona, agradecimiento por la experiencia compartida.\n\nPor la tarde, traslado a Ollantaytambo para abordar el tren a Aguas Calientes, pueblo situado al pie de Machu Picchu, arribo y traslado al hotel. (Incluye almuerzo)"
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Aguas Calientes / Machu Picchu / Aguas Calientes / Ollantaytambo",
+                "actividades": "Temprano por la mañana, subida en bus hasta el ingreso principal de Machu Picchu para disfrutar del lugar antes de una mayor afluencia de turistas. Exploraremos el sitio más emblemático de los Incas con sus plazuelas, sus andenes, acueductos, torreones de vigilancia, almacenes entre otros.\n\nLuego de la visita guiada, usted tendrá tiempo para realizar una caminata a los alrededores de la ciudadela, como al Templo del Sol construido con grandes bloques de piedra.\n\nActividad opcional: igualmente tendrá tiempo para emprender una emocionante caminata a través de un camino accidentado de herradura hasta la cima del Huayna Picchu, desde donde se tiene una vista única de la ciudadela.\n\nEn la tarde traslado a la estación de tren para su viaje de retorno a Ollantaytambo. Arribo y traslado a su hotel."
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Ollantaytambo / Maras / Chinchero / Cuzco",
+                "actividades": "Después del desayuno, visitaremos las salinas de Maras donde sus habitantes realizan el proceso de extracción natural de la sal; las terrazas circulares de Moray que constituyen todo un complejo experimental agrícola inca; el pueblo de Chinchero y su linda plaza colonial cuyos muros datan de la época inca con agregados coloniales y actuales. Por la tarde arribo a la ciudad de Cuzco y traslado al hotel."
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Cuzco / Lima / Salida",
+                "actividades": "Por la mañana, traslado al aeropuerto y vuelo con destino a Lima. Arribo y se continúa con visita al Museo de Larco, que presenta una importante colección de piezas de la cultura Moche.\n\nTraslado al aeropuerto para conexión con su vuelo internacional. Fin de nuestros servicios."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,400.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2022, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación doble o matrimonial con baño privado y agua caliente (a excepción de las casas de familia donde, dependiendo de la comunidad, se puede encontrar baño compartido y no hay agua caliente; en la isla de Amantaní no todas las casas tienen ducha y electricidad funciona con paneles solares)",
+                "Desayuno continental en todos los hoteles.",
+                "Transporte privado desde aeropuerto / estación de tren / terminal de buses / hotel.",
+                "Boleto de bus Lima-Paracas; Ica-Nazca; Nazca-Arequipa; Puno-Cuzco, vehículo particular Arequipa-Colca-Cañón de Puno, tren (Ollantaytambo-Machu Picchu- Ollantaytambo) y avión (Cuzco-Lima) según el programa anterior.",
+                "Excursión en grupo a las Islas Ballestas.",
+                "Sobrevuelo a las Líneas de Nazca, excepto tasa aeroportuaria.",
+                "Excursión “Aventura gastronómica” en Arequipa: comida, equipo de cocina, dirección y explicación del chef.",
+                "Excursión en grupo a las islas del lago Titicaca en compañía de un guía de habla francesa y pensión completa.",
+                "Excursiones privadas para todas las demás visitas mencionadas en el programa, de acuerdo con el programa anterior.",
+                "Entradas y guía de habla francesa para visitas a los sitios turísticos indicados en el programa; excepto en las Islas Ballestas donde las guías solo están disponibles en español o inglés. En este caso, el guía se encargará de la traducción.",
+                "Asistencia permanente y personalizada."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Tasas de aeropuerto para vuelos sobre las Líneas de Nazca.",
+                "Comidas y bebidas, con excepción del desayuno en todos los hoteles y comidas mencionadas en el programa.",
+                "Entrada a los baños termales de Chivay.",
+                "Seguro de viaje.",
+                "Impuestos por exceso de equipaje.",
+                "Noches y gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o eventos sociales en el país.",
+                "Traslados y entradas a lugares no mencionados en el programa.",
+                "El ascenso al Huayna Picchu.",
+                "Propinas para guías y conductores.",
+                "Otros gastos personales."
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "Esencia del Perú",
+        "path": "esencia-del-perufr",
+        "descripcion": "Descripción breve del Circuito 3",
+        "descripcion-principal": {
+            "titulo-descripcion": "¡Un recorrido por los Imperdibles Destinos Turísticos del País!",
+            "parrafo-descripcion": "Este circuito es perfecto para los viajeros que no quieren perderse las maravillas del Perú por disponibilidad de escaso tiempo.\n\nDesde Lima despegaremos hacia Arequipa, la “Ciudad Blanca”, para descubrir el encanto de la segunda ciudad importante del país y explorar el asombroso cañón de Colca, uno de los cañones más profundos del mundo.\n\nLuego continuaremos para visitar el Lago Titicaca gozando de las hermosas vistas de la cordillera occidental y seguiremos nuestra aventura hasta la antigua capital del imperio Inca, entre paisajes luminosos y vivaces tradiciones culturales, hasta el gran final: la visita del inolvidable Macchu Picchu."
+        },
+        "dias": 14,
+        "imagenes": [
+            "/circuitos/Portada - Esencia del Peru.png",
+            "/circuitos/Portada extendida - Esencia del Peru.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Arribo a Lima en vuelo. Recepción en el aeropuerto a cargo de nuestro representante. Traslado al hotel."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima / Arequipa",
+                "actividades": "Después del desayuno, visitaremos la parte moderna de Lima como Miraflores y Larcomar centro turístico y de entretenimiento, símbolo de la Lima Moderna y punto privilegiado para apreciar una espectacular vista panorámica del Océano Pacífico; también visitaremos Barranco, barrio bohemio, y el puente de los Suspiros. Luego continuaremos con visita a la parte colonial visitando la Plaza Mayor, la Catedral y las Catacumbas del Convento San Francisco, obra maestra de la arquitectura colonial.\n\nPor la tarde, visita a talleres artesanales situados en los “pueblos jóvenes” (barrios pobres de la ciudad) donde el visitante podrá participar o simplemente observar el proceso de elaboración de productos artesanales, especialmente en cerámica y retablo. También podrá degustar un almuerzo criollo en los talleres.\n\n(Incluye el almuerzo en los talleres)\n\nAl final de la tarde, traslado al aeropuerto y vuelo a Arequipa. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Arequipa",
+                "actividades": "Después del desayuno, iniciaremos nuestro recorrido por la ciudad visitando el Mirador de Yanahuará y Rinconada Alta; la Plaza de Armas edificada en sillar (piedra tallada) con un estilo neorrenacentista; La Iglesia de la Compañía y sus claustros,  construida por los jesuitas en el siglo XVII; el famoso convento Santa Catalina que es una ciudadela amurallada, con callejuelas, pasadizos, escalinatas y plazuelas; el Museo Santuarios Andinos donde se encuentra la momia “Juanita” conocida como la “Dama de Ampato”.\n\nAl final de la tarde retorno al hotel y tiempo libre."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Arequipa / Cañon del Colca",
+                "actividades": "Viaje en movilidad privada con destino al Cañón de Colca (165 km), durante el trayecto observaremos excepcionales paisajes como la Reserva Aguada Blanca, montañas enigmáticas y manadas de llamas, alpacas y vicuñas. Posteriormente continuaremos hasta llegar a la cumbre de Patapampa, 4900 de altitud, desde donde es posible apreciar los diferentes volcanes y la cordillera de los andes centrales, para luego llegar al pueblo de Chivay.\n\n*Actividad opcional : Baños termales de La Calera\n\nDespués del almuerzo, nos dirigimos hacia el encantador pueblo  de Canocota (30min de Chivay). Arribo e instalación en casa familia, cuyos anfitriones compartirán con los visitantes sus alimentos y actividades cotidianas, entre otras costumbres. Noche en casa del habitante. (Servicios básicos) (Incluye cena)."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Cañon del Colca / Cruz del Condor / Puno",
+                "actividades": "Después del desayuno, partiremos con dirección a la Cruz del Cóndor donde seguramente se podrá apreciar el vuelo del majestuoso Cóndor de los Andes desde un mirador natural. En trayecto pasaremos por los pueblos tradicionales de la margen izquierda del cañón como: Yanque, Achoma, Maca, Pinchollo, observando durante el recorrido el sistema andino de terrazas pre-incas que las poblaciones del valle emplean hasta hoy para la agricultura.\nDespués del almuerzo, viaje en movilidad privada con destino a la ciudad de Puno (355km). Atravesaremos el altiplano andino y apreciaremos en el trayecto una gran variedad de aves y pequeñas lagunas. Al final de la tarde arribo a Puno y traslado al hotel. (Box lunch incluido)."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Puno / Islas de los Uros / Amantani (Tour compartido - Excursión en grupo)",
+                "actividades": "Excursión en lancha compartida por el lago Titicaca. Durante recorrido se visita las islas flotantes de los Uros para descubrir su peculiar modo de vida y las costumbres de sus habitantes. Luego, se continúa el viaje en la embarcación rumbo a la encantadora isla de Amantani. Arribo e instalación en una casa familia.\n\nDespués del almuerzo ascenderemos a pie hasta el templo pré-inca de Pachatata en la cima de la isla, donde disfrutaremos de un espléndido panorama del lago Titicaca, de la Cordillera del altiplano Boliviano y de la puesta de sol. Noche en casa familia.\n\n(Servicios Básicos) (Incluye almuerzo y cena)."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Amantani / Taquile / Peninsula de Chucuito / Puno",
+                "actividades": "Después del desayuno, continuamos el viaje hacia la isla de Taquile, caracterizada por sus habitantes amables y que conservan sus costumbres ancestrales, sus tradiciones andinas, su vestimenta y sus lenguas (quechua y aymara).\n\nVisitaremos su plaza principal y apreciaremos los finos tejidos, de gran calidad y variedad de color hechos a mano.\n\nPor la tarde, iremos al pueblo de Chucuito, situado a 19Km de Puno, donde visitaremos una asociación de artesanos especialistas en tejido en lana de alpaca. Retorno a Puno y traslado al hotel. Tiempo libre. (Incluye desayuno y almuerzo)."
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Puno / Cuzco",
+                "actividades": "Viaje en bus turístico a través del altiplano y el valle de Vilcanota hasta Cuzco. En el trayecto se realizará algunas paradas para visitar, sin guía, lugares como: Pukara, La Raya (4300 msnm.), Raqchi, Andahuaylillas (considerada como la capilla Sextina de los andes). Por la tarde arribo a Cuzco, traslado al hotel.\n\n(Los ingresos a estos sitios arqueológicos son opcionales, y las entradas lo asume cada pasajero).\n\n(Incluye Almuerzo Buffet Turístico)."
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Visita a los alrededores de la ciudad como Tambomachay, conocido como Tambo de la Caverna; las ruinas de Kenko talladas por los incas; Puka Pukará con sus construcciones que contienen habitaciones, fuentes, canales, acueductos y finalmente visita a la fortaleza de Sacsayhuaman, imponente construcción inca.\nLuego continuaremos con la visita de la ciudad, su plaza de armas (una de las más bellas de América Latina); la Catedral, visita al magnífico templo de Koricancha, recinto sagrado dedicado al Inti, deidad inca, que destaca por sus impresionantes construcciones.\n\nTarde libre."
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Cuzco / Pisac / Ollantaytambo",
+                "actividades": "En la mañana, nos trasladaremos al Valle Sagrado de los Incas, en la ruta realizaremos una pequeña parada en el centro de exhibición de Awanakancha donde podrá contemplar la belleza del ande peruano, de los camélidos sudamericanos y la técnica tradicional (proceso de teñido, hilado, urdido y tejido) de tejido que utiliza la población local. Luego continuaremos el viaje al Pueblo de Pisac y visita a sus ruinas para apreciar los andenes más espectaculares de la región (visita aprox. 2 hrs.).\n\nDespués del almuerzo, continuamos con la visita a la fortaleza de Ollantaytambo, impresionante construcción Inca que fue un estratégico centro militar, religioso y agrícola. Retorno a Ollantaytambo, tiempo libre y noche en hotel en Valle Sagrado."
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Ollantaytambo / Comunidad de Patacancha / Ollantaytambo / Aguas Calientes",
+                "actividades": "Luego del desayuno, salida a la Comunidad de Patacancha – en movilidad privada. Un guía comunal explicará el sistema organizativo y la base de la economía de la comunidad.\n\nAl mediodía, degustación de un delicioso potaje andino sazonado con hierbas aromáticas a base papas.\n\nLuego, visita a los talleres de tejido de lana de alpaca.\n\nPor la tarde, traslado a Ollantaytambo para abordar el tren a Aguas Calientes (pueblo situado al pie de Machu Picchu). Arribo y traslado al hotel. (Almuerzo incluido)."
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Aguas Calientes / Machu Picchu / Ollantaytambo",
+                "actividades": "Temprano por la mañana, subida en bus hasta el ingreso principal de Machu Picchu para disfrutar del lugar antes de una mayor afluencia de turistas. Exploraremos el sitio más emblemático de los Incas con sus plazuelas, sus andenes, acueductos, torreones de vigilancia, almacenes entre otros.\n\nLuego de la visita guiada, usted tendrá tiempo para realizar una caminata a los alrededores de la ciudadela, como al Templo del Sol construido con grandes bloques de piedra.\n\nActividad opcional: igualmente tendrá tiempo para emprender una emocionante caminata a través de un camino accidentado de herradura hasta la cima del Huayna Picchu, desde donde se tiene una vista única de la ciudadela.\n\nEn la tarde traslado a la estación de tren para su viaje de retorno a Ollantaytambo. Arribo y traslado a su hotel."
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Ollantaytambo / Maras / Chinchero / Cuzco",
+                "actividades": "Después del desayuno traslado a la estación de tren, viaje con destino a Ollantaytambo. Para luego, visitar las salinas de Maras donde sus habitantes realizan el proceso de extracción natural de la sal; las terrazas circulares de Moray que constituyen todo un complejo experimental agrícola inca; el pueblo de Chinchero y su linda plaza colonial cuyos muros datan de la época inca con agregados coloniales y actuales. Por la tarde arribo a la ciudad de Cuzco y traslado al hotel."
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Cuzco / Lima / Salida",
+                "actividades": "Por la mañana, traslado al aeropuerto y vuelo a Lima.\n\nArribo y visita al Museo Nacional de Historia, Arqueología y Antropología, el cuál presenta un panorama excelente de todas las civilizaciones precolombinas del Perú.\n\nTraslado al aeropuerto para su vuelo de conexión internacional y fin de nuestros servicios."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,195.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2022, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.\n\n*** La tarifa incluye 10€ de participación a la compensación de emisiones de carbono que serán utilizadas para el proyecto de reforestación en la región de Iquitos.",
+            "incluye": [
+                "Alojamiento en habitación matrimonial, o doble con baño privado y agua caliente (a excepción de las casa familiares donde pueden ser baños comunes y sin agua caliente. En las islas del lago Titicaca la electricidad funciona con paneles solares, por lo que se recomienda llevar linternas de mano para la noche).",
+                "Desayuno continental en todos los hoteles.",
+                "Los traslados privados aeropuerto / estaciones de tren / terminal de bus / hotel.",
+                "Boleto de bus Puno-Cuzco; movilidad privada Arequipa-Cañón de Colca-Puno; tren (Ollantaytambo-Machu Picchu-Ollantaytambo) y avión (Lima- Arequipa y Cusco-Lima) de acuerdo al itinerario.",
+                "Excursión compartida (grupal) para la visita a las islas Ballestas.",
+                "Excursión en lancha compartida con otros turistas para visita a las Islas del Lago Titicaca con guía bilingüe (español e inglés), incluye media pensión en la isla Amantani.",
+                "Excursión privada para todas las otras visitas mencionadas en el programa.",
+                "Boletos de ingreso y guía local profesional (guiado en castellano) para todos los sitios turísticos mencionados en el programa."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Alimentación y bebidas, con excepción del desayuno en los hoteles y según se especifica en el programa.",
+                "Entradas a los baños termales La Calera – Chivay",
+                "Ascensión a Huayna Picchu",
+                "Traslados y entradas en los sitios no mencionados en el programa.",
+                "Seguros de viaje, repatriación en caso de enfermedad grave o accidente.",
+                "Cargo por exceso de equipaje.",
+                "Noches y otros gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o por manifestaciones sociales en el país.",
+                "Costo adicional por habitación simple en los hoteles.",
+                "Las comisiones bancarias resultantes de las transacciones.",
+                "Propinas para guías y chóferes."
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "Panorama Peruano",
+        "path": "panorama-peruanofr",
+        "descripcion": "Descripción breve del Circuito 4",
+        "descripcion-principal": {
+            "titulo-descripcion": "Ten una visión panorámica de los lugares más importantes del Norte al Sur de Perú",
+            "parrafo-descripcion": "Empezaremos admirando los nevados de la Cordillera Blanca, visitaremos el misterioso complejo arqueológico Chavín de Huantar, y si dispone de más días puede realizar impresionantes caminatas por la Cordillera Negra. Bajaremos a la costa norte para admirar los impresionante vestigios de las culturas Moche y Chimú como: Chan Chan, la Huaca del Sol y de Luna, el museo Tumbas Reales de Sipán y las pirámides de Túcume.\n\nNos trasladaremos en avión hasta Puno para explorar las encantadoras islas del Lago Titicaca y descubrir las tradiciones locales de estas islas. Luego nos dirigiremos a la capital Imperial de Cuzco, donde visitaremos el Valle Sagrado y subiremos al emblemático Machu Picchu."
+        },
+        "dias": 18,
+        "imagenes": [
+            "/circuitos/Portada - Panorama Peruano.png",
+            "/circuitos/Portada extendida - Panorama Peruano.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Arribo a Lima en vuelo. Recepción en el aeropuerto a cargo de nuestro representante. Traslado al hotel."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima / Chiclayo",
+                "actividades": "Por la mañana, visita de la parte moderna de Lima como Miraflores y Larcomar centro turístico y de entretenimiento, también visitaremos Barranco y el puente de los Suspiros. \n\nDespués, visita de la parte colonial visitando la Plaza Mayor, la Catedral y las Catacumbas del Convento San Francisco.\n\nPor la tarde, visita a talleres artesanales situados en los “pueblos jóvenes” en donde podrá apreciar y participar en la elaboración de piezas de cerámica, retablo y tejido de estilo ayacuchano.\n\nAl final de la tarde, vuelo con destino a la ciudad de Chiclayo. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Chiclayo",
+                "actividades": "Por la mañana, visita al  Mercado modelo de Chiclayo recorrido por la sección de los Curanderos donde se vende las plantas que utilizan los chamanes.\n\nDespués, visitaremos la Huaca Rajada donde fueron descubiertos los restos del Señor de Sipán, dignatario de la cultura Mochica. También visitaremos al Museo Tumbas Reales de Sipán que expone sobre su vida y la cultura de aquella época.\n\nPor la tarde, visita a las ruinas de Túcume. Fin de la tarde, retorno al hotel."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Chiclayo / Trujillo",
+                "actividades": "Después del desayuno, viaje en bus a Trujillo (3hrs), arribo e instalación en hotel.\n\nLuego viaje en movilidad privada a 70Km de la ciudad para visitar el Complejo arqueológico el Brujo, y el Museo de la señora de Cao.\n\nDespués de las visitas, retorno a Trujillo y recorrido por las antiguas casonas coloniales de la ciudad. Al final de la tarde retorno a la ciudad y tiempo libre."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Trujillo",
+                "actividades": "Después del desayuno, visita a la Huaca Arco Iris de la cultura Chimú y a la Huacas del Sol y de la Luna de la cultura Mochica. También visitaremos la ciudad de Chan Chan, la ciudad pre-inca de adobe más grande de América.\n\nLuego disfrutará de un paseo por el balneario costero de Huanchaco. Retorno al hotel"
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Trujillo / Sechin / Huaraz",
+                "actividades": "Por la mañana traslado en transporte privada hasta la ciudad de Casma. Visita del sitio arqueológico de Sechin y después subiremos la montaña para tener una vista panorámica de la Cordillera Blanca. Noche a Huaraz."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Chavin de Huantar / Huaraz",
+                "actividades": "Excursión a Chavín de Huantar (115 Km), donde encontraremos ruinas de la civilización Chavin – 3000ª. JC – con el Lanzón de Chavín, las cabezas claves, la impresionante red de laberintos.\n\nRetornando a Huaraz, pasaremos por la laguna Querococha a 3800msnm. Pasaremos por paisajes del Callejón de Conchucos, lagunas y pueblos.\n\nTraslado al hotel y tiempo libre."
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Lagunas de Llanganuco / Huaraz",
+                "actividades": "Excursión al Parque Nacional Huascarán, a través del Callejón de Huaylas hacia la laguna turquesa de Llanganuco. Ascenderemos en movilidad hasta la cumbre “Portachuelo” donde tendremos una vista espectacular panorámica a la Cordillera Blanca.\n\nActividad opcional: Caminata por sendero de María, formación de rocas entre las cumbres Huandoy y Huascaran.\n\nPor la tarde, retorno a la ciudad de Huaraz. En el trayecto visita a Yungay, territorio siniestrado por el terremoto de 1970."
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Huaraz / Lima",
+                "actividades": "Por la mañana, tiempo libre. Al medio día, viaje en bus a la ciudad de Lima (aprox. 7hrs). Pasaremos por paisajes típicos del Valle Andino con lagunas, pueblos, montañas, llamas…\n\nPor la tarde arribo y traslado al hotel."
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Lima / Juliaca / Puno",
+                "actividades": "Por la mañana, vuelo por la ciudad de Juliaca. Arribo y traslado a la ciudad de Puno. En el trayecto visitaremos a las torres funerarias de Sillustani. \n\nDespués disfrutaremos de un almuerzo típico en la comunidad de Atuncolla.\n\nEn fin de la tarde arribo a Puno y traslado al hotel."
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Puno / Isla de los Uros / Amantani",
+                "actividades": "Excursión en lancha compartida por el lago Titicaca. Visita a las islas flotantes de los Uros para descubrir su peculiar modo de vida y las costumbres de sus habitantes.\n\nLuego, se continúa el viaje en la embarcación rumbo a la encantadora isla de Amantani. Arribo e instalación en una casa familiar.\n\nDespués del almuerzo ascenderemos a pie hasta el templo pre-inca de Pachatata en la cima de la isla donde tendremos una vista panorámica del lago. Noche en casa familia."
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Amantani / Taquile / Puno",
+                "actividades": "Después del desayuno, continuamos el viaje hacia la isla de Taquile. Visita su plaza principal y apreciaremos los finos tejidos de gran calidad y variedad de color hechos a mano.\n\nPor la tarde, retorno a Puno y traslado al hotel. Tiempo libre."
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Puno / Cuzco",
+                "actividades": "Viaje en bus turístico a través del altiplano y el valle de Vilcanota hasta Cuzco. En el trayecto se realizará algunas paradas para visitar La Raya (4300 msnm.), el templo de Raqchi, la iglesia de Andahuaylillas. (Los ingresos a estos sitios arqueológicos son opcionales y las entradas son cargo del cliente).\n\nPor la tarde arribo a Cuzco, traslado al hotel."
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Visita a los alrededores de la ciudad como Tambomachay; Puka Pukará con sus construcciones que contienen habitaciones, y finalmente visita a la fortaleza de Sacsayhuaman, imponente construcción inca.\n\nLuego continuaremos con la visita de la ciudad con su Plaza de Armas, la Catedral, el templo Inca de Koricancha. Al final de la tarde, tiempo libre."
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Cuzco / Pisac / Ollantaytambo",
+                "actividades": "En la mañana, nos trasladaremos al Valle Sagrado de los Incas, en la ruta realizaremos una pequeña parada en el centro de exhibición de Awanakancha, luego continuaremos el viaje al Pueblo de Pisac.\n\nDespués del almuerzo, continuamos con la visita a la fortaleza de Ollantaytambo, impresionante construcción Inca que fue un estratégico centro militar, religioso y agrícola.\n\nTiempo libre y noche de hotel en Valle Sagrado."
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Aguas Calientes / Machu Picchu",
+                "actividades": "Temprano por la mañana, subida a la ciudadela inca Machu Picchu. Exploraremos el sitio más emblemático de los Incas con sus plazuelas, sus andenes, acueductos, torreones de vigilancia, almacenes entre otros con nuestro guía. Después, tendrás tiempo libre para pasear en la ciudadela.\n\nActividad opcional: posibilidad de subir al Huayna Picchu.\n\nEn la tarde traslado a la estación de tren para su viaje de retorno a Ollantaytambo. Arribo y traslado a su hotel."
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Ollantaytambo / Moray / Maras / Chinchero / Cuzco",
+                "actividades": "Después del desayuno, visita a las terrazas circulares de Moray, las salinas de Maras, y al pueblo de Chinchero.\n\nPor la tarde arribo a la ciudad de Cuzco y traslado al hotel."
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Cuzco / Lima / Partida",
+                "actividades": "Traslado al aeropuerto y vuelo con destino a Lima. Arribo y se continúa con visita al Museo Nacional de Arqueología, Antropología e Historia.\n\nTraslado al aeropuerto para conexión con su vuelo internacional. Fin de nuestros servicios."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,195.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2022, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación matrimonial o doble con baño privado y agua caliente (a excepción de las casa familiares donde pueden ser baños comunes y sin agua caliente. En las islas del lago Titicaca la electricidad funciona con paneles solares, por lo que se recomienda llevar linternas de mano para la noche).",
+                "Desayuno continental en todos los hoteles.",
+                "Los traslados privados aeropuerto / estaciones de tren / terminal de bus / hotel.",
+                "Boletos de bus en las rutas: Lima-Paracas, Paracas-Ica-Nazca, Nazca-Arequipa, Puno-Cuzco; movilidad privada Arequipa-Cañón de Colca-Puno; tren (Ollantaytambo-Machu Picchu-Ollantaytambo) y avión (Cuzco-Lima) de acuerdo al itinerario.",
+                "Sobrevuelo de las líneas de Nazca (no incluye pago de tasa aeroportuaria).",
+                "Excursión compartida (grupal) para la visita a las islas Ballestas.",
+                "Aventura Culinaria en Arequipa: incluye compra de insumos, equipos de cocina, explicación y preparación con ayuda de un chef de cocina.",
+                "Excursión en lancha compartida con otros turistas para visita a las Islas del Lago Titicaca con guía bilingüe, incluye media pensión en la isla Amantani.",
+                "Excursión privada para todas las otras visitas mencionadas en el programa.",
+                "Boletos de ingreso y guía local profesional (guiado en castellano) para todos los sitios turísticos mencionados en el programa."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Impuestos aeroportuarios por los vuelos nacionales,",
+                "Alimentación y bebidas, con excepción del desayuno en los hoteles y según se especifica en el programa. ",
+                "Entradas a los baños termales La Calera – Chivay.",
+                "Ascensión a Huayna Piccu",
+                "Traslados y entradas en los sitios no mencionados en el programa.",
+                "Seguros de viaje, repatriación en caso de enfermedad grave o accidente.",
+                "Cargo por exceso de equipaje.",
+                "Noches y otros gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o por manifestaciones sociales en el país.",
+                "Costo adicional por habitación simple en los hoteles.",
+                "Propinas para guías y chóferes."
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Del Pacífico al Amazonas",
+        "path": "del-pacifico-al-amazonasfr",
+        "descripcion": "Descripción breve del Circuito 5",
+        "descripcion-principal": {
+            "titulo-descripcion": "¡Un viaje a lo largo de la Costa, Sierra y Selva!",
+            "parrafo-descripcion": "Si quieres disfrutar de los principales atractivos turísticos del sur del Perú y descubrir una parte de la Amazonía, este viaje es el ideal.\n\nA lo largo de la costa desértica, admira la rica fauna de las islas Ballestas, disfruta en las dunas del oasis de Huacachina y sobrevuela las enigmáticas líneas de Nazca.\n\nConoce Arequipa, la ciudad blanca; explora el Cañón de Colca uno de los más profundo del mundo; navega sobre el lago Titicaca hasta las encantadoras islas de Taquile y Amantani.\n\nUn viaje a través del Altiplano te conducirá a Cuzco, ciudad mítica y antigua capital del imperio Inca, aquí dispondrás de varios días para visitar algunos de los numerosos sitios arqueológicos del Valle Sagrado y en particular el famoso Machu Picchu.\n\nFinalmente un vuelo a Puerto Maldonado – Región de Madre de Dios, en donde podrás explorar y descubrir la Amazonía Peruana, una de las zonas de mayor riqueza biológica del mundo."
+        },
+        "dias": 18,
+        "imagenes": [
+            "/circuitos/Portada - Del Pacifico al Amazonas.png",
+            "/circuitos/Portada - Del Pacifico al Amazonas.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Llegada a Lima. Recepción en el aeropuerto por nuestro corresponsal. Traslado a su hotel en el centro de la ciudad."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima / Paracas",
+                "actividades": "Luego del desayuno iniciaremos la visita de la parte moderna de Lima, en los distritos de Miraflores y Larcomar, centro turístico y de ocio de la ciudad donde disfrutaremos de una espectacular vista panorámica del Océano Pacífico y el Puente de los Suspiros desde Barranco.\n\nLuego continuaremos nuestra visita por la parte colonial de Lima, pasando por la Plaza San Martín, el Palacio de Gobierno, la Plaza de Armas, la Gran Catedral de Lima y las Catacumbas de San Francisco. Se trata de una importante obra de arquitectura de estilo colonial donde podemos apreciar, entre otras cosas, la belleza de sus claustros adornados con notables azulejos y pinturas.\n\nPor la tarde traslado a la estación de bus para el viaje a la ciudad de Paracas (250kms) por la carretera Panamericana Sur, durante el viaje pasaremos por los pueblos de Cañete y Chincha hasta llegar a Paracas. Durante el viaje atravesaremos desiertos y valles con plantaciones de algodón y espárragos, el viaje de aproximadamente 4 horas. Arribo y traslado al hotel. (almuerzo servido a bordo del bus incluido)."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Paracas / Islas Ballestas / Ica / Nazca",
+                "actividades": "Luego del desayuno, excursión a las Islas Ballestas en lancha rápida, donde en medio de un paisaje sorprendente se apreciará la enigmática figura de «Candelabro» sobre la cual se hacen muchas suposiciones sobre su origen.\n\nDurante el viaje observaremos montañas de roca sólida que se elevan desde las profundidades del océano, con las formaciones de arcos y túneles naturales que impresionan a los más desinteresados, además podremos admirar una gran fauna marina, como los lobos. aves, aves guanera, pingüinos humbolt, etc.\n\nContinuación del viaje en minibús a Ica y breve visita al magnífico oasis de Huacachina, al borde de esta hermosa laguna se puede disfrutar de la tranquilidad del lugar y caminar en busca de hermosas fotos.\n\nActividad opcional a cargo del cliente: Fascinante excursión a bordo de vehículos todo terreno 4×4, especialmente diseñados para el entretenimiento en el desierto de Huacachina que ofrece uno de los paisajes desérticos más hermosos de Sudamérica.\n\nAl final de la tarde, viaje en bus regular a Nazca (157km). Llegada e instalación en el hotel."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Nazca / Arequipa",
+                "actividades": "Por la mañana, sobrevuelo en avión sobre las líneas de Nazca, estas están conformadas por un conjunto de figuras zoomorfas y geométricas que aparecen grabadas en la superficie de las mesetas desérticas, para luego visitar el cementerio preinca de Chauchilla (cementerio prehispánico que ofrece una variedad de tumbas, tanto por su forma como por su tamaño). Dependiendo del tiempo disponible, visitaremos los Acueductos de Cantayoc y conoceremos más sobre el ingenioso sistema de riego inventado por eruditos hidrólogos precolombinos, en este lugar donde la lluvia es un fenómeno casi desconocido.\n\nPor la tarde, viaje en bus a la ciudad de Arequipa (572 km), en el camino pasaremos por un sinfín de desiertos, acantilados, playas y dunas atravesados ​​por un estrecho de la costa y pasaremos por importantes sitios como Marcona, Yauca. , Chala, Ocoña, el valle de Camaná hasta llegar a Arequipa. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Arequipa",
+                "actividades": "Después del desayuno, visita de la ciudad de Arequipa con: sus torres de vigilancia de Yanahuara y Rinconada Alta, su Plaza de Armas construida con piedras labradas del período neorrenacentista, la Iglesia de la Compañía y su claustro construido por los jesuitas en el siglo XVII, el tradicional mercado de San Camilo, para apreciar una amplia variedad de productos de la zona y de las poblaciones locales, el famoso Convento de Santa Catalina, que es una ciudadela fortificada, con sus callejuelas, escaleras y sus plazas, el museo de la Momia Juanita «Dama del Ampato» o «Dama del Hielo». «Juanita» no pasó por el proceso de momificación artificial, el cuerpo mantiene intactos todos sus órganos gracias al congelamiento (momificación natural) del monte Ampato donde fue depositado como ofrenda. Tiempo libre por la tarde."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Arequipa / Cañon del Colca / Canocota",
+                "actividades": "Saldremos en vehículo privado hacia el Cañón del Colca (165 kilómetros), durante el trayecto podrá admirar paisajes excepcionales como la reserva Aguada Blanca donde tendrá tiempo suficiente para apreciar la magnífica flora y fauna como el volcán. , montañas nevadas y rebaños de llamas, alpacas y vicuñas. Continuaremos subiendo Patapampa a una altitud de 4900 metros donde tendrá una vista de los diversos volcanes de la cordillera de los Andes centrales. Luego el viaje continúa hacia el pueblo de Chivay.\n\nPosibilidad de disfrutar de los baños termales La Calera en Chivay (actividad opcional).\n\nDespués del almuerzo, nos dirigiremos al encantador pueblo de Canocota (a 30min de Chivay). Llegada e instalación con los lugareños, con quienes compartirás comidas, actividades diarias y otras costumbres. Pernocte en el habitante de Canocota (Confort básico). (Cena incluida)."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Colca / Chivay / Cañon de Puno",
+                "actividades": "Después del desayuno, muy temprano, salida en vehículo privado hacia la Cruz del Cóndor donde es casi seguro ver a los majestuosos cóndores andinos volando desde un mirador natural. En el camino de regreso de Cruz del Cóndor por la vertiente sur del valle del Colca visitaremos los pueblos de Maca y Yanque.\n\nPor la tarde, viaje en vehículo privado a la ciudad de Puno (355Km), descenderemos por el camino corto hacia el valle, luego tomaremos la dirección de Patapampa para llegar a Puno por la Pampa Cañahuas. Cruzaremos el altiplano andino y en el camino, podrá admirar la fauna específica de los Andes: alpacas, llamas, una amplia variedad de aves así como pequeñas lagunas. Al final de la tarde arribo a Puno y traslado al hotel. (Picnic incluido)."
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Puno / Islas de los Uros / Amantani (Tour grupal, con guía privado de habla inglesa)",
+                "actividades": "Paseo en bote por el lago Titicaca. Deténgase en una de las islas de los Uros para descubrir una representación de la vida cotidiana y costumbres ancestrales de los habitantes, en este lugar el visitante puede participar o simplemente observar la cosecha de totoras, realizar caminatas en sus pequeñas lanchas de totora, etc.\n\nContinuará en nuestro bote hacia la encantadora isla de Amantani. Llegada e instalación en vivienda familiar. Puedes caminar por senderos de piedra y conocer a los habitantes de la isla.\nPor la tarde, podrá subir al templo de Pachatata para apreciar desde la isla, el panorama sobre Perú y Bolivia, y disfrutará de una espléndida puesta de sol. Pernocte con los lugareños en Amantani (comodidad básica). (Almuerzo y cena incluidos)."
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Amantani / Taquile / Puno",
+                "actividades": "Luego del desayuno, continuará el viaje en bote hacia la isla de Taquile, esta isla se caracteriza por la amabilidad de sus habitantes quienes conservan sus tradiciones, sus creencias andinas, sus vestimentas y sus idiomas (quechua, aymara). Para llegar a la cima de la isla, tomaremos un sendero ligeramente inclinado (50min) que ofrece una vista espectacular del lago. Visitaremos su plaza principal y observaremos los impresionantes trabajos de telas tejidas a mano de alta calidad en varios colores.\n\nPor la tarde retorno a Puno y traslado al hotel. Tiempo libre. (desayuno y almuerzo incluidos)"
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Puno / Cuzco",
+                "actividades": "Viaje en bus turístico por el Altiplano y el Valle de Vilcanota hasta Cuzco. En el camino, hace una breve parada en el Paso La Raya (4,300 m), luego visita (sin guía) el Templo Inca de Raqchi, la Iglesia de Andahuaylillas (considerada la «Capilla Sixtina» de los Andes). Llegada a Cuzco al final de la tarde y traslado al hotel. Todas las entradas a los sitios mencionados anteriormente son opcionales. (Menú buffet turístico incluido)."
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Luego del desayuno, visita a las afueras de la ciudad como Tambomachay conocido como el Tambo de la Caverne donde de sus dos acueductos construidos por los Incas emergen de las aguas de un cerro hacia los manantiales; las ruinas de Kenko talladas por los Incas donde se pueden apreciar las cuevas y los pequeños altares; y también Puka Pukará con sus construcciones que contienen reservas, cámaras, fuentes, canales y acueductos, y finalmente una visita a la fortaleza de Sacsayhuaman con sus imponentes construcciones incas.\n\nLuego continuaremos con una visita a la ciudad y su Place d’Armes, una de las más bellas de Latinoamérica; La Catedral (donde el visitante puede hacerse una idea del estilo exquisito y la gran habilidad de los artistas y artesanos locales, ilustrado en las piezas de platería y madera tallada, y en los lienzos que decoran este bellísimo templo cuzqueño), visita del magnífico templo de Koricancha, considerado el más sagrado y el más impresionante construido por los Incas.\n\nTiempo libre por la tarde."
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Cuzco / Pisac / Ollantaytambo / Aguas Calientes",
+                "actividades": "Por la mañana, saldremos hacia el Valle Sagrado de los Incas, y haremos una parada en el camino en Awanakancha donde podrá contemplar la belleza de los Andes del Perú, camélidos sudamericanos y la fabricación tradicional (tejido, costura, proceso de teñido). ). Luego nos dirigiremos al pueblo de Pisac para visitar sus ruinas y los paseos más espectaculares de la región (visita aprox. 2 horas).\n\nLuego del almuerzo, visitaremos la fortaleza de Ollantaytambo, una impresionante construcción Inca que fue un estratégico centro militar, religioso y agrícola.\n\nAl final de la tarde, viaje en tren a Aguas calientes al pie de Machu Picchu, llegada y traslado al hotel."
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Aguas Calientes / Machu Picchu / Ollantaytambo",
+                "actividades": "Temprano en la mañana, suba a Machu Picchu para disfrutar del sitio antes de la llegada de grandes grupos de turistas. Descubra el sitio más emblemático de los Incas, con sus cultivos en terrazas, su sistema de canales artificiales para riego, sus palacios, plazas, templos, sótanos, hórreos, cárceles, etc.\nLuego de la visita guiada, tendrá tiempo libre para dar un paseo por la ciudadela, hasta el templo del sol construido con enormes bloques de piedra, el lugar principal donde se realizaban las ceremonias durante el solsticio de junio. También se puede ir al cerro Intihuatana, que tiene forma de gran pirámide, al que se accede subiendo una escalera de 78 escalones.\n\nActividad opcional a cargo del cliente: Posibilidad de subir al Huayna Picchu por un pequeño sendero de piedra al borde del precipicio para tener una vista magnífica de toda la región y otros lugares antes de regresar a Aguas Calientes.\n\nPor la tarde, traslado a la estación para tomar el tren de regreso a Ollantaytambo. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Ollantaytambo / Moray / Salinas / Chinchero / Cuzco",
+                "actividades": "Después del desayuno, visitará las Salinas de Maras donde sus habitantes realizan todo el proceso de extracción de sal natural que ha sido su principal actividad durante cientos de años. También descubriremos las terrazas circulares de Moray, que constituyen todo un complejo Inca experimental y finalmente visitaremos al pueblo de Chinchero, un hermoso sitio Inca con su bonita plaza colonial cuyos muros datan de construcciones prehispánicas con adiciones coloniales y actuales, en el Tarde arribo a la ciudad del Cusco y traslado al hotel, tiempo libre."
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Cuzco / Puerto Maldonado / Tambopata",
+                "actividades": "Traslado en Bote – del Puerto de Tambopata a Posada Amazonas\n\nEste viaje en bote de cuarenta y cinco minutos nos llevará al medio de la reserva privada de la Comunidad Nativa de Infierno.\n\nArribo al Lodge e instalación.\n\nTorre de Canopy\n\nLa torre de andamios que visitaremos tiene una altura de 30 metros y se encuentra a 20 minutos de Posada Amazonas. Esta torre de dosel ha sido construida de manera que se pueda subir con facilidad y seguridad, utilizando las escaleras que cuentan con barandas a cada lado, descansando en las pequeñas plataformas existentes cada 2 metros. Desde la cima no solo se puede apreciar una espectacular vista del Rio Tambopata y la copa de los árboles, sino también es una excelente posición para observar aves que habitan estas alturas, tales como los tucanes, loros y guacamayos.\n\nCena\n\nPresentación sobre Ecoturismo\n\nSe podrá asistir en Posada Amazonas a una presentación hecha por un miembro del Staff sobre el proyecto de ecoturismo entre Rainforest Expeditions y la Comunidad Nativa de Infierno.\n\nPernocte en Posada Amazonas."
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Extension Tambopata",
+                "actividades": "Visita al Lago Tres Chimbadas\n\nTreinta minutos en bote y una caminata de cuarenta y cinco minutos nos llevan a las orillas del Lago Tres Chimbadas. Desde aquí, un catamarán y un remero nativo nos llevarán a dar una silenciosa vuelta al lago, para apreciar la fauna lacustre en su pico de actividad. Buscaremos caimanes, aves ribereñas, los peculiares shanshos, y con suerte se podrá observar la familia de lobos de río (vistos por el 60% de nuestros visitantes), conocidos como las nutrias de agua dulce más grandes del mundo. Su punto de mayor actividad va del amanecer hasta eso de las 8 o 9 AM. \n\nAlmuerzo\n\nTour Etnobotánico\n\nA veinte minutos río abajo en bote, se encuentra el Centro Ñape. Este centro es una organización comunal que produce medicinas usando como base las plantas medicinales que crecen en este centro etnobotánico y las administra a personas que vienen hasta ahí a curarse. En un sistema de caminos se presentan las plantas que se usan para fines medicinales, como también para otros fines como construcción o transporte.\n\nCena\n\nCaminata Nocturna\n\nTendremos la oportunidad de caminar en la noche, que es la hora de actividad de la mayoría de mamíferos, aunque es difícil observarlos. Mucho más comunes son ranas con formas y sonidos tan extravagantes como sus historias naturales.\n\nPernocte en Posada Amazonas."
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Extension Tambopata",
+                "actividades": "Desayuno\n\nCollpa de Loros\n\nLa Collpa de Loros se encuentra a sólo veinte minutos del albergue. Desde un escondite se podrá observar a una distancia de aproximadamente veinte metros como descienden en la mayoría de días despejados, decenas de loros y pericos para alimentarse de la arcilla de la collpa. La collpa se visita temprano en la mañana, tarde en la mañana o en la tarde, dependiendo de cuando se esté observando mayor actividad.\n\nCaminata a la Ceiba\n\nNos embarcaremos en una caminata de dos horas, que se verá coronada por el árbol más grande de la zona: una Ceiba gigante. Durante la caminata nos enfocaremos en la historia natural de la selva y sus principales grupos taxonómicos.\n\nAlmuerzo\n\nVisita de una Chacra\n\nTomaremos un viaje en bote de treinta minutos para llegar a la chacra más diversa de la Comunidad Nativa de Infierno.  El dueño cultiva una gran variedad de plantas conocidas, como también otras menos conocidas. Prácticamente cada planta de la chacra tiene un uso.\n\nCena\n\nPernocte en Posada Amazonas"
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Puerto Maldonado / Lima / Salida",
+                "actividades": "Por la mañana, regreso en lancha a Puerto Maldonado y vuelo de retorno a Lima.\n\nArribo y visita al Museo Nacional de Historia, Arqueología y Antropología, el cuál presenta un panorama excelente de todas las civilizaciones precolombinas del Perú.\n\nTraslado al aeropuerto para su vuelo de conexión internacional y fin de nuestros servicios."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,195.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2022, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación matrimonial o doble con baño privado y agua caliente (a excepción de las casa familiares donde pueden ser baños comunes y sin agua caliente. En las islas del lago Titicaca la electricidad funciona con paneles solares, por lo que se recomienda llevar linternas de mano para la noche).",
+                "Desayuno continental en todos los hoteles.",
+                "Los traslados privados aeropuerto / estaciones de tren / terminal de bus / hotel.",
+                "Boletos de bus en las rutas: Lima-Paracas, Paracas-Ica-Nazca, Nazca-Arequipa, Puno-Cuzco; movilidad privada Arequipa-Cañón de Colca-Puno; tren (Ollantaytambo-Machu Picchu-Ollantaytambo) y avión (Cuzco-Lima) de acuerdo al itinerario.",
+                "Sobrevuelo de las líneas de Nazca (no incluye pago de tasa aeroportuaria).",
+                "Excursión compartida (grupal) para la visita a las islas Ballestas.",
+                "Aventura Culinaria en Arequipa: incluye compra de insumos, equipos de cocina, explicación y preparación con ayuda de un chef de cocina.",
+                "Excursión en lancha compartida con otros turistas para visita a las Islas del Lago Titicaca con guía bilingüe, incluye media pensión en la isla Amantani.",
+                "Excursión privada para todas las otras visitas mencionadas en el programa.",
+                "Boletos de ingreso y guía local profesional (guiado en castellano) para todos los sitios turísticos mencionados en el programa.",
+                "Asistencia permanente y personalizada."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Impuestos aeroportuarios por los vuelos nacionales,",
+                "Alimentación y bebidas, con excepción del desayuno en los hoteles y según se especifica en el programa. ",
+                "Entradas a los baños termales La Calera – Chivay.",
+                "Ascensión a Huayna Piccu",
+                "Traslados y entradas en los sitios no mencionados en el programa.",
+                "Seguros de viaje, repatriación en caso de enfermedad grave o accidente.",
+                "Cargo por exceso de equipaje.",
+                "Noches y otros gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o por manifestaciones sociales en el país.",
+                "Costo adicional por habitación simple en los hoteles.",
+                "Propinas para guías y chóferes.",
+                "Otros gastos personales."
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Tesoros del Norte",
+        "path": "tesoros-del-nortefr",
+        "descripcion": "Descripción breve del Circuito 6",
+        "descripcion-principal": {
+            "titulo-descripcion": "Un viaje a través la Historia, al encuentro de las Antiguas Culturas Peruanas y sus Herencias",
+            "parrafo-descripcion": "En este viaje, atravesarás paisajes diferentes y aprenderás de distintas culturas. Recorreremos las 3 regiones peruanas, de la costa Pacífica a la Amazonia, pasando por las montañas Andinas. Descubrirás los tesoros del Norte del Perú, como los sitios arqueológicos de Chimú, la ciudad de Chan Chan o las pirámides de Tucume.\n\nEste viaje a través naturaleza e Historia, te llevará hasta la ciudadela de Kuelap, conocida como el Machu Picchu del Norte, de la cultura Chachapoyas. Desde la costa Pacifica desértica, a las cumbres nevadas de la Cordillera Blanca, desde las alturas Andinas hasta la Amazonia en Tarapoto, este viaje es lleno de magia.\n\nVen a explorar los misterios del Norte!"
+        },
+        "dias": 19,
+        "imagenes": [
+            "/circuitos/Portada - Tesoros del Norte.png",
+            "/circuitos/Portada extendida - Tesoros del Norte.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Arribo a Lima en vuelo. Recepción en el aeropuerto a cargo de nuestro representante. Traslado al hotel."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima / Huaraz",
+                "actividades": "Por la mañana, visita de la parte moderna de Lima como Miraflores y Larcomar centro turístico y de entretenimiento, también visitaremos Barranco y el puente de los Suspiros.\n\nDespués, visita de la parte colonial visitando la Plaza Mayor, la Catedral y las Catacumbas del Convento San Francisco.\n\nPor la tarde, viaje en bus con destino a Huaraz (7h), ciudad principal ubicada en el valle de la Cordillera Blanca. En el camino podremos observar las montañas andinas, lagunas, glaciares, y pueblos. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Chavin de Huantar / Huaraz",
+                "actividades": "Excursión a Chavín de Huantar (115 Km), donde encontraremos ruinas de la civilización Chavin – 3000ª. JC – con el Lanzón de Chavín, las cabezas claves, la impresionante red de laberintos.\n\nRetornando a Huaraz, pasaremos por la laguna Querococha a 3800msnm. Pasaremos por paisajes del Callejón de Conchucos, lagunas y pueblos.\n\nTraslado al hotel y tiempo libre."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Lagunas de Llanganuco / Trujillo",
+                "actividades": "Excursión al Parque Nacional Huascarán, a través del Callejón de Huaylas hacia la laguna turquesa de Llanganuco. Ascenderemos en movilidad hasta la cumbre “Portachuelo” donde tendremos una vista espectacular panorámica a la Cordillera Blanca.\n\nActividad opcional: Caminata por sendero de María, formación de rocas entre las cumbres Huandoy y Huascaran.\n\nPor la tarde, retorno a la ciudad de Huaraz. En el trayecto visita a Yungay, territorio siniestrado por el terremoto de 1970.\n\nPor la noche, viaje en bus rumbo a Trujillo (10h.)"
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Trujillo",
+                "actividades": "Arribo a Trujillo y luego de un breve reposo, visita a la Huaca Arco Iris de la cultura Chimú y a la Huacas del Sol y de la Luna de la cultura Mochica. También visitaremos la ciudad de Chan Chan, la ciudad pre-inca de adobe más grande de América.\n\nLuego disfrutará de un paseo por el balneario costero de Huanchaco. Retorno al hotel."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Trujillo / Chiclayo",
+                "actividades": "Luego viaje en movilidad privada a 70Km de la ciudad para visitar el Complejo arqueológico el Brujo, y el Museo de la señora de Cao.\n\nAl final de la tarde, viaje en bus con destino a la ciudad de Chiclayo. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Chiclayo",
+                "actividades": "Por la mañana, visita al  Mercado modelo de Chiclayo recorrido por la sección de los Curanderos donde se vende las plantas que utilizan los chamanes.\n\nDespués, visitaremos la Huaca Rajada donde fueron descubiertos los restos del Señor de Sipán, dignatario de la cultura Mochica. También visitaremos el Museo Tumbas Reales de Sipán que expone sobre su vida y la cultura de aquella época.\n\nPor la tarde, visita a las ruinas de Túcume. Al final de la tarde, retorno al hotel."
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Chiclayo",
+                "actividades": "En la mañana, viaje en auto hacia la reserva Ecológica de Chaparrí cuyo territorio sirve a la recuperación y conservación de la flora y fauna de especies en peligro de extinción.\n\nAquí, exploraremos la ruta del “oso”, la ruta del “Huachuma”, y la ruta de “Pavas”. Después, retornaremos a Chiclayo. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Chiclayo / Cajamarca",
+                "actividades": "Por la mañana, visita al museo arqueológico de Sican donde se presenta la historia y tradiciones de los Sican – cultura Lambayeque.\n\nEn la tarde, viaje en bus a Cajamarca. En la ruta, veremos paisajes andinos muy hermosos. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Cajamarca",
+                "actividades": "Por la mañana, visitaremos, la Cumbe Mayo, obra hidráulica precolombina, en medio de una selva fascinante de piedras de diferentes formas geométricas.\n\nEn la tarde, visita de la ciudad de Cajamarca, su Plaza de Armas, su catedral, la iglesia de Bélen, el monte Santa Apolonia donde tendremos una vista panorámica a toda la ciudad."
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Cajamarca",
+                "actividades": "Visita de la Granja Porcon, una cooperativa rural donde se presenta el modo de vida de los campesinos, sus actividades agrícolas en la selva.\n\nEn la tarde, visita de las ”Ventanillas de Otuzco”, una necrópolis precolombina construida en cuevas cavadas en las rocas.\n\nVisita a los Baños del Inca, donde será posible bañarse en sus aguas termales."
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Cajamarca / Leymebamba",
+                "actividades": "Viaje en vehículo privado con destino a  Chachapoyas atravesando el valle de las Balsas y el cañón del Marañon.\n\nEn el camino, visitaremos el pueblo y el mueso de Leymebamba donde se encuentran las 180 momias encontradas en el acantilado de la laguna de los Cóndores. Noche en hotel en Leymebamba."
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Leymebamba / Kuelap / Village de Maria",
+                "actividades": "Después del desayuno, visitaremos los mausoleos y chullpas de Revash (caminata de 1h).\n\nContinuaremos el viaje para visitar la ciudadela de Kuelap, imponente fortaleza pre-inca ubicada en lo alto de la montaña. Según las estimaciones su construcción habría necesitado 3 veces más piedras que la gran pirámide de Kheops en Egipto. En fin de la tarde arribo a Pueblo de María. (servicio básico)"
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Village de Maria / Karajia / Chachapoyas",
+                "actividades": "Viaje en movilidad privada al pueblo de Lamud, arribo y visita a su pequeño museo rural, luego nos dirigimos hacia Cohechan-Cruzpata para visitar los Sarcófagos de Karajia que están ubicados en acantilados inaccesibles que han resistido al paso del tiempo.\n\nPor la tarde se continúa el viaje a la ciudad de Chachapoyas. Arribo y traslado al hotel, tiempo libre."
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Chachapoyas / Cocachimba",
+                "actividades": "Luego del desayuno, viaje al pueblo de Cocachimba desde donde iniciaremos una caminata de aproximadamente 2H30 hasta la catarata Gocta, la tercera más alta del mundo, en trayecto podremos apreciar al famoso gallito de las rocas.\n\nAl retorno, podremos visitar una familia local para que nos muestre el proceso de preparación de la “chancaca” y el “guarapo” bebida a base de caña de azúcar. Alojamiento en hotel en Cocachimba. (Servicios básicos)"
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Cocachimba / Tarapoto",
+                "actividades": "Viaje en movilidad privada de Cocchimba a Tarapoto a través paisajes grandiosos de una vegetación selvática frondosa. Realizaremos algunas paradas en la ruta como en la magnífica laguna Pomacochas cuyas aguas provienen de corrientes subterráneas.\n\nEn fin de la tarde arribo y traslado al hotel."
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Tarapoto",
+                "actividades": "Después del desayuno, excursión al distrito de Sauce (2 ½ hrs), es un emocionante recorrido por carretera de densa vegetación hasta llegar al puerto principal; luego paseo en bote a motor por la laguna azul y visita al caserío Dos de Mayo. Descanso y posibilidad de bañarse o de practicar deportes acuáticos.\n\nEn el camino retorno a Tarapoto visitaremos las pozas termo-medicinales de Paucaryacu. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Tarapoto / Lima",
+                "actividades": "Excursión a la laguna Venecia y a las cataratas de Ahuashiyacu donde la vegetación circundante con abundantes árboles y helechos le añaden una belleza especial.\n\nVisita al pueblo de Lamas, donde se encuentra un interesante pueblo indígena que aun conservan tradiciones y costumbres ancestrales.\n\nPor la tarde retorno a la ciudad y a la hora indica traslado al aeropuerto y vuelo local con destino a la ciudad de Lima. Arribo y traslado al hotel."
+            },
+            {
+                "dia": 19,
+                "titulo-actividades": "Lima",
+                "actividades": "Después del desayuno, nos trasladamos al valle de Lurín en donde visitaremos la finca “Casa Blanca” de producción e investigación de agricultura ecológica y agroturismo.\n\nComo última visita será a los talleres artesanales, donde el visitante podrá participar o simplemente observar el proceso de elaboración de productos artesanales, especialmente en cerámica, retablo y tejidos en telar.\n\nA la hora indicada, traslado al aeropuerto para su vuelo de conexión internacional y fin de nuestro servicio."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,195.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familia)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar en el 2024, con reservaciones con un mínimo de 03 meses antes de la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación matrimonial o doble con baño privado y agua caliente (a excepción de las casa familiares donde pueden ser baños comunes y sin agua caliente. En las islas del lago Titicaca la electricidad funciona con paneles solares, por lo que se recomienda llevar linternas de mano para la noche).",
+                "Desayuno continental en todos los hoteles.",
+                "Los traslados privados aeropuerto / estaciones de tren / terminal de bus / hotel.",
+                "Boletos de bus en las rutas: Lima-Paracas, Paracas-Ica-Nazca, Nazca-Arequipa, Puno-Cuzco; movilidad privada Arequipa-Cañón de Colca-Puno; tren (Ollantaytambo-Machu Picchu-Ollantaytambo) y avión (Cuzco-Lima) de acuerdo al itinerario.",
+                "Sobrevuelo de las líneas de Nazca (no incluye pago de tasa aeroportuaria).",
+                "Excursión compartida (grupal) para la visita a las islas Ballestas.",
+                "Aventura Culinaria en Arequipa: incluye compra de insumos, equipos de cocina, explicación y preparación con ayuda de un chef de cocina.",
+                "Excursión en lancha compartida con otros turistas para visita a las Islas del Lago Titicaca con guía bilingüe, incluye media pensión en la isla Amantani.",
+                "Excursión privada para todas las otras visitas mencionadas en el programa.",
+                "Boletos de ingreso y guía local profesional (guiado en castellano) para todos los sitios turísticos mencionados en el programa.",
+                "Asistencia permanente y personalizada."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Impuestos aeroportuarios por los vuelos nacionales.",
+                "Alimentación y bebidas, con excepción del desayuno en los hoteles y según se especifica en el programa.",
+                "Entradas a los baños termales La Calera – Chivay.",
+                "Ascensión a Huayna Piccu",
+                "Traslados y entradas en los sitios no mencionados en el programa.",
+                "Seguros de viaje, repatriación en caso de enfermedad grave o accidente.",
+                "Cargo por exceso de equipaje.",
+                "Noches y otros gastos adicionales durante el viaje por mal tiempo, cancelación de vuelos o por manifestaciones sociales en el país.",
+                "Costo adicional por habitación simple en los hoteles.",
+                "Propinas para guías y chóferes.",
+                "Otros gastos personales."
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "A lo largo de los Andes",
+        "path": "a-lo-largo-de-los-andesfr",
+        "descripcion": "Descripción breve del Circuito 7",
+        "descripcion-principal": {
+            "titulo-descripcion": "Recorre el Camino Inca cruzando los Andes del sur del Perú",
+            "parrafo-descripcion": "Durante este viaje atravesarás tantos paisajes como Historia y Cultura. Viajarás por las 3 regiones del Perú, desde la costa del Pacífico hasta el Amazonas pasando por los Andes. Descubrirás los tesoros que el norte de Perú tiene reservado para ti, como los sitios arqueológicos de Cimu, la ciudad de Chan Chan o las pirámides de Túcume.\n\nEste viaje por la historia te llevará también a descubrir la fortaleza de Kuelap, también conocida como el Machu Picchu del Norte, de la civilización Chachapoyas. Paisajes muy variados se desplazan a lo largo de tu ruta: desde la costa desértica hasta los picos nevados de la Cordillera Blanca, desde las altas montañas andinas hasta los bosques amazónicos.\n\nEn una atmósfera atemporal, por encima de las nubes y en armonía con la naturaleza, explorarás los misterios del norte del Perú y compartirás cultura y tradiciones con las comunidades locales que conocerás."
+        },
+        "dias": 19,
+        "imagenes": [
+            "/circuitos/Portada - A lo largo de los Andes.png",
+            "/circuitos/Portada extendida - A lo largo de los Andes.png",
+            "/ruta/imagen3.jpg",
+            "/ruta/imagen4.jpg",
+            "/ruta/imagen5.jpg",
+            "/ruta/imagen6.jpg",
+            "/ruta/imagen7.jpg",
+            "/ruta/imagen8.jpg"
+        ],
+        "itinerario": [
+            {
+                "dia": 1,
+                "titulo-actividades": "Llegada a Lima",
+                "actividades": "Llegada a Lima. Bienvenida en el aeropuerto por nuestro corresponsal. Traslado a su hotel en el centro de la ciudad."
+            },
+            {
+                "dia": 2,
+                "titulo-actividades": "Lima",
+                "actividades": "Luego del desayuno iniciaremos la visita a la parte moderna de Lima, como los barrios de Miraflores y Larcomar, centro turístico y de ocio de la ciudad donde disfrutaremos de una espectacular vista panorámica del Océano Pacífico y el puente de los suspiros de Barranco.\n\nLuego continuaremos nuestra visita por la parte colonial de Lima, pasando por la Plaza San Martín, el Palacio de Gobierno, Plaza de Armas, la gran Catedral de Lima y las Catacumbas de San Francisco. Estos últimos son una importante obra de arquitectura de estilo colonial donde podemos apreciar, entre otras cosas, la belleza de sus claustros, adornados con notables azulejos y pinturas.\n\nPor la tarde visitaremos el Museo de Arqueología y Antropología el cual presenta un excelente panorama de todas las civilizaciones precolombinas peruanas.\n\nAl final de la tarde regreso a su hotel."
+            },
+            {
+                "dia": 3,
+                "titulo-actividades": "Lima / Ayacucho",
+                "actividades": "Viaje en vehículo privado hasta la ciudad de Ayacucho por carretera asfaltada (9 horas), en el camino atravesaremos los desiertos costeros luego los valles andinos; Observaremos diferentes picos montañosos y una gran variedad de animales (punto más alto de Apacheta: 4,760 m). Llegada por la tarde a Ayacucho y traslado al hotel."
+            },
+            {
+                "dia": 4,
+                "titulo-actividades": "Ayacucho / Wari / Quinua / Ayacucho",
+                "actividades": "Después del desayuno, excursión al Complejo Arqueológico Wari a 22km de Ayacucho. Visitaremos su museo, el Templo Mayor, las galerías subterráneas y las cámaras funerarias, entre otros. Este complejo está rodeado de abundante vegetación. Inmediatamente después continuaremos la visita por el pintoresco pueblo andino de Quinua donde la artesanía y los campos de cultivo se mezclan con la armonía rural de sus viviendas y calles empedradas.\n\nLuego visitaremos el histórico Santuario de la Pampa de Ayacucho, ubicado en una llanura al pie del cerro Condorcunca a 3300 metros sobre el nivel del mar que fue escenario de la Batalla de Ayacucho el 9 de diciembre de 1824 y que representa el fin de la colonización en el Perú.\n\nPor la tarde visita del pueblo de Ayacucho: la Plaza de Armas, la catedral, la iglesia de Santo Domingo y el monasterio de Santa Teresa.\n\nVisita al Museo Arqueológico y al mirador de Acuchimay donde podremos disfrutar de una magnífica vista de la ciudad de Huamanga. Al final de la tarde regreso al hotel y tiempo libre."
+            },
+            {
+                "dia": 5,
+                "titulo-actividades": "Ayacucho / Andahuaylas",
+                "actividades": "Viaje en vehículo privado (10 horas) hasta el pueblo de Andahuaylas (265 kilómetros) por carretera asfaltada, atravesaremos pintorescos pueblos andinos donde podrá admirar la belleza de cañones y montañas cubiertas de bosques, campos y formaciones rocosas muy hermosas. . Luego llegaremos al impresionante Río Pampa, cuyas aguas verdes serpentean entre amplias playas de arena blanca y bosques de frutos silvestres. Desde este punto comenzaremos una nueva ruta donde verá bonitos pueblos de los Andes peruanos como Chinchero, Uripa, Nueva Esperanza y Talavera. Además, verás casas con características propias de la región. Al final de la tarde llegada a Andahuaylas y traslado al hotel."
+            },
+            {
+                "dia": 6,
+                "titulo-actividades": "Andahuaylas",
+                "actividades": "Día dedicado al descubrimiento de la región de Andahuaylas y sus atractivos turísticos naturales y culturales. Comenzaremos con una visita al centro arqueológico Wari de Sondor el cual está rodeado de terrazas, pendientes y una pirámide ceremonial ofreciendo una vista impresionante de la zona. Desde Sondor realizaremos una caminata de 1 hora para visitar la laguna de Pacucha la cual se encuentra a 3200 metros y cuya principal característica es la belleza de sus aguas de color azul intenso así como su ubicación por estar rodeada de juncos los cuales son utilizados como hábitat por diferentes especies de patos. Al final de la tarde regreso a la ciudad y tiempo libre."
+            },
+            {
+                "dia": 7,
+                "titulo-actividades": "Andahuaylas / Abancay / Cuzco",
+                "actividades": "Por la mañana inicio del viaje en vehículo privado (10 horas) hacia Cuzco (Entre Andahuaylas y Abancay es un camino afirmado de 380Km y de Abancay a Cuzco es un camino pavimentado de 200Km). Es un tramo increíble, donde a lo largo del camino veremos enormes cadenas de cerros, barrancos y algunos sembradíos, magníficos paisajes y pueblos pintorescos. Pasaremos por la ciudad de Abancay (que aún conserva sus costumbres ancestrales como la impresionante pelea entre el toro y el cóndor) y por diferentes pueblos andinos para llegar finalmente a la ciudad imperial del Cuzco. Llegada y traslado al hotel."
+            },
+            {
+                "dia": 8,
+                "titulo-actividades": "Cuzco",
+                "actividades": "Luego del desayuno, visita a los alrededores de la ciudad como Tambomachay conocido como el Tambo de la Cueva donde de sus dos acueductos construidos por los Incas emergen aguas desde un cerro hacia los manantiales; las ruinas de Kenko talladas por los Incas donde se pueden apreciar las cuevas y pequeños altares; y también Puka Pukará con sus construcciones que contienen reservas, cámaras, fuentes, canales y acueductos, y finalmente visitaremos la fortaleza de Sacsayhuaman con sus imponentes construcciones incas.\n\nLuego continuaremos con una visita a la ciudad y su Plaza de Armas, una de las más bellas de América Latina; La Catedral (donde el visitante puede vislumbrar el exquisito estilo y gran destreza de los artistas y artesanos locales, ilustrado en las piezas de orfebrería y madera tallada, y en los lienzos que decoran este hermosísimo templo cuzqueño), visite el magnífico templo del Koricancha, considerado el más sagrado e impresionante construido por los Incas.\n\nAl final de la tarde tiempo libre."
+            },
+            {
+                "dia": 9,
+                "titulo-actividades": "Cuzco / Pisac / Ollantaytambo",
+                "actividades": "Por la mañana visita al Valle Sagrado de los Incas. En el camino haremos una breve parada en el centro de exposiciones Awanakancha donde podremos contemplar la belleza de los Andes peruanos, con sus camélidos sudamericanos y sus trabajos obtenidos mediante técnicas tradicionales (teñido, hilado y tejido) y modernas, incluidos materiales. y tejidos provenientes directamente de los habitantes de los Andes peruanos. Inmediatamente después continuaremos con el pueblo de Pisac y sus ruinas, allí verá las caminatas más espectaculares de la región, luego caminaremos hasta las ruinas de Pisac (aproximadamente 2 horas). Después del almuerzo, continuaremos la visita con la fortaleza de Ollantaytambo, impresionante construcción inca que fue un estratégico centro militar, religioso y agrícola.\nRetornaremos a Ollantaytambo, tiempo libre y alojamiento en el hotel en el Valle Sagrado."
+            },
+            {
+                "dia": 10,
+                "titulo-actividades": "Ollantaytambo / Comunidad de Patacancha / Aguas Calientes",
+                "actividades": "Después del desayuno, viaje en vehículo privado a la comunidad de Patacancha donde los líderes de la comunidad lo recibirán. Luego continuaremos con una visita de reconocimiento, donde apreciaremos los campos de cultivo y donde participaremos de las actividades del municipio, acompañados de un guía municipal quien les explicará el sistema organizativo de la comunidad y las bases de su economía.\n\nAl mediodía almuerzo a base de carnes y verduras según las opciones ofrecidas por la anfitriona. Luego visitaremos los talleres de producción de lana de Alpaca. Para finalizar la visita, los líderes comunitarios entregarán un pequeño obsequio a los visitantes como muestra de amistad por participar en esta actividad.\n\nPor la tarde retornaremos a Ollantaytambo, luego tomaremos el tren con destino a Aguas Calientes al pie de Machu Picchu, llegada y traslado al hotel. (Almuerzo incluido)"
+            },
+            {
+                "dia": 11,
+                "titulo-actividades": "Aguas Calientes / Machu Picchu / Aguas Calientes / Ollantaytambo",
+                "actividades": "Temprano en la mañana, ascenso a Machu Picchu para disfrutar del sitio ante la llegada de grandes grupos de turistas. Descubrimiento del sitio más emblemático de los Incas, con sus cultivos en terrazas, su sistema de canales artificiales para riego, sus palacios, plazas, templos, bodegas, graneros, prisiones, etc.\n\nLuego de la visita guiada, tendrás tiempo libre para dar un paseo por la ciudadela, hasta el templo del sol construido con enormes bloques de piedra, lugar principal donde se realizaban las ceremonias durante el solsticio de junio. También puedes ir al cerro del Intihuatana cuya forma se asemeja a la de una gran pirámide a la que se puede llegar subiendo una escalera de 78 escalones.\n\nActividad opcional a cargo del cliente:  Posibilidad de subir al Huayna Picchu por un pequeño sendero de piedra al borde del precipicio para tener una vista magnífica de toda la región y otros lugares antes de regresar a Aguas Calientes.\n\nPor la tarde, traslado a la estación para tomar el tren de regreso a Ollantaytambo. Llegada y traslado al hotel."
+            },
+            {
+                "dia": 12,
+                "titulo-actividades": "Ollantaytambo / Maras / Chinchero / Cuzco",
+                "actividades": "Luego del desayuno visitaremos las Salinas de Maras donde sus habitantes realizan todo el proceso de extracción natural de la sal, que ha sido su principal actividad durante cientos de años. También descubriremos las terrazas circulares de Moray, que constituyen todo un complejo inca experimental y finalmente visitaremos el pueblo de Chinchero, un hermoso sitio inca con su linda plaza colonial cuyos muros datan de la época prehispánica con añadidos coloniales y actuales, en Por la tarde llegada a la ciudad del Cusco y traslado al hotel, tiempo libre."
+            },
+            {
+                "dia": 13,
+                "titulo-actividades": "Cuzco / Puno",
+                "actividades": "Viaje en bus turístico por el Valle del Vilcanota y el Altiplano hasta Puno. En el camino se realiza una breve parada en las ruinas de Rumicolca, luego se visita la iglesia de Andahuaylillas (considerada la “Capilla Sixtina” de los Andes), el templo inca de Raqchi y el paso La Raya (4.300 m) (sin guía). Llegada a Puno al final de la tarde y traslado al hotel.\n\nTodos los ingresos a los sitios mencionados anteriormente son opcionales (Almuerzo – buffet turístico incluido)"
+            },
+            {
+                "dia": 14,
+                "titulo-actividades": "Puno / Islas de los Uros / Amantani (Tour en grupo, con guía privado de habla inglesa)",
+                "actividades": "Paseo en barco compartido por el Lago Titicaca. Deténgase en una de las islas de los Uros para descubrir una representación de la vida cotidiana y costumbres ancestrales de los habitantes, en este lugar el visitante podrá participar o simplemente observar la cosecha de totora, realizar caminatas en sus pequeñas embarcaciones de totora, etc.\n\nContinuarás en nuestro barco hasta la encantadora isla de Amantani. Llegada e instalación en el domicilio familiar. Podrás caminar por caminos de piedra y conocer a los habitantes de la isla.\n\nPor la tarde podrás subir al templo de Pachatata para disfrutar del panorama de Perú y Bolivia desde la isla, y disfrutarás de un espléndido atardecer. Alojamiento en familia en Amantani (confort básico – sin ducha) (almuerzo y cena incluidos)"
+            },
+            {
+                "dia": 15,
+                "titulo-actividades": "Amantani / Taquile / Puno",
+                "actividades": "Luego del desayuno continuará el viaje en bote hacia la isla de Taquile, esta isla se caracteriza por la amabilidad de sus habitantes quienes mantienen sus tradiciones, sus creencias andinas, sus vestimentas y sus idiomas (quechua, aymara). Para llegar a la cima de la isla, tomaremos un sendero ligeramente inclinado (50min) que ofrece una vista espectacular del lago. Visitaremos su plaza principal y observaremos los impresionantes trabajos de tejido artesanal de alta calidad en varios colores.\n\nPor la tarde retorno a Puno y traslado al hotel. Tiempo libre. (desayuno y almuerzo incluidos)"
+            },
+            {
+                "dia": 16,
+                "titulo-actividades": "Puno / Cañon del Colca / Canocota",
+                "actividades": "Viaje en vehículo privado al Cañón del Colca a través de una magnífica carretera de montaña totalmente pavimentada.\nCruzaremos el altiplano andino donde podremos observar la fauna típica andina: alpacas, llamas, una gran variedad de aves y algunos lagos.\nContinuaremos ascendiendo Patapampa a una altitud de 4900 metros donde disfrutará de una vista de los diferentes volcanes de la cordillera central de los Andes. El viaje continúa hasta el pueblo de Chivay.\nVisitaremos el mercado tradicional de Chivay y luego podrá relajarse en los baños termales de Chivay  (Actividad opcional a cargo del cliente)\nDespués del almuerzo, nos dirigiremos al encantador pueblo de Canocota (a 30min de Chivay). Llegada e instalación en una casa familiar, familia que compartirá comidas, actividades diarias y otras costumbres con los visitantes. Noche en casa del habitante (confort básico) (Cena incluida)"
+            },
+            {
+                "dia": 17,
+                "titulo-actividades": "Canocota / Cañon del Colca / Arequipa",
+                "actividades": "Después del desayuno, salida temprano en vehículo privado hacia la Cruz del Cóndor donde tiene prácticamente garantizado ver a los majestuosos cóndores de los Andes volando desde un mirador natural. De regreso desde Cruz de Cóndor por la vertiente sur del valle del Colca visitaremos los pueblos de Maca.\n\nLuego del almuerzo en Chivay, continuaremos el viaje en vehículo privado hasta la ciudad de Arequipa, donde nuevamente pasaremos por Patapampa para luego tomar dirección a Pampa Cañahuas. Durante el recorrido podrás admirar paisajes excepcionales como la reserva de Aguada Blanca donde tendrás mucho tiempo para apreciar la magnífica fauna y flora como el volcán Misti, los nevados y los rebaños de llamas, alpacas. y vicuñas.\n\nFinalmente por la tarde llegada y traslado al hotel, tiempo libre."
+            },
+            {
+                "dia": 18,
+                "titulo-actividades": "Arequipa",
+                "actividades": "Después del desayuno, recorrido por la ciudad de Arequipa con; sus torres de vigilancia de Yanahuara y Rinconada Alta, su Plaza de Armas construida en piedras talladas de la época neorrenacentista, la iglesia de la Compañía y su claustro construido por los jesuitas en el siglo XVII, el tradicional mercado de San Camilo, para disfrutar de una amplia variedad de productos de la zona y de la gente local, el famoso convento de Santa Catalina, que es una ciudadela fortificada, con sus callejones, escaleras y plazas, el museo de la Momia Juanita «Dama de Ampato» o “Dama de Hielo”. “Juanita” no pasó por el proceso de momificación artificial, el cuerpo mantiene todos sus órganos intactos gracias a la congelación helada (momificación natural) del monte Ampato donde fue depositada como ofrenda. Al final de la tarde tiempo libre."
+            },
+            {
+                "dia": 19,
+                "titulo-actividades": "Arequipa / Lima / Salida",
+                "actividades": "Vuelo por la mañana de regreso a Lima. Llegada y visita de los artesanos a sus talleres ubicados en los pueblos jóvenes, donde el visitante podrá participar o simplemente observar el proceso artesanal, especialmente la cerámica. Luego, traslado al aeropuerto para tomar su vuelo internacional."
+            }
+        ],
+        "precio": {
+            "info": "PRECIO EN EUROS DESDE  2,780.00€: (Sobre la base de 2 participantes en hotel 2** y en casa familiar)\n\n* Las comisiones aplicadas sobre las transacciones bancarias son a cargo del cliente.\n\n** Tarifa válida para viajar de abril a diciembre de 2021, reservas con al menos 3 meses de antelación a la fecha de viaje.",
+            "incluye": [
+                "Alojamiento en habitación doble o matrimonial con baño privado y agua caliente (a excepción de alojamiento familiar donde dependiendo de la comunidad se puede encontrar baño compartido y no hay agua caliente; en la Isla de Amantani las casas no tienen no todas tienen ducha y la electricidad funciona con placas solares).",
+                "Desayuno continental en todos los hoteles.",
+                "Los traslados privados aeropuerto / estaciones de tren / terminal de bus / hotel.",
+                "Boleto de bus Puno-Cuzco, vehículo privado Lima – Ayacucho – Andahuaylas – Abancay – Cusco ; Puno – Cañon del Colca – Arequipa ; de tren (Ollantaytambo - Machu Picchu - Ollantaytambo) y avión (Arequipa-Lima) según del program anterior.",
+                "Paseo en barco privado a las islas del Lago Titicaca en compañía de guía de habla inglesa y pensión completa.",
+                "Excursiones privadas para el resto de visitas mencionadas en el programa y pensión completa, según programa anterior.",
+                "Entradas y guía francófono para visitas a los sitios turísticos indicados en el programa; guía de Lima a Cusco para traducciones ya que en las ciudades de Huancayo – Ayacucho – Andahuaylas donde las guías solo están disponibles en español o inglés.",
+                "Asistencia permanente y personalizada."
+            ],
+            "no-incluye": [
+                "Vuelos internacionales.",
+                "Bebidas.",
+                "Ingreso a los baños termales de Chivay.",
+                "Seguro de viaje.",
+                "Cargos por exceso de equipaje.",
+                "Noches y gastos adicionales durante el viaje por mal clima, cancelaciones de vuelos o eventos sociales en el país.",
+                "Traslados y entradas a lugares no mencionados en el programa.",
+                "El ascenso al Huayna Picchu.",
+                "Propinas para guías y conductores.",
+                "Otros gastos personales."
+            ]
+        }
+    }
+]

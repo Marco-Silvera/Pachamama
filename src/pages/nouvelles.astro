@@ -1,9 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import HeroNoticia from "../components/HeroNoticia.astro";
+import Francia from "../components/Francia.astro";
 ---
 
 <Layout title="Noticias" rutaEsp="/noticias" rutaFr="/nouvelles">
+  <Francia />
   <HeroNoticia />
   <section
     class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center items-center py-20 px-5"
