@@ -1,10 +1,10 @@
 ---
 import circuitosDatafr from "../../db/fr/circuitos.json";
-import Layout from "../../layouts/Layout.astro";
-import Francia from "../../components/Francia.astro";
+import LayoutFr from "../../layouts/LayoutFr.astro";
+import Francia from "../../components/es/Francia.astro";
 ---
 
-<Layout title="Circuitos" rutaEsp="/circuitos" rutaFr="/circuits">
+<LayoutFr title="Circuitos" rutaEsp="/circuitos" rutaFr="/circuits">
   <Francia />
   <div class="flex justify-center py-20 px-5">
     <section class="flex flex-col gap-20 max-w-[1200px] w-full self-center">
@@ -53,4 +53,4 @@ import Francia from "../../components/Francia.astro";
       </div>
     </section>
   </div>
-</Layout>
+</LayoutFr>

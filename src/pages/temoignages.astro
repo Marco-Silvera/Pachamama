@@ -1,10 +1,10 @@
 ---
+import LayoutFr from "../layouts/LayoutFr.astro";
 import testimonioData from "../db/es/testimonios.json";
-import Layout from "../layouts/Layout.astro";
-import Francia from "../components/Francia.astro";
+import Francia from "../components/es/Francia.astro";
 ---
 
-<Layout title="Testimonios" rutaEsp="/testimonios" rutaFr="/témoignages">
+<LayoutFr title="Testimonios" rutaEsp="/testimonios" rutaFr="/témoignages">
   <Francia />
   <section class="flex flex-col gap-16 self-center max-w-[1200px] py-20 p-5">
     <h2 class="text-3xl lg:text-6xl font-bold uppercase text-center">
@@ -35,4 +35,4 @@ import Francia from "../components/Francia.astro";
       }
     </section>
   </section>
-</Layout>
+</LayoutFr>

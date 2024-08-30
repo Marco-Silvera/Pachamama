@@ -1,10 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import HeroNosotros from "../components/HeroNosotros.astro";
-import Francia from "../components/Francia.astro";
+import LayoutFr from "../layouts/LayoutFr.astro";
+import HeroNosotros from "../components/es/HeroNosotros.astro";
+import Francia from "../components/es/Francia.astro";
 ---
 
-<Layout title="Nosotros" rutaEsp="/noticias" rutaFr="/nous">
+<LayoutFr title="Nosotros" rutaEsp="/noticias" rutaFr="/nous">
   <Francia />
   <HeroNosotros />
 
@@ -288,4 +288,4 @@ import Francia from "../components/Francia.astro";
       </div>
     </article>
   </section>
-</Layout>
+</LayoutFr>

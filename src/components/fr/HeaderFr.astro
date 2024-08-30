@@ -1,0 +1,168 @@
+---
+const { rutaEsp, rutaFr } = Astro.props;
+---
+
+<header
+  class="bg-[white] h-[70px] w-full sticky z-[20] top-0 transition-all flex items-center"
+>
+  <div
+    class="max-w-[1000px] w-full mx-auto flex justify-between items-center gap-5 md:gap-10 px-4"
+  >
+    <a href="/" class="hidden sm:block">
+      <img
+        class="h-[50px] hidden sm:block"
+        src="/logo.webp"
+        alt="Logo Pachamama Turismo"
+      />
+    </a>
+    <a href="/" class="block sm:hidden">
+      <img
+        class="block h-10 sm:hidden"
+        src="/Logo-mini.webp"
+        alt="Logo Pachamama Turismo"
+      />
+    </a>
+    <div class="flex items-center gap-5 md:gap-10">
+      <div
+        id="menu"
+        class="hidden xl:block absolute xl:top-0 right-0 xl:relative top-[70px] bg-white w-full sm:w-96 xl:w-auto"
+      >
+        <ul class="gap-none xl:gap-5 flex flex-col items-center xl:flex-row">
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/">Page D'Accueil</a
+            >
+          </li>
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/nous">Nous</a
+            >
+          </li>
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/circuits">Circuits</a
+            >
+          </li>
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/temoignages">Témoignages</a
+            >
+          </li>
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/nouvelles">Nouvelles</a
+            >
+          </li>
+          <li
+            class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
+          >
+            <a
+              class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
+              href="/contact">Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="flex gap-2.5">
+        <a href={rutaEsp}>
+          <img
+            class="h-6 sm:h-10"
+            src="/españa.webp"
+            alt="Drapeau de l'espagne"
+          />
+        </a>
+        <a href={rutaFr}>
+          <img
+            class="h-6 sm:h-10"
+            src="/francia.webp"
+            alt="Drapeau de la france"
+          />
+        </a>
+      </div>
+
+      <svg
+        id="menu-icon"
+        class="w-8 h-8 block xl:hidden cursor-pointer"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        onclick="openMenu()"
+      >
+        <path
+          id="icon-path"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16m-7 6h7"></path>
+      </svg>
+
+      <!-- X icon, initially hidden -->
+      <svg
+        id="close-icon"
+        class="w-8 h-8 hidden xl:hidden cursor-pointer"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        onclick="openMenu()"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </div>
+  </div>
+
+  <style>
+    .scrolled {
+      /* Tailwind gray-300 */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+    }
+  </style>
+
+  <script type="module" is:inline>
+    window.addEventListener("scroll", () => {
+      const header = document.querySelector("header");
+      if (window.scrollY > 0) {
+        header.classList.add("scrolled");
+      } else {
+        header.classList.remove("scrolled");
+      }
+    });
+
+    function openMenu() {
+      let menu = document.getElementById("menu");
+      let menuIcon = document.getElementById("menu-icon");
+      let closeIcon = document.getElementById("close-icon");
+      if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+        menuIcon.classList.add("hidden");
+        closeIcon.classList.remove("hidden");
+      } else {
+        menu.classList.add("hidden");
+        menuIcon.classList.remove("hidden");
+        closeIcon.classList.add("hidden");
+      }
+    }
+
+    window.openMenu = openMenu;
+  </script>
+</header>

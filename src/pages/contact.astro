@@ -1,10 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import FormularioContacto from "../components/FormularioContacto.astro";
-import Francia from "../components/Francia.astro";
+import LayoutFr from "../layouts/LayoutFr.astro";
+import FormularioContacto from "../components/es/FormularioContacto.astro";
+import Francia from "../components/es/Francia.astro";
 ---
 
-<Layout title="Contacto" rutaEsp="/contacto" rutaFr="/contact">
+<LayoutFr title="Contacto" rutaEsp="/contacto" rutaFr="/contact">
   <Francia />
   <section
     class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center py-20 p-5"
@@ -56,4 +56,4 @@ import Francia from "../components/Francia.astro";
     </div>
     <FormularioContacto />
   </section>
-</Layout>
+</LayoutFr>

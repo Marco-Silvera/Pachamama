@@ -1,10 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Hero from "../components/Hero.astro";
-import ScrollingLogo from "../components/ScrollingLogo.astro";
+import Hero from "../components/es/Hero.astro";
+import ScrollingLogo from "../components/es/ScrollingLogo.astro";
 import destacados from "../db/es/destacados.json";
 import alternativas from "../db/es/alternativas.json";
-import TestimonialSlider from "../components/TestimonialSlider.astro";
+import TestimonialSlider from "../components/es/TestimonialSlider.astro";
 ---
 
 <Layout title="Pachamama Turismo" rutaEsp="/inicio" rutaFr="/">
@@ -158,5 +158,5 @@ import TestimonialSlider from "../components/TestimonialSlider.astro";
       </div>
     </div>
   </section> -->
-  <TestimonialSlider />
+  <TestimonialSlider client:load />
 </Layout>

@@ -1,16 +1,16 @@
 [
     {
-        "nombre": "Corazón del Imperio Inca",
+        "nombre": "AU COEUR DE I'EMPIRE INCA",
         "portada": "/destacados/Portada - Corazon del Imperio Inca.png",
         "path": "/circuitos/corazon-del-imperio-inca"
     },
     {
-        "nombre": "Esencia del Perú",
+        "nombre": "ESSENTIEL DU PÉROU",
         "portada": "/destacados/Portada - Esencia del Peru.png",
         "path": "/circuitos/esencia-del-peru"
     },
     {
-        "nombre": "Del Pacífico al Amazonas",
+        "nombre": "PACIFIQUE À I'AMAZONIE",
         "portada": "/destacados/Portada - Del Pacifico al Amazonas.png",
         "path": "/circuitos/del-pacifico-al-amazonas"
     }

@@ -1,10 +1,10 @@
 ---
-import FormularioReserva from "../components/FormularioReserva.astro";
-import Layout from "../layouts/Layout.astro";
-import Francia from "../components/Francia.astro";
+import LayoutFr from "../layouts/LayoutFr.astro";
+import FormularioReserva from "../components/es/FormularioReserva.astro";
+import Francia from "../components/es/Francia.astro";
 ---
 
-<Layout title="Reserva" rutaEsp="/reserva" rutaFr="/réservation">
+<LayoutFr title="Reserva" rutaEsp="/reserva" rutaFr="/réservation">
   <Francia />
   <section
     class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center py-20 px-5"
@@ -22,4 +22,4 @@ import Francia from "../components/Francia.astro";
     </div>
     <FormularioReserva />
   </section>
-</Layout>
+</LayoutFr>

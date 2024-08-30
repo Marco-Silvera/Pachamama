@@ -1,10 +1,10 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import HeroNoticia from "../components/HeroNoticia.astro";
-import Francia from "../components/Francia.astro";
+import LayoutFr from "../layouts/LayoutFr.astro";
+import HeroNoticia from "../components/es/HeroNoticia.astro";
+import Francia from "../components/es/Francia.astro";
 ---
 
-<Layout title="Noticias" rutaEsp="/noticias" rutaFr="/nouvelles">
+<LayoutFr title="Noticias" rutaEsp="/noticias" rutaFr="/nouvelles">
   <Francia />
   <HeroNoticia />
   <section
@@ -157,7 +157,7 @@ import Francia from "../components/Francia.astro";
       </article>
     </div>
   </section>
-</Layout>
+</LayoutFr>
 
 <!-- <div id="fb-root"></div>
 

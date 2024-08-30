@@ -1,6 +1,6 @@
 ---
-import HeroCircuito from "../../components/HeroCircuito.astro";
-import Guia from "../../components/Guia.astro";
+import HeroCircuito from "../../components/es/HeroCircuito.astro";
+import Guia from "../../components/es/Guia.astro";
 // import Experiencias from "../../components/Experiencias.astro";
 
 import alternativasData from "../../db/fr/alternativas.json";
@@ -8,9 +8,9 @@ import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import experienciasData from "../../db/fr/experiencias.json";
 import Layout from "../../layouts/Layout.astro";
-import Tab from "../../components/Tab.astro";
-import { FeaturedImageGallery } from "../../components/FeaturedImageGallery.jsx";
-import Francia from "../../components/Francia.astro";
+import Tab from "../../components/es/Tab";
+import { FeaturedImageGallery } from "../../components/es/FeaturedImageGallery.jsx";
+import Francia from "../../components/es/Francia.astro";
 
 const { path } = Astro.params;
 const circuito = circuitosDatafr.find((c) => c.path === path);
@@ -43,7 +43,7 @@ const images = experiencias ? experiencias.imagenes : [];
     descripcion={circuito.descripcion}
   />
 
-  <Tab circuito={circuito} />
+  <Tab circuito={circuito} client:load />
 
   <Guia />
 
