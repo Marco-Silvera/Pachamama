@@ -7,10 +7,10 @@ import alternativasData from "../../db/fr/alternativas.json";
 import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import experienciasData from "../../db/fr/experiencias.json";
-import Layout from "../../layouts/Layout.astro";
-import Tab from "../../components/es/Tab";
+import Tab from "../../components/fr/Tab";
 import { FeaturedImageGallery } from "../../components/es/FeaturedImageGallery.jsx";
 import Francia from "../../components/es/Francia.astro";
+import LayoutFr from "../../layouts/LayoutFr.astro";
 
 const { path } = Astro.params;
 const circuito = circuitosDatafr.find((c) => c.path === path);
@@ -31,7 +31,7 @@ const experiencias = experienciasData.find((e) => e.nombre === path);
 const images = experiencias ? experiencias.imagenes : [];
 ---
 
-<Layout
+<LayoutFr
   title={circuito.nombre}
   rutaEsp={circuitoEs ? `/circuitos/${circuitoEs.path}` : "#"}
   rutaFr={circuito.path}
@@ -48,4 +48,4 @@ const images = experiencias ? experiencias.imagenes : [];
   <Guia />
 
   <FeaturedImageGallery images={images} client:load />
-</Layout>
+</LayoutFr>

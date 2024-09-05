@@ -3,7 +3,7 @@ import Layout from "../layouts/Layout.astro";
 import Hero from "../components/es/Hero.astro";
 import destacados from "../db/es/destacados.json";
 import alternativas from "../db/es/alternativas.json";
-import TestimonialSlider from "../components/es/TestimonialSlider.astro";
+import Testimonial from "../components/es/Testimonial";
 ---
 
 <Layout title="Pachamama Turismo" rutaEsp="/inicio" rutaFr="/">
@@ -102,7 +102,7 @@ import TestimonialSlider from "../components/es/TestimonialSlider.astro";
     </section>
   </section>
 
-  <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
+  <!-- <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
     <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
       Experiencias Alternativas
     </h3>
@@ -126,36 +126,6 @@ import TestimonialSlider from "../components/es/TestimonialSlider.astro";
         ))
       }
     </section>
-  </section>
-
-  <!-- REEMPLAZAMOS EL ANTIGUO SECTION DE TESTIMONIOS POR EL COMPONENTE TestimonialSlider 
-  <section
-    class='relative w-full h-[600px] before:content-[""] before:absolute before:w-full before:h-full before:bg-[black] before:opacity-60 before:pointer-events-none before:left-0 before:top-0'
-  >
-    <img
-      class="w-full h-full bg-cover object-center object-cover"
-      src="fondo-testimonio.webp"
-      alt="Machu Picchu Maravilla del mundo"
-    />
-    <div
-      class="absolute w-full h-full flex gap-[100px] justify-center items-center text-[white] p-5 left-0 top-0"
-    >
-      <div class="text-center">
-        <h3 class="text-6xl font-bold uppercase">Testimonios</h3>
-        <p class="image-container-description">
-          Mucho de los turistas quedaron <br /> fascinados, nos cuentan sus experiencias.
-        </p>
-      </div>
-      <div class="flex flex-col gap-5">
-        <p class="text-2xl text-center">
-          Tout au long du séjour, nous avons apprécié la <br /> qualite et les compétences
-          de nos guides ainsi que <br /> le professionnalisme de PACHAMAMA, petite
-          <br /> structure souple qui sait s’adapter aux désirs de <br /> ses clients
-          et leur proposer un programme riche et <br /> passionnant.
-        </p>
-        <h3 class="text-[32px] text-center">Christine GROS</h3>
-      </div>
-    </div>
   </section> -->
-  <TestimonialSlider />
+  <Testimonial client:load />
 </Layout>

@@ -4,7 +4,7 @@ import HeroFr from "../components/fr/HeroFr.astro";
 import destacadosFr from "../db/fr/destacados.json";
 import alternativasFr from "../db/fr/alternativas.json";
 import Francia from "../components/es/Francia.astro";
-import TestimonialSliderFr from "../components/fr/TestimonialSliderFr.astro";
+import TestimonialFr from "../components/fr/TestimonialFr";
 ---
 
 <LayoutFr title="Pachamama Turismo" rutaEsp="/inicio" rutaFr="/">
@@ -105,7 +105,7 @@ import TestimonialSliderFr from "../components/fr/TestimonialSliderFr.astro";
     </section>
   </section>
 
-  <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
+  <!-- <section class="flex flex-col items-center gap-10 md:gap-20 py-20 px-5">
     <h3 class="text-3xl md:text-6xl font-bold uppercase text-center">
       Expériences Alternatives
     </h3>
@@ -129,7 +129,6 @@ import TestimonialSliderFr from "../components/fr/TestimonialSliderFr.astro";
         ))
       }
     </section>
-  </section>
-
-  <TestimonialSliderFr />
+  </section> -->
+  <TestimonialFr client:load />
 </LayoutFr>
