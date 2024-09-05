@@ -12,21 +12,17 @@
     name="access_key"
     value="1028b022-e1af-4a36-85cc-f5434091106c"
   />
-  <input
-    type="hidden"
-    name="form_name"
-    value="Viaje a tu medida Pachamama FR"
-  />
+  <input type="hidden" name="form_name" value="Viaje a tu medida FR" />
   <input type="hidden" name="subject" value="Viaje a tu medida FR" />
   <input type="checkbox" name="botcheck" id="" style="display: none;" />
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-nombre-viajeamedida-fr"
+      for="text-field-nombre-viajeamedidafr"
       class="text-lg md:text-xl font-semibold">Nombre</label
     >
     <input
-      id="text-field-nombre-viajeamedida-fr"
+      id="text-field-nombre-viajeamedidafr"
       type="text"
       name="nombre"
       required
@@ -39,26 +35,28 @@
   </div>
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-correo-viajeamedida-fr"
-      class="text-lg md:text-xl font-semibold">Correo</label
+      for="text-field-apellido-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Apellido</label
     >
     <input
-      id="text-field-correo-viajeamedida-fr"
-      type="email"
-      name="correo"
+      id="text-field-apellido-viajeamedidafr"
+      type="text"
+      name="apellido"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
-      placeholder="Ingresa correo..."
+      placeholder="Ingresa nombre..."
     />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 3 caracteres / no símbolos ni números)
+    </p>
   </div>
-
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-telefono-viajeamedida-fr"
+      for="text-field-telefono-viajeamedidafr"
       class="text-lg md:text-xl font-semibold">Teléfono</label
     >
     <input
-      id="text-field-telefono-viajeamedida-fr"
+      id="text-field-telefono-viajeamedidafr"
       type="tel"
       name="telefono"
       required
@@ -69,19 +67,256 @@
       (Mín. 7 digitos / solo números)
     </p>
   </div>
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-correo-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Correo</label
+    >
+    <input
+      id="text-field-correo-viajeamedidafr"
+      type="email"
+      name="correo"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa correo..."
+    />
+  </div>
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-mensaje-viajeamedida-fr"
-      class="text-lg md:text-xl font-semibold">Mensaje</label
+      for="text-field-estancia-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Días de estancia</label
     >
-    <textarea
-      id="text-field-mensaje-viajeamedida-fr"
-      name="mensaje"
+    <input
+      id="text-field-estancia-viajeamedidafr"
+      type="number"
+      name="estancia"
+      min="1"
+      max="100"
       required
-      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
-      placeholder="Ingresa mensaje..."></textarea>
-    <p class="text-gray-400 font-semibold italic">(Mín. 4 caracteres)</p>
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de dias..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-pasajeros-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Número de pasajeros</label
+    >
+    <input
+      id="text-field-pasajeros-viajeamedidafr"
+      type="number"
+      name="pasajeros"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de pasajeros..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-pais-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">País de origen</label
+    >
+    <input
+      id="text-field-pais-viajeamedidafr"
+      type="text"
+      name="pais"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa nombre..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-llegada-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Día de llegada</label
+    >
+    <input
+      id="text-field-llegada-viajeamedidafr"
+      type="date"
+      name="llegada"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa el número de pasajeros..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-edad-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Edad</label
+    >
+    <input
+      id="text-field-edad-viajeamedidafr"
+      type="number"
+      name="edad"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-idioma-guia-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Idioma del Guía</label
+    >
+    <select
+      id="text-field-idioma-guia-viajeamedidafr"
+      name="idiomaguia"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona idioma</option>
+      <option value="espanol">Español</option>
+      <option value="ingles">Inglés</option>
+      <option value="frances">Francés</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-hotel-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Categoría del Hotel</label
+    >
+    <select
+      id="text-field-hotel-viajeamedidafr"
+      name="hotel"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona categoría</option>
+      <option value="dos-estrellas">2 Estrellas</option>
+      <option value="tres-estrellas">3 Estrellas</option>
+      <option value="cuatro-estrellas">4 Estrellas</option>
+      <option value="cinco-estrellas">5 Estrellas</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-transporte-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Transporte</label
+    >
+    <select
+      id="text-field-transporte-viajeamedidafr"
+      name="transporte"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona transporte</option>
+      <option value="privado">Privado</option>
+      <option value="publico">Publico</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-presupuesto-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold"
+      >Presupuesto estimado por persona en Euros</label
+    >
+    <input
+      id="text-field-presupuesto-viajeamedidafr"
+      type="number"
+      name="presupuesto"
+      min="1"
+      max="10000"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+  </div>
+
+  <!-- <div class="flex flex-col gap-2">
+    <label class="text-lg md:text-xl font-semibold">Intereses Especiales</label>
+    <div class="flex flex-col gap-2">
+      <div>
+        <input
+          type="checkbox"
+          id="interes1"
+          name="intereses"
+          value="opcion1"
+          required
+          class="mr-2"
+        />
+        <label for="interes1">Opción 1</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="interes2"
+          name="intereses"
+          value="opcion2"
+          class="mr-2"
+        />
+        <label for="interes2">Opción 2</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="interes3"
+          name="intereses"
+          value="opcion3"
+          class="mr-2"
+        />
+        <label for="interes3">Opción 3</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="interes4"
+          name="intereses"
+          value="opcion4"
+          class="mr-2"
+        />
+        <label for="interes4">Opción 4</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="interes5"
+          name="intereses"
+          value="opcion5"
+          class="mr-2"
+        />
+        <label for="interes5">Opción 5</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="interes6"
+          name="intereses"
+          value="opcion6"
+          class="mr-2"
+        />
+        <label for="interes6">Opción 6</label>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-bolivia-viajeamedidafr"
+      class="text-lg md:text-xl font-semibold">Bolivia</label
+    >
+    <select
+      id="text-field-bolivia-viajeamedidafr"
+      name="bolivia"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Selecciona tu respuesta</option>
+      <option value="si">Si</option>
+      <option value="no">No</option>
+    </select>
   </div>
 
   <button
@@ -104,10 +339,10 @@
     // Obtener valores de los campos
     const nombre = form.nombre.value.trim();
     const telefono = form.telefono.value.trim();
-    const mensaje = form.mensaje.value.trim();
-
+    const apellido = form.apellido.value.trim();
     // Validaciones
     const nombreRegex = /^[A-Za-z\s]{3,}$/;
+    const apellidoRegex = /^[A-Za-z\s]{3,}$/;
     const telefonoRegex = /^[0-9]{7,}$/;
 
     if (!nombreRegex.test(nombre)) {
@@ -118,18 +353,18 @@
       return;
     }
 
-    if (!telefonoRegex.test(telefono)) {
+    if (!apellidoRegex.test(apellido)) {
       result.innerHTML = `
         <p class="font-semibold italic text-red-500">
-          El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+          El apellido debe tener al menos 3 caracteres y no contener números o símbolos.
         </p>`;
       return;
     }
 
-    if (mensaje.length < 4) {
+    if (!telefonoRegex.test(telefono)) {
       result.innerHTML = `
         <p class="font-semibold italic text-red-500">
-          El mensaje debe tener al menos 4 caracteres.
+          El teléfono debe tener al menos 7 dígitos y solo puede contener números.
         </p>`;
       return;
     }
