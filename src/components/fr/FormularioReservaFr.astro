@@ -4,7 +4,7 @@
 
 <form
   method="POST"
-  id="formreserva"
+  id="formreservafr"
   class="flex flex-col gap-5 max-w-[480px] w-full"
 >
   <input
@@ -12,17 +12,17 @@
     name="access_key"
     value="1028b022-e1af-4a36-85cc-f5434091106c"
   />
-  <input type="hidden" name="form_name" value="Contacto Reserva" />
-  <input type="hidden" name="subject" value="Reserva" />
+  <input type="hidden" name="form_name" value="Contacto Reserva FR" />
+  <input type="hidden" name="subject" value="Reserva FR" />
   <input type="checkbox" name="botcheck" id="" style="display: none;" />
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-nombre-reserva"
+      for="text-field-nombre-reserva-fr"
       class="text-lg md:text-xl font-semibold">Nombre</label
     >
     <input
-      id="text-field-nombre-reserva"
+      id="text-field-nombre-reserva-fr"
       type="text"
       name="nombre"
       required
@@ -36,11 +36,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-correo-reserva"
+      for="text-field-correo-reserva-fr"
       class="text-lg md:text-xl font-semibold">Correo</label
     >
     <input
-      id="text-field-correo-reserva"
+      id="text-field-correo-reserva-fr"
       type="email"
       name="correo"
       required
@@ -51,11 +51,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-telefono-reserva"
+      for="text-field-telefono-reserva-fr"
       class="text-lg md:text-xl font-semibold">Teléfono</label
     >
     <input
-      id="text-field-telefono-reserva"
+      id="text-field-telefono-reserva-fr"
       type="tel"
       name="telefono"
       required
@@ -69,11 +69,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-edad-reserva"
+      for="text-field-edad-reserva-fr"
       class="text-lg md:text-xl font-semibold">Edad</label
     >
     <input
-      id="text-field-edad-reserva"
+      id="text-field-edad-reserva-fr"
       type="number"
       name="edad"
       min="1"
@@ -86,11 +86,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-pasajeros-reserva"
+      for="text-field-pasajeros-reserva-fr"
       class="text-lg md:text-xl font-semibold">Número de pasajeros</label
     >
     <input
-      id="text-field-pasajeros-reserva"
+      id="text-field-pasajeros-reserva-fr"
       type="number"
       name="pasajeros"
       min="1"
@@ -103,11 +103,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-circuito-reserva"
+      for="text-field-circuito-reserva-fr"
       class="text-lg md:text-xl font-semibold">Circuito</label
     >
     <select
-      id="text-field-circuito-reserva"
+      id="text-field-circuito-reserva-fr"
       name="circuito"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
@@ -125,11 +125,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-llegada-reserva"
+      for="text-field-llegada-reserva-fr"
       class="text-lg md:text-xl font-semibold">Día de llegada</label
     >
     <input
-      id="text-field-llegada-reserva"
+      id="text-field-llegada-reserva-fr"
       type="date"
       name="llegada"
       required
@@ -140,11 +140,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-estancia-reserva"
+      for="text-field-estancia-reserva-fr"
       class="text-lg md:text-xl font-semibold">Días de estancia</label
     >
     <input
-      id="text-field-estancia-reserva"
+      id="text-field-estancia-reserva-fr"
       type="number"
       name="estancia"
       min="1"
@@ -157,11 +157,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-pais-reserva"
+      for="text-field-pais-reserva-fr"
       class="text-lg md:text-xl font-semibold">País de origen</label
     >
     <input
-      id="text-field-pais-reserva"
+      id="text-field-pais-reserva-fr"
       type="text"
       name="pais"
       required
@@ -172,11 +172,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-idioma-guia-reserva"
+      for="text-field-idioma-guia-reserva-fr"
       class="text-lg md:text-xl font-semibold">Idioma del Guía</label
     >
     <select
-      id="text-field-idioma-guia-reserva"
+      id="text-field-idioma-guia-reserva-fr"
       name="idiomaguia"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
@@ -190,11 +190,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-hotel-reserva"
+      for="text-field-hotel-reserva-fr"
       class="text-lg md:text-xl font-semibold">Categoría del Hotel</label
     >
     <select
-      id="text-field-hotel-reserva"
+      id="text-field-hotel-reserva-fr"
       name="hotel"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
@@ -209,11 +209,11 @@
 
   <div class="flex flex-col gap-2">
     <label
-      for="text-field-mensaje-reserva"
+      for="text-field-mensaje-reserva-fr"
       class="text-lg md:text-xl font-semibold">Mensaje</label
     >
     <textarea
-      id="text-field-mensaje-reserva"
+      id="text-field-mensaje-reserva-fr"
       name="mensaje"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
@@ -227,7 +227,7 @@
     >Enviar</button
   >
 
-  <div id="resultreserva"></div>
+  <div id="resultreservafr"></div>
 </form>
 
 <style>
@@ -242,8 +242,8 @@
 </style>
 
 <script>
-  const form = document.getElementById("formreserva");
-  const result = document.getElementById("resultreserva");
+  const form = document.getElementById("formreservafr");
+  const result = document.getElementById("resultreservafr");
 
   form.addEventListener("submit", function (e) {
     e.preventDefault();

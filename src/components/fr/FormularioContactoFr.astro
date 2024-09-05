@@ -1,0 +1,170 @@
+---
+
+---
+
+<form
+  method="POST"
+  id="formfr"
+  class="flex flex-col gap-5 w-full max-w-[480px]"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="1028b022-e1af-4a36-85cc-f5434091106c"
+  />
+  <input type="hidden" name="form_name" value="Contacto Pachamama FR" />
+  <input type="hidden" name="subject" value="Contacto FR" />
+  <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-nombre-fr" class="text-lg md:text-xl font-semibold"
+      >Nombre</label
+    >
+    <input
+      id="text-field-nombre-fr"
+      type="text"
+      name="nombre"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa nombre..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 3 caracteres / no símbolos ni números)
+    </p>
+  </div>
+  <div class="flex flex-col gap-2">
+    <label for="text-field-correo-fr" class="text-lg md:text-xl font-semibold"
+      >Correo</label
+    >
+    <input
+      id="text-field-correo-fr"
+      type="email"
+      name="correo"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa correo..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-telefono-fr" class="text-lg md:text-xl font-semibold"
+      >Teléfono</label
+    >
+    <input
+      id="text-field-telefono-fr"
+      type="tel"
+      name="telefono"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Ingresa telefono..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Mín. 7 digitos / solo números)
+    </p>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label for="text-field-mensaje-fr" class="text-lg md:text-xl font-semibold"
+      >Mensaje</label
+    >
+    <textarea
+      id="text-field-mensaje-fr"
+      name="mensaje"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
+      placeholder="Ingresa mensaje..."></textarea>
+    <p class="text-gray-400 font-semibold italic">(Mín. 4 caracteres)</p>
+  </div>
+
+  <button
+    type="submit"
+    class="border-2 border-[#226428] bg-[#226428] p-2 w-40 text-white font-semibold text-xl hover:bg-white hover:text-[#226428] transition-colors"
+    >Enviar</button
+  >
+
+  <div id="resultfr"></div>
+</form>
+<script>
+  const form = document.getElementById("formfr");
+  const result = document.getElementById("resultfr");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    //
+
+    // Obtener valores de los campos
+    const nombre = form.nombre.value.trim();
+    const telefono = form.telefono.value.trim();
+    const mensaje = form.mensaje.value.trim();
+
+    // Validaciones
+    const nombreRegex = /^[A-Za-z\s]{3,}$/;
+    const telefonoRegex = /^[0-9]{7,}$/;
+
+    if (!nombreRegex.test(nombre)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
+      </p>`;
+      return;
+    }
+
+    if (!telefonoRegex.test(telefono)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+      </p>`;
+      return;
+    }
+
+    if (mensaje.length < 4) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        El mensaje debe tener al menos 4 caracteres.
+      </p>`;
+      return;
+    }
+
+    //
+
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    result.innerHTML = `
+      <p class="font-semibold italic">
+        Espere por favor...
+      </p>`;
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.innerHTML = `
+      <p class="font-semibold italic text-green-500">
+        Enviado correctamente!
+      </p>`;
+        } else {
+          console.log(response);
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "¡Algo salió mal!";
+      })
+      .then(function () {
+        form.reset();
+        setTimeout(() => {
+          result.style.display = "none";
+        }, 3000);
+      });
+  });
+</script>
