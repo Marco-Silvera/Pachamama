@@ -40,7 +40,7 @@ function Tab({ circuito }) {
           <div className="bg-[#226428] h-20 md:h-24 w-full flex items-center justify-center absolute bottom-0 left-0 rounded-bl-lg rounded-br-lg">
             <a
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
-              href="/reserva/"
+              href="/reservation/"
             >
               Reserva ahora
             </a>
@@ -54,7 +54,7 @@ function Tab({ circuito }) {
           <div className="bg-[#226428] h-20 md:h-24 w-full flex items-center justify-center absolute bottom-0 left-0 rounded-bl-lg rounded-br-lg">
             <a
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
-              href="/reserva/"
+              href="/reservation/"
             >
               Reserva ahora
             </a>
@@ -68,7 +68,7 @@ function Tab({ circuito }) {
           <div className="bg-[#226428] h-20 md:h-24 w-full flex items-center justify-center absolute bottom-0 left-0 rounded-bl-lg rounded-br-lg">
             <a
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
-              href="/reserva/"
+              href="/reservation/"
             >
               Reserva ahora
             </a>
