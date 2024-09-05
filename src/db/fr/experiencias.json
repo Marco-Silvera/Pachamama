@@ -1,6 +1,6 @@
 [
     {
-        "nombre": "aventura-inca",
+        "nombre": "aventura-incafr",
         "imagenes": [
             "/circuitos/Portada - Aventura Inca.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -9,7 +9,7 @@
         ]
     },
     {
-        "nombre": "corazon-del-imperio-inca",
+        "nombre": "corazon-del-imperio-incafr",
         "imagenes": [
             "/circuitos/Portada - Corazon del Imperio Inca.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -18,7 +18,7 @@
         ]
     },
     {
-        "nombre": "esencia-del-peru",
+        "nombre": "esencia-del-perufr",
         "imagenes": [
             "/circuitos/Portada - Esencia del Peru.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -27,7 +27,7 @@
         ]
     },
     {
-        "nombre": "panorama-peruano",
+        "nombre": "panorama-peruanofr",
         "imagenes": [
             "/circuitos/Portada - Panorama Peruano.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -36,7 +36,7 @@
         ]
     },
     {
-        "nombre": "del-pacifico-al-amazonas",
+        "nombre": "del-pacifico-al-amazonasfr",
         "imagenes": [
             "/circuitos/Portada - Del Pacifico al Amazonas.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "nombre": "tesoros-del-norte",
+        "nombre": "tesoros-del-nortefr",
         "imagenes": [
             "/circuitos/Portada - Tesoros del Norte.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "nombre": "a-lo-largo-de-los-andes",
+        "nombre": "a-lo-largo-de-los-andesfr",
         "imagenes": [
             "/circuitos/Portada - A lo largo de los Andes.png",
             "/experiencias/Experiencias - Cruz del Condor.webp",
