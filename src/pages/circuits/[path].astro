@@ -1,9 +1,6 @@
 ---
 import HeroCircuito from "../../components/es/HeroCircuito.astro";
-import Guia from "../../components/es/Guia.astro";
-// import Experiencias from "../../components/Experiencias.astro";
-
-import alternativasData from "../../db/fr/alternativas.json";
+import GuiaFr from "../../components/fr/GuiaFr.astro";
 import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import experienciasData from "../../db/fr/experiencias.json";
@@ -45,7 +42,7 @@ const images = experiencias ? experiencias.imagenes : [];
 
   <Tab circuito={circuito} client:load />
 
-  <Guia />
+  <GuiaFr />
 
   <FeaturedImageGallery images={images} client:load />
 </LayoutFr>

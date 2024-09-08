@@ -30,6 +30,12 @@ const testimonialList = [
 			rating: 5,
 			content:
 				'"Nous étions 4 personnes. Ce voyage avait été organisé par l’Agence Pachamama qui s’est montrée très ouverte à nos souhaits et nos demandes particulières. Nous avons été conseillés, guidés, transportés et accompagnés par des personnes compétentes et qui nous…"',
+		},
+		{
+			name: "Deladriere",
+			rating: 5,
+			content:
+				'On revient du Pérou, nous étions 8 personnes. Pachamama a fait un travail fantastique et de grandes qualités. Les hôtels étaient conformes à nos attentes, les guides connaissaient leurs matières. On n’a jamais été laissé au dépourvu, tout a été pris en main de manière très professionnelle. On compte revenir vers eux pour un séjour en Bolivie et au nord du Pérou.',
 		}
 	],
 ];
@@ -78,18 +84,18 @@ Rating.propTypes = {
 const TestimonialItem = ({ item }) => {
 	const { rating, content, name } = item;
 	return (
-		<div className="bg-white shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-5 md:min-h-[365px]">
-			<div className="mt-4">
-				<div className="flex justify-between items-center mb-6">
+		<div className="bg-white shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-5 md:min-h-[300px]">
+			<div className="mt-0 sm:mt-4 mb-6">
+				<div className="flex justify-between items-center mb-3 md:mb-6">
 					<div className="flex items-center">
 
 						<div>
-							<h5 className="text-lg sm:text-xl break-all font-medium">{name}</h5>
+							<h5 className="text-base md:text-lg sm:text-xl break-all font-medium">{name}</h5>
 						</div>
 					</div>
 					<Rating rating={rating} showLabel={false} />
 				</div>
-				<p className="leading-[1.8] opacity-80 mb-6">{content}</p>
+				<p className="leading-[1.8] opacity-80 text-sm md:text-base">{content}</p>
 			</div>
 		</div>
 	);

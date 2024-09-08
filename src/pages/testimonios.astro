@@ -3,15 +3,17 @@ import testimonioData from "../db/es/testimonios.json";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Testimonios" rutaEsp="/testimonios" rutaFr="/témoignages">
-  <section class="flex flex-col gap-16 self-center max-w-[1200px] py-20 p-5">
+<Layout title="Testimonios" rutaEsp="/testimonios" rutaFr="/temoignages">
+  <section
+    class="flex flex-col gap-10 md:gap-20 self-center max-w-[1200px] py-20 p-5"
+  >
     <h2 class="text-3xl lg:text-6xl font-bold uppercase text-center">
       Testimonios
     </h2>
     <section class="flex flex-wrap justify-center gap-10">
       {
         testimonioData.map((testimonio) => (
-          <article class="max-w-[300px] w-full flex flex-col gap-5 items-center mb-10">
+          <article class="max-w-[300px] w-full flex flex-col gap-5 items-center">
             <img
               class="aspect-[2/3] object-cover rounded-lg shadow-xl"
               src={testimonio.imagen}
