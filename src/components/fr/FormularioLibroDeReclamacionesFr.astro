@@ -1,0 +1,252 @@
+---
+
+---
+
+<form
+  method="POST"
+  id="formlibrodereclamacionesfr"
+  class="flex flex-col gap-5 w-full max-w-[480px]"
+>
+  <input
+    type="hidden"
+    name="access_key"
+    value="1028b022-e1af-4a36-85cc-f5434091106c"
+  />
+  <input
+    type="hidden"
+    name="form_name"
+    value="Libro de Reclamaciones Pachamama FR"
+  />
+  <input type="hidden" name="subject" value="Libro de Reclamaciones FR" />
+  <input type="checkbox" name="botcheck" id="" style="display: none;" />
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-consulta-reclamaciones"
+      class="text-lg md:text-xl font-semibold">Type de requête</label
+    >
+    <select
+      id="text-field-consulta-reclamaciones"
+      name="consulta"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+    >
+      <option value="" disabled selected hidden>Sélectionnez une option</option>
+      <option value="reclamo">Réclamer</option>
+      <option value="queja">Plainte</option>
+    </select>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-nombre-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Nom</label
+    >
+    <input
+      id="text-field-nombre-reclamaciones-fr"
+      type="text"
+      name="nombre"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Entrez le nom..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Min. 3 caractères / pas de symboles ni de chiffres)
+    </p>
+  </div>
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-correo-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Mail</label
+    >
+    <input
+      id="text-field-correo-reclamaciones-fr"
+      type="email"
+      name="correo"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Entrez l'e-mail..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-telefono-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Téléphone</label
+    >
+    <input
+      id="text-field-telefono-reclamaciones-fr"
+      type="tel"
+      name="telefono"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Entrez le téléphone..."
+    />
+    <p class="text-gray-400 font-semibold italic">
+      (Min. 7 chiffres / chiffres uniquement)
+    </p>
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-edad-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Âge</label
+    >
+    <input
+      id="text-field-edad-reclamaciones-fr"
+      type="number"
+      name="edad"
+      min="1"
+      max="100"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Entrez l'âge..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-pais-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Pays d'origine</label
+    >
+    <input
+      id="text-field-pais-reclamaciones-fr"
+      type="text"
+      name="pais"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
+      placeholder="Entrez le nom du pays..."
+    />
+  </div>
+
+  <div class="flex flex-col gap-2">
+    <label
+      for="text-field-mensaje-reclamaciones-fr"
+      class="text-lg md:text-xl font-semibold">Message</label
+    >
+    <textarea
+      id="text-field-mensaje-reclamaciones-fr"
+      name="mensaje"
+      required
+      class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
+      placeholder="Entrez un message..."></textarea>
+    <p class="text-gray-400 font-semibold italic">(Min. 4 caractères)</p>
+  </div>
+
+  <div class="flex items-start gap-2">
+    <input
+      type="checkbox"
+      id="declaracion"
+      name="declaracion"
+      required
+      class="mt-1"
+    />
+    <label for="declaracion" class="text-sm">
+      Je déclare que je suis le propriétaire du service et j'accepte le contenu
+      de celui-ci formulaire attestant sous déclaration sous serment la véracité
+      des faits décrit. Pachamama Turismo Alternativo se réserve le droit de
+      prendre les actions en justice pertinentes en cas de vérification de
+      fausseté ou inexactitude des déclarations faites ci-dessus.
+    </label>
+  </div>
+
+  <button
+    type="submit"
+    class="border-2 border-[#226428] bg-[#226428] p-2 w-40 text-white font-semibold text-xl hover:bg-white hover:text-[#226428] transition-colors"
+    >Envoyer</button
+  >
+
+  <div id="resultlibrodereclamacionesfr"></div>
+</form>
+<script>
+  const form = document.getElementById("formlibrodereclamacionesfr");
+  const result = document.getElementById("resultlibrodereclamacionesfr");
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    // Validar si el checkbox está marcado
+    const declaracionCheckbox = form.declaracion;
+    if (!declaracionCheckbox.checked) {
+      result.innerHTML = `
+        <p class="font-semibold italic text-red-500">
+          Debes aceptar la declaración jurada antes de enviar el formulario.
+        </p>`;
+      return;
+    }
+
+    // Obtener valores de los campos
+    const nombre = form.nombre.value.trim();
+    const telefono = form.telefono.value.trim();
+    const mensaje = form.mensaje.value.trim();
+
+    // Validaciones
+    const nombreRegex = /^[A-Za-z\s]{3,}$/;
+    const telefonoRegex = /^[0-9]{7,}$/;
+
+    if (!nombreRegex.test(nombre)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        Le nom doit comporter au moins 3 caractères et ne contenir aucun chiffre ni symbole.
+      </p>`;
+      return;
+    }
+
+    if (!telefonoRegex.test(telefono)) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        Le téléphone doit comporter au moins 7 chiffres et ne peut contenir que des chiffres.
+      </p>`;
+      return;
+    }
+
+    if (mensaje.length < 4) {
+      result.innerHTML = `
+      <p class="font-semibold italic text-red-500">
+        Le message doit comporter au moins 4 caractères.
+      </p>`;
+      return;
+    }
+
+    //
+
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+    result.innerHTML = `
+      <p class="font-semibold italic">
+        S'il vous plaît, attendez...
+      </p>`;
+
+    fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    })
+      .then(async (response) => {
+        let json = await response.json();
+        if (response.status == 200) {
+          result.innerHTML = `
+      <p class="font-semibold italic text-green-500">
+        Envoyé correctement!
+      </p>`;
+        } else {
+          console.log(response);
+          result.innerHTML = json.message;
+        }
+      })
+      .catch((error) => {
+        console.log(error);
+        result.innerHTML = "Quelque chose s'est mal passé!";
+      })
+      .then(function () {
+        form.reset();
+        setTimeout(() => {
+          result.style.display = "none";
+        }, 3000);
+      });
+  });
+</script>

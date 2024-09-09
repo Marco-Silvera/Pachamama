@@ -1,0 +1,32 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FormularioLibroReclamaciones from "../components/es/FormularioLibroDeReclamaciones.astro";
+---
+
+<Layout
+  title="Libro de Reclamaciones"
+  rutaEsp="/libro-de-reclamaciones"
+  rutaFr="/livre-des-plaintes"
+>
+  <section
+    class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center py-20 p-5"
+  >
+    <div class="max-w-[480px] w-full flex flex-col gap-5">
+      <h2
+        class="text-3xl md:text-5xl text-center lg:text-start font-bold uppercase"
+      >
+        Libro de Reclamaciones
+      </h2>
+      <p class="text-base md:text-xl">
+        El libro de reclamaciones es un documento donde el consumidor informa
+        sobre un reclamo: cuando tiene carácter de infracción o sobre una queja,
+        cuando está relacionada a un malestar o descontento por el servicio.
+      </p>
+      <p class="text-xs md:text-sm">
+        Una vez que rellene el formulario, uno de nuestros asesores se
+        comunicará con usted a la brevedad posible.
+      </p>
+    </div>
+    <FormularioLibroReclamaciones />
+  </section>
+</Layout>

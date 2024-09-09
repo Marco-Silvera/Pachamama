@@ -1,0 +1,33 @@
+---
+import LayoutFr from "../layouts/LayoutFr.astro";
+import FormularioLibroDeReclamacionesFr from "../components/fr/FormularioLibroDeReclamacionesFr.astro";
+---
+
+<LayoutFr
+  title="Livre des Plaintes"
+  rutaEsp="/libro-de-reclamaciones"
+  rutaFr="/livre-des-plaintes"
+>
+  <section
+    class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center py-20 p-5"
+  >
+    <div class="max-w-[480px] w-full flex flex-col gap-5">
+      <h2
+        class="text-3xl md:text-5xl text-center lg:text-start font-bold uppercase"
+      >
+        Livre des Plaintes
+      </h2>
+      <p class="text-base md:text-xl">
+        Le livre des plaintes est un document où le consommateur signale une
+        plainte : lorsqu’elle a le caractère d’une infraction ou d’une
+        réclamation, lorsqu’elle est liée à un malaise ou à une insatisfaction
+        vis-à-vis du service.
+      </p>
+      <p class="text-xs md:text-sm">
+        Une fois le formulaire rempli, un de nos conseillers vous contactera
+        dans les plus brefs délais.
+      </p>
+    </div>
+    <FormularioLibroDeReclamacionesFr />
+  </section>
+</LayoutFr>
