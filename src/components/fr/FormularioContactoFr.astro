@@ -18,7 +18,7 @@
 
   <div class="flex flex-col gap-2">
     <label for="text-field-nombre-fr" class="text-lg md:text-xl font-semibold"
-      >Nombre</label
+      >Nom</label
     >
     <input
       id="text-field-nombre-fr"
@@ -26,15 +26,15 @@
       name="nombre"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
-      placeholder="Ingresa nombre..."
+      placeholder="Entrez le nom..."
     />
     <p class="text-gray-400 font-semibold italic">
-      (Mín. 3 caracteres / no símbolos ni números)
+      (Min. 3 caractères / pas de symboles ni de chiffres)
     </p>
   </div>
   <div class="flex flex-col gap-2">
     <label for="text-field-correo-fr" class="text-lg md:text-xl font-semibold"
-      >Correo</label
+      >Mail</label
     >
     <input
       id="text-field-correo-fr"
@@ -42,13 +42,13 @@
       name="correo"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
-      placeholder="Ingresa correo..."
+      placeholder="Entrez l'e-mail..."
     />
   </div>
 
   <div class="flex flex-col gap-2">
     <label for="text-field-telefono-fr" class="text-lg md:text-xl font-semibold"
-      >Teléfono</label
+      >Téléphone</label
     >
     <input
       id="text-field-telefono-fr"
@@ -56,30 +56,30 @@
       name="telefono"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428]"
-      placeholder="Ingresa telefono..."
+      placeholder="Entrez le téléphone..."
     />
     <p class="text-gray-400 font-semibold italic">
-      (Mín. 7 digitos / solo números)
+      (Min. 7 chiffres / chiffres uniquement)
     </p>
   </div>
 
   <div class="flex flex-col gap-2">
     <label for="text-field-mensaje-fr" class="text-lg md:text-xl font-semibold"
-      >Mensaje</label
+      >Message</label
     >
     <textarea
       id="text-field-mensaje-fr"
       name="mensaje"
       required
       class="border outline-none p-3 rounded-lg border-gray-300 focus:border-[#226428] h-24 resize-none"
-      placeholder="Ingresa mensaje..."></textarea>
-    <p class="text-gray-400 font-semibold italic">(Mín. 4 caracteres)</p>
+      placeholder="Entrez un message..."></textarea>
+    <p class="text-gray-400 font-semibold italic">(Min. 4 caractères)</p>
   </div>
 
   <button
     type="submit"
     class="border-2 border-[#226428] bg-[#226428] p-2 w-40 text-white font-semibold text-xl hover:bg-white hover:text-[#226428] transition-colors"
-    >Enviar</button
+    >Envoyer</button
   >
 
   <div id="resultfr"></div>
@@ -105,7 +105,7 @@
     if (!nombreRegex.test(nombre)) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
-        El nombre debe tener al menos 3 caracteres y no contener números o símbolos.
+        Le nom doit comporter au moins 3 caractères et ne contenir aucun chiffre ni symbole.
       </p>`;
       return;
     }
@@ -113,7 +113,7 @@
     if (!telefonoRegex.test(telefono)) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
-        El teléfono debe tener al menos 7 dígitos y solo puede contener números.
+        Le téléphone doit comporter au moins 7 chiffres et ne peut contenir que des chiffres.
       </p>`;
       return;
     }
@@ -121,7 +121,7 @@
     if (mensaje.length < 4) {
       result.innerHTML = `
       <p class="font-semibold italic text-red-500">
-        El mensaje debe tener al menos 4 caracteres.
+        Le message doit comporter au moins 4 caractères.
       </p>`;
       return;
     }
@@ -133,7 +133,7 @@
     const json = JSON.stringify(object);
     result.innerHTML = `
       <p class="font-semibold italic">
-        Espere por favor...
+        S'il vous plaît, attendez...
       </p>`;
 
     fetch("https://api.web3forms.com/submit", {
@@ -149,7 +149,7 @@
         if (response.status == 200) {
           result.innerHTML = `
       <p class="font-semibold italic text-green-500">
-        Enviado correctamente!
+        Envoyé correctement!
       </p>`;
         } else {
           console.log(response);
@@ -158,7 +158,7 @@
       })
       .catch((error) => {
         console.log(error);
-        result.innerHTML = "¡Algo salió mal!";
+        result.innerHTML = "Quelque chose s'est mal passé!";
       })
       .then(function () {
         form.reset();
