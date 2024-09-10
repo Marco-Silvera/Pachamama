@@ -1,10 +1,6 @@
 ---
 import HeroCircuito from "../../components/es/HeroCircuito.astro";
 import Guia from "../../components/es/Guia.astro";
-// import Experiencias from "../../components/Experiencias.astro";
-
-import alternativasData from "../../db/es/alternativas.json";
-
 import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import experienciasData from "../../db/es/experiencias.json";
@@ -26,7 +22,7 @@ export function getStaticPaths() {
   return paths;
 }
 
-// Buscamos las imagenes segun el path
+// Imagenes segun el path
 const experiencias = experienciasData.find((e) => e.nombre === path);
 const images = experiencias ? experiencias.imagenes : [];
 ---
@@ -43,8 +39,6 @@ const images = experiencias ? experiencias.imagenes : [];
   />
 
   <Tab circuito={circuito} client:load />
-
   <Guia />
-
   <FeaturedImageGallery images={images} client:load />
 </Layout>

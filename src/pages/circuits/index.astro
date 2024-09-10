@@ -1,17 +1,15 @@
 ---
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import LayoutFr from "../../layouts/LayoutFr.astro";
-import Francia from "../../components/es/Francia.astro";
 ---
 
 <LayoutFr title="Circuitos" rutaEsp="/circuitos" rutaFr="/circuits">
-  <Francia />
   <div class="flex justify-center py-20 px-5">
     <section
       class="flex flex-col gap-10 lg:gap-20 max-w-[1200px] w-full self-center"
     >
       <h2 class="uppercase text-3xl lg:text-6xl font-bold text-center">
-        Circuitos Destacados
+        Circuits en vedette
       </h2>
       <div class="flex flex-wrap justify-center gap-5">
         {
@@ -21,7 +19,7 @@ import Francia from "../../components/es/Francia.astro";
                 <img
                   class="w-full h-full bg-cover object-center object-cover group-hover:scale-110 transition-all ease-in-out duration-500"
                   src={circuito.imagenes[0]}
-                  alt={`Caratula de ${circuito.nombre}`}
+                  alt={`Couverture de ${circuito.nombre}`}
                 />
 
                 <div class=" absolute bg-[#226428] text-[#C9CE92] text-[28px] w-full text-center p-2.5 bottom-0 group-hover:bg-[#C9CE92] group-hover:text-[#226428] transition-all duration-500 ease-in-out">
