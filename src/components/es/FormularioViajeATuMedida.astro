@@ -235,72 +235,233 @@
     />
   </div>
 
-  <!-- <div class="flex flex-col gap-2">
-    <label class="text-lg md:text-xl font-semibold">Intereses Especiales</label>
-    <div class="flex flex-col gap-2">
-      <div>
-        <input
-          type="checkbox"
-          id="interes1"
-          name="intereses"
-          value="opcion1"
-          required
-          class="mr-2"
-        />
-        <label for="interes1">Opción 1</label>
-      </div>
-      <div>
-        <input
-          type="checkbox"
-          id="interes2"
-          name="intereses"
-          value="opcion2"
-          class="mr-2"
-        />
-        <label for="interes2">Opción 2</label>
-      </div>
-      <div>
-        <input
-          type="checkbox"
-          id="interes3"
-          name="intereses"
-          value="opcion3"
-          class="mr-2"
-        />
-        <label for="interes3">Opción 3</label>
-      </div>
-      <div>
-        <input
-          type="checkbox"
-          id="interes4"
-          name="intereses"
-          value="opcion4"
-          class="mr-2"
-        />
-        <label for="interes4">Opción 4</label>
-      </div>
-      <div>
-        <input
-          type="checkbox"
-          id="interes5"
-          name="intereses"
-          value="opcion5"
-          class="mr-2"
-        />
-        <label for="interes5">Opción 5</label>
-      </div>
-      <div>
-        <input
-          type="checkbox"
-          id="interes6"
-          name="intereses"
-          value="opcion6"
-          class="mr-2"
-        />
-        <label for="interes6">Opción 6</label>
-      </div>
+  <!-- Checkboxes de Intereses Especiales -->
+  <div class="flex flex-col gap-2 mt-4">
+    <label class="text-lg md:text-xl font-semibold"
+      >Intereses Especiales (puede escoger más de un interés)</label
+    >
+
+    <div>
+      <input
+        type="checkbox"
+        id="turismo-clasico"
+        name="intereses"
+        value="Turismo Clásico"
+      />
+      <label for="turismo-clasico">Turismo Clásico</label>
     </div>
-  </div> -->
+
+    <div>
+      <input
+        type="checkbox"
+        id="turismo-comunitario"
+        name="intereses"
+        value="Turismo Comunitario"
+      />
+      <label for="turismo-comunitario">Turismo Comunitario</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="cultural-arqueologico"
+        name="intereses"
+        value="Cultural y Arqueológico"
+      />
+      <label for="cultural-arqueologico">Cultural y Arqueológico</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="gastronomico"
+        name="intereses"
+        value="Gastronómico"
+      />
+      <label for="gastronomico">Gastronómico</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="naturaleza-ecoturismo"
+        name="intereses"
+        value="Naturaleza y Ecoturismo"
+      />
+      <label for="naturaleza-ecoturismo">Naturaleza y Ecoturismo</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="entretenimiento-diversion"
+        name="intereses"
+        value="Entretenimiento y Diversión"
+      />
+      <label for="entretenimiento-diversion">Entretenimiento y Diversión</label>
+    </div>
+  </div>
+
+  <!-- Checkboxes de Destinos SUR -->
+  <div class="flex flex-col gap-2 mt-4">
+    <label class="text-lg md:text-xl font-semibold"
+      >Destinos SUR (puede escoger más de un destino)</label
+    >
+
+    <div>
+      <input type="checkbox" id="lima" name="destinosur" value="Lima" />
+      <label for="lima">Lima</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="islas-ballestas"
+        name="destinosur"
+        value="Islas Ballestas"
+      />
+      <label for="islas-ballestas">Islas Ballestas - Paracas - Ica</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="nazca" name="destinosur" value="Nazca" />
+      <label for="nazca">Nazca</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="arequipa"
+        name="destinosur"
+        value="Arequipa - Cañon del Colca"
+      />
+      <label for="arequipa">Arequipa - Cañon del Colca</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="puno"
+        name="destinosur"
+        value="Puno - Lago Titicaca"
+      />
+      <label for="puno">Puno - Lago Titicaca</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="cusco"
+        name="destinosur"
+        value="Cusco - Machu Picchu"
+      />
+      <label for="cusco">Cusco - Machu Picchu</label>
+    </div>
+  </div>
+
+  <!-- Checkboxes de Destinos NORTE -->
+  <div class="flex flex-col gap-2 mt-4">
+    <label class="text-lg md:text-xl font-semibold"
+      >Destinos NORTE (puede escoger más de un destino)</label
+    >
+
+    <div>
+      <input type="checkbox" id="huaraz" name="destinonorte" value="Huaraz" />
+      <label for="huaraz">Huaraz - Cordillera Blanca</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="trujillo"
+        name="destinonorte"
+        value="Trujillo"
+      />
+      <label for="trujillo">Trujillo - Chanchan</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="chiclayo"
+        name="destinonorte"
+        value="Chiclayo"
+      />
+      <label for="chiclayo">Chiclayo</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="cajamarca"
+        name="destinonorte"
+        value="Cajamarca"
+      />
+      <label for="cajamarca">Cajamarca</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="chachapoyas"
+        name="destinonorte"
+        value="Chachapoyas"
+      />
+      <label for="chachapoyas">Chachapoyas - Kuelap</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="tarapoto"
+        name="destinonorte"
+        value="Tarapoto"
+      />
+      <label for="tarapoto">Tarapoto (selva norte)</label>
+    </div>
+
+    <div>
+      <input type="checkbox" id="piura" name="destinonorte" value="Piura" />
+      <label for="piura">Piura - Playas</label>
+    </div>
+  </div>
+
+  <!-- Checkboxes de Destinos AMAZONIA -->
+  <div class="flex flex-col gap-2 mt-4">
+    <label class="text-lg md:text-xl font-semibold"
+      >Destinos AMAZONIA (puede escoger más de un destino)</label
+    >
+
+    <div>
+      <input
+        type="checkbox"
+        id="iquitos"
+        name="destinoamazonia"
+        value="Iquitos"
+      />
+      <label for="iquitos">Iquitos</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="puerto-maldonado"
+        name="destinoamazonia"
+        value="Puerto Maldonado"
+      />
+      <label for="puerto-maldonado">Puerto Maldonado - Tambopata</label>
+    </div>
+
+    <div>
+      <input
+        type="checkbox"
+        id="chanchamayo"
+        name="destinoamazonia"
+        value="Chanchamayo"
+      />
+      <label for="chanchamayo">Chanchamayo - Selva Central</label>
+    </div>
+  </div>
 
   <div class="flex flex-col gap-2">
     <label
@@ -369,9 +530,52 @@
       return;
     }
 
-    //
-
     const formData = new FormData(form);
+
+    // INTERESES ESPECIALES
+
+    const intereses = [];
+    form
+      .querySelectorAll('input[name="intereses"]:checked')
+      .forEach((checkbox) => {
+        intereses.push(checkbox.value);
+      });
+
+    formData.set("intereses", intereses);
+
+    // DESTINOS SUR
+
+    const destinosur = [];
+    form
+      .querySelectorAll('input[name="destinosur"]:checked')
+      .forEach((checkbox) => {
+        destinosur.push(checkbox.value);
+      });
+
+    formData.set("destinosur", destinosur);
+
+    // DESTINOS NORTE
+
+    const destinonorte = [];
+    form
+      .querySelectorAll('input[name="destinonorte"]:checked')
+      .forEach((checkbox) => {
+        destinonorte.push(checkbox.value);
+      });
+
+    formData.set("destinonorte", destinonorte);
+
+    // DESTINOS AMAZONIA
+
+    const destinoamazonia = [];
+    form
+      .querySelectorAll('input[name="destinoamazonia"]:checked')
+      .forEach((checkbox) => {
+        destinoamazonia.push(checkbox.value);
+      });
+
+    formData.set("destinoamazonia", destinoamazonia);
+
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
     result.innerHTML = `

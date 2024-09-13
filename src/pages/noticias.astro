@@ -3,7 +3,11 @@ import Layout from "../layouts/Layout.astro";
 import HeroNoticia from "../components/es/HeroNoticia.astro";
 ---
 
-<Layout title="Noticias" rutaEsp="/noticias" rutaFr="/nouvelles">
+<Layout
+  title="Noticias - Pachamama Turismo Alternativo"
+  rutaEsp="/noticias"
+  rutaFr="/nouvelles"
+>
   <HeroNoticia />
   <section
     class="flex flex-col lg:flex-row gap-10 max-w-[1000px] self-center justify-center items-center py-20 px-5"
@@ -80,28 +84,6 @@ import HeroNoticia from "../components/es/HeroNoticia.astro";
         </li>
       </ul>
     </div>
-
-    <!-- <div
-      class="fb-page w-[460px]"
-      data-href="https://www.facebook.com/pachamamaturismoalternativo"
-      data-tabs="timeline"
-      data-width="460"
-      data-height=""
-      data-small-header="false"
-      data-adapt-container-width="false"
-      data-hide-cover="false"
-      data-show-facepile="false"
-    >
-      <blockquote
-        id="fbPage"
-        cite="https://www.facebook.com/pachamamaturismoalternativo"
-        class="fb-xfbml-parse-ignore"
-      >
-        <a href="https://www.facebook.com/pachamamaturismoalternativo"
-          >Pachamama - Turismo Alternativo Perú</a
-        >
-      </blockquote>
-    </div> -->
   </section>
 
   <section
@@ -156,12 +138,3 @@ import HeroNoticia from "../components/es/HeroNoticia.astro";
     </div>
   </section>
 </Layout>
-
-<!-- <div id="fb-root"></div>
-
-<script
-  async
-  defer
-  crossorigin="anonymous"
-  src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v20.0"
-  nonce="LwtjoUGZ"></script> -->

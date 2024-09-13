@@ -4,7 +4,7 @@ import GuiaFr from "../../components/fr/GuiaFr.astro";
 import circuitosData from "../../db/es/circuitos.json";
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import experienciasData from "../../db/fr/experiencias.json";
-import Tab from "../../components/fr/Tab";
+import TabFr from "../../components/fr/TabFr.jsx";
 import { FeaturedImageGallery } from "../../components/es/FeaturedImageGallery.jsx";
 import LayoutFr from "../../layouts/LayoutFr.astro";
 
@@ -28,7 +28,7 @@ const images = experiencias ? experiencias.imagenes : [];
 ---
 
 <LayoutFr
-  title={circuito.nombre}
+  title=`${circuito.nombre} - Pachamama Turismo Alternativo`
   rutaEsp={circuitoEs ? `/circuitos/${circuitoEs.path}` : "#"}
   rutaFr={circuito.path}
 >
@@ -38,7 +38,7 @@ const images = experiencias ? experiencias.imagenes : [];
     descripcion={circuito.descripcion}
   />
 
-  <Tab circuito={circuito} client:load />
+  <TabFr circuito={circuito} client:load />
   <GuiaFr />
   <FeaturedImageGallery images={images} client:load />
 </LayoutFr>
