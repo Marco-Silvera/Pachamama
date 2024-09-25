@@ -2,64 +2,64 @@
     {
         "nombre": "aventura-incafr",
         "imagenes": [
-            "/circuitos/Portada - Aventura Inca.png",
+            "/circuitos/Portada - Aventura Inca.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "corazon-del-imperio-incafr",
         "imagenes": [
-            "/circuitos/Portada - Corazon del Imperio Inca.png",
+            "/circuitos/Portada - Corazon del Imperio Inca.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "esencia-del-perufr",
         "imagenes": [
-            "/circuitos/Portada - Esencia del Peru.png",
+            "/circuitos/Portada - Esencia del Peru.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "panorama-peruanofr",
         "imagenes": [
-            "/circuitos/Portada - Panorama Peruano.png",
+            "/circuitos/Portada - Panorama Peruano.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "del-pacifico-al-amazonasfr",
         "imagenes": [
-            "/circuitos/Portada - Del Pacifico al Amazonas.png",
+            "/circuitos/Portada - Del Pacifico al Amazonas.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "tesoros-del-nortefr",
         "imagenes": [
-            "/circuitos/Portada - Tesoros del Norte.png",
+            "/circuitos/Portada - Tesoros del Norte.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     },
     {
         "nombre": "a-lo-largo-de-los-andesfr",
         "imagenes": [
-            "/circuitos/Portada - A lo largo de los Andes.png",
+            "/circuitos/Portada - A lo largo de los Andes.webp",
             "/experiencias/Experiencias - Cruz del Condor.webp",
-            "/experiencias/Experiencias - Isla de los Uros.jpg",
-            "/experiencias/Experiencias - Plaza de Armas.jpg"
+            "/experiencias/Experiencias - Isla de los Uros.webp",
+            "/experiencias/Experiencias - Plaza de Armas.webp"
         ]
     }
 ]

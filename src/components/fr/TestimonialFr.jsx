@@ -117,8 +117,8 @@ const TestimonialFr = () => {
 
 
 	return (
-		<section className="ezy__testimonial21 light py-14 md:py-24 bg-white">
-			<div className="container px-5 mx-auto max-w-[1000px] w-full relative">
+		<section className="ezy__testimonial21 light py-14 md:py-24 bg-white self-center">
+			<div className="container px-5 max-w-[1000px] w-full relative">
 				<div className="flex justify-center text-center mb-6 lg:mb-12">
 					<div className="max-w-lg">
 						<h2 className="text-3xl leading-none md:text-[45px] font-bold mb-6 uppercase">
@@ -157,6 +157,5 @@ const TestimonialFr = () => {
 		</section>
 	);
 };
-
 
 export default TestimonialFr

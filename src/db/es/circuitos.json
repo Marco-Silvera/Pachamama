@@ -3,6 +3,7 @@
         "id": 1,
         "nombre": "Aventura Inca",
         "path": "aventura-inca",
+        "keypath": "aventura-inca",
         "descripcion": "Descripción breve del Circuito 1",
         "descripcion-principal": {
             "titulo-descripcion": "Descubre el Sur del Perú durante una aventura inolvidable",
@@ -10,14 +11,14 @@
         },
         "dias": 19,
         "imagenes": [
-            "/circuitos/Portada - Aventura Inca.png",
-            "/circuitos/Portada extendida - Aventura Inca.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Aventura Inca.webp",
+            "/circuitos/Portada extendida - Aventura Inca.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -150,6 +151,7 @@
         "id": 2,
         "nombre": "Corazón del imperio inca",
         "path": "corazon-del-imperio-inca",
+        "keypath": "corazon-del-imperio-inca",
         "descripcion": "Descripción breve del Circuito 2",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un recorrido por el sur del Perú que te llevará al Corazón del Imperio Inca!",
@@ -157,14 +159,14 @@
         },
         "dias": 18,
         "imagenes": [
-            "/circuitos/Portada - Corazon del Imperio Inca.png",
-            "/circuitos/Portada extendida - Corazon del Imperio Inca.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Corazon del Imperio Inca.webp",
+            "/circuitos/Portada extendida - Corazon del Imperio Inca.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -292,6 +294,7 @@
         "id": 3,
         "nombre": "Esencia del Perú",
         "path": "esencia-del-peru",
+        "keypath": "esencia-del-peru",
         "descripcion": "Descripción breve del Circuito 3",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un recorrido por los Imperdibles Destinos Turísticos del País!",
@@ -299,14 +302,14 @@
         },
         "dias": 14,
         "imagenes": [
-            "/circuitos/Portada - Esencia del Peru.png",
-            "/circuitos/Portada extendida - Esencia del Peru.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Esencia del Peru.webp",
+            "/circuitos/Portada extendida - Esencia del Peru.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -411,6 +414,7 @@
         "id": 4,
         "nombre": "Panorama Peruano",
         "path": "panorama-peruano",
+        "keypath": "panorama-peruano",
         "descripcion": "Descripción breve del Circuito 4",
         "descripcion-principal": {
             "titulo-descripcion": "Ten una visión panorámica de los lugares más importantes del Norte al Sur de Perú",
@@ -418,14 +422,14 @@
         },
         "dias": 18,
         "imagenes": [
-            "/circuitos/Portada - Panorama Peruano.png",
-            "/circuitos/Portada extendida - Panorama Peruano.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Panorama Peruano.webp",
+            "/circuitos/Portada extendida - Panorama Peruano.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -552,6 +556,7 @@
         "id": 5,
         "nombre": "Del Pacífico al Amazonas",
         "path": "del-pacifico-al-amazonas",
+        "keypath": "del-pacifico-al-amazonas",
         "descripcion": "Descripción breve del Circuito 5",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un viaje a lo largo de la Costa, Sierra y Selva!",
@@ -559,14 +564,14 @@
         },
         "dias": 18,
         "imagenes": [
-            "/circuitos/Portada - Del Pacifico al Amazonas.png",
-            "/circuitos/Portada - Del Pacifico al Amazonas.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Del Pacifico al Amazonas.webp",
+            "/circuitos/Portada - Del Pacifico al Amazonas.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -695,6 +700,7 @@
         "id": 6,
         "nombre": "Tesoros del Norte",
         "path": "tesoros-del-norte",
+        "keypath": "tesoros-del-norte",
         "descripcion": "Descripción breve del Circuito 6",
         "descripcion-principal": {
             "titulo-descripcion": "Un viaje a través la Historia, al encuentro de las Antiguas Culturas Peruanas y sus Herencias",
@@ -702,14 +708,14 @@
         },
         "dias": 19,
         "imagenes": [
-            "/circuitos/Portada - Tesoros del Norte.png",
-            "/circuitos/Portada extendida - Tesoros del Norte.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - Tesoros del Norte.webp",
+            "/circuitos/Portada extendida - Tesoros del Norte.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {
@@ -843,6 +849,7 @@
         "id": 7,
         "nombre": "A lo largo de los Andes",
         "path": "a-lo-largo-de-los-andes",
+        "keypath": "a-lo-largo-de-los-andes",
         "descripcion": "Descripción breve del Circuito 7",
         "descripcion-principal": {
             "titulo-descripcion": "Recorre el Camino Inca cruzando los Andes del sur del Perú",
@@ -850,14 +857,14 @@
         },
         "dias": 19,
         "imagenes": [
-            "/circuitos/Portada - A lo largo de los Andes.png",
-            "/circuitos/Portada extendida - A lo largo de los Andes.png",
-            "/ruta/imagen3.jpg",
-            "/ruta/imagen4.jpg",
-            "/ruta/imagen5.jpg",
-            "/ruta/imagen6.jpg",
-            "/ruta/imagen7.jpg",
-            "/ruta/imagen8.jpg"
+            "/circuitos/Portada - A lo largo de los Andes.webp",
+            "/circuitos/Portada extendida - A lo largo de los Andes.webp",
+            "/ruta/imagen3.webp",
+            "/ruta/imagen4.webp",
+            "/ruta/imagen5.webp",
+            "/ruta/imagen6.webp",
+            "/ruta/imagen7.webp",
+            "/ruta/imagen8.webp"
         ],
         "itinerario": [
             {

@@ -87,8 +87,6 @@
   form.addEventListener("submit", function (e) {
     e.preventDefault();
 
-    //
-
     // Obtener valores de los campos
     const nombre = form.nombre.value.trim();
     const telefono = form.telefono.value.trim();
@@ -121,8 +119,6 @@
       </p>`;
       return;
     }
-
-    //
 
     const formData = new FormData(form);
     const object = Object.fromEntries(formData);

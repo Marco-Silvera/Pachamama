@@ -12,7 +12,7 @@ const { path } = Astro.params;
 const circuito = circuitosData.find((c) => c.path === path);
 
 // Encontrar la ruta equivalente en francés
-const circuitoFr = circuitosDatafr.find((c) => c.nombre === circuito.nombre);
+const circuitoFr = circuitosDatafr.find((c) => c.keypath === circuito.keypath);
 
 export function getStaticPaths() {
   const paths = circuitosData.map((circuito) => ({
@@ -28,7 +28,7 @@ const images = experiencias ? experiencias.imagenes : [];
 ---
 
 <Layout
-  title={circuito.nombre}
+  title=`${circuito.nombre} - Pachamama Turismo Alternativo`
   rutaEsp={`/circuitos/${circuito.path}`}
   rutaFr={circuitoFr ? `/circuits/${circuitoFr.path}` : "#"}
 >

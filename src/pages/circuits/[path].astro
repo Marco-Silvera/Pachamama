@@ -12,7 +12,7 @@ const { path } = Astro.params;
 const circuito = circuitosDatafr.find((c) => c.path === path);
 
 // Encontrar la ruta equivalente en español
-const circuitoEs = circuitosData.find((c) => c.nombre === circuito.nombre);
+const circuitoEs = circuitosData.find((c) => c.keypath === circuito.keypath);
 
 export function getStaticPaths() {
   const paths = circuitosDatafr.map((circuito) => ({

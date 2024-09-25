@@ -20,7 +20,7 @@ export function FeaturedImageGallery({ images }) {
                             onClick={() => setActive(imgelink)}
                             src={imgelink}
                             className="max-h-[120px] aspect-square md:aspect-video cursor-pointer rounded-lg object-cover object-center"
-                            alt={`gallery-image-${index}`}
+                            alt={`imagen-${index}`}
                         />
                     </div>
                 ))}
