@@ -1,8 +1,8 @@
 ---
 import LayoutFr from "../layouts/LayoutFr.astro";
-import HeroFr from "../components/fr/HeroFr.astro";
 import destacadosFr from "../db/fr/destacados.json";
 import TestimonialFr from "../components/fr/TestimonialFr";
+import HeroSection from "../components/es/HeroSection.astro";
 ---
 
 <LayoutFr
@@ -10,7 +10,7 @@ import TestimonialFr from "../components/fr/TestimonialFr";
   rutaEsp="/inicio"
   rutaFr="/"
 >
-  <HeroFr />
+  <HeroSection client:load />
 
   <section
     class="w-full max-w-[1000px] flex lg:flex-row flex-col gap-5 sm:gap-10 justify-center items-center min-h-[500px] py-20 px-5 self-center"
@@ -70,6 +70,11 @@ import TestimonialFr from "../components/fr/TestimonialFr";
         </p>
       </div>
       <iframe
+        loading="lazy"
+        controls="0"
+        rel="0"
+        modestbranding="1"
+        playsinline="1"
         src="https://www.youtube-nocookie.com/embed/3ETVsjQngRQ?si=qrZMIOTf-lJcd_x_&controls=0"
         title="YouTube video player"
         frameborder="0"
@@ -106,5 +111,5 @@ import TestimonialFr from "../components/fr/TestimonialFr";
     </section>
   </section>
 
-  <TestimonialFr client:load />
+  <TestimonialFr client:visible />
 </LayoutFr>
