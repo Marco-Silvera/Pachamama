@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import destacados from "../db/es/destacados.json";
 import Testimonial from "../components/es/Testimonial";
-import HeroSectionFr from "../components/fr/HeroSectionFr.astro";
+import Hero from "../components/es/Hero.astro";
 ---
 
 <Layout
@@ -10,7 +10,7 @@ import HeroSectionFr from "../components/fr/HeroSectionFr.astro";
   rutaEsp="/inicio"
   rutaFr="/"
 >
-  <HeroSectionFr client:load />
+  <Hero />
   <section
     class="w-full max-w-[1000px] flex lg:flex-row flex-col gap-5 sm:gap-10 justify-center items-center min-h-[500px] py-20 px-5 self-center"
   >

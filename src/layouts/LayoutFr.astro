@@ -9,7 +9,7 @@ const { title, rutaEsp, rutaFr } = Astro.props;
 
 import HeaderFr from "../components/fr/HeaderFr.astro";
 import FooterFr from "../components/fr/FooterFr.astro";
-import { ViewTransitions } from "astro:transitions";
+// import { ViewTransitions } from "astro:transitions";
 import ViajeATuMedidaFr from "../components/fr/ViajeATuMedidaFr.astro";
 import ScrollingLogoFr from "../components/fr/ScrollingLogoFr.astro";
 ---
@@ -37,7 +37,7 @@ import ScrollingLogoFr from "../components/fr/ScrollingLogoFr.astro";
       defer></script>
     <script src="../path/to/flowbite/dist/flowbite.min.js" defer></script>
     <title>{title}</title>
-    <ViewTransitions />
+    <!-- <ViewTransitions /> -->
   </head>
   <body>
     <HeaderFr rutaEsp={rutaEsp} rutaFr={rutaFr} />
