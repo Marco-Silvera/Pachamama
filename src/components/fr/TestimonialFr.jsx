@@ -143,12 +143,14 @@ const TestimonialFr = () => {
 					<button
 						className="text-lg bg-white shadow-2xl opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full mr-4"
 						onClick={() => handleControl("prev")}
+						aria-label="Ir a los testimonios anteriores"
 					>
 						<FontAwesomeIcon icon={faAngleLeft} />
 					</button>
 					<button
 						className="text-lg bg-white shadow-2xl opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full"
 						onClick={() => handleControl("next")}
+						aria-label="Ir a los siguientes testimonios"
 					>
 						<FontAwesomeIcon icon={faAngleRight} />
 					</button>
