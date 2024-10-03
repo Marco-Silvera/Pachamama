@@ -3,6 +3,9 @@ import LayoutFr from "../layouts/LayoutFr.astro";
 import destacadosFr from "../db/fr/destacados.json";
 import TestimonialFr from "../components/fr/TestimonialFr";
 import HeroFr from "../components/fr/HeroFr.astro";
+
+const videoId = "3ETVsjQngRQ";
+const videoPreview = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
 ---
 
 <LayoutFr
@@ -70,19 +73,37 @@ import HeroFr from "../components/fr/HeroFr.astro";
           aujourd’hui, découvrez nos circuits les plus attractifs.
         </p>
       </div>
-      <iframe
-        loading="lazy"
-        controls="0"
-        rel="0"
-        modestbranding="1"
-        playsinline="1"
-        src="https://www.youtube-nocookie.com/embed/3ETVsjQngRQ?si=qrZMIOTf-lJcd_x_&controls=0"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-        class="aspect-video xl:max-w-[440px] max-w-[600px] w-full"></iframe>
+      <div
+        class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+      >
+        <img
+          src={videoPreview}
+          alt="Vista previa del video"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 flex justify-center items-center">
+          <div class="absolute inset-0 flex justify-center items-center">
+            <div
+              class="bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-10 w-10 text-black"
+                fill="black"
+                viewBox="0 0 24 24"
+                stroke="black"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M14.752 11.168l-5.197-3.028A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -114,3 +135,24 @@ import HeroFr from "../components/fr/HeroFr.astro";
 
   <TestimonialFr client:visible />
 </LayoutFr>
+
+<script>
+  const videoId = "3ETVsjQngRQ";
+
+  const youtubeUrl = `https://www.youtube-nocookie.com/embed/${videoId}?si=qrZMIOTf-lJcd_x_&controls=0`;
+  document.addEventListener("DOMContentLoaded", () => {
+    const youtubePreview = document.querySelector(".youtube-preview");
+    youtubePreview.addEventListener("click", () => {
+      const iframe = document.createElement("iframe");
+      iframe.src = `${youtubeUrl}&autoplay=1`;
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+      iframe.classList.add("w-full", "h-full", "object-cover");
+
+      youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
+      youtubePreview.appendChild(iframe); // Añade el iframe
+    });
+  });
+</script>
