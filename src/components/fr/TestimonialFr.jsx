@@ -90,7 +90,7 @@ const TestimonialItem = ({ item }) => {
 					<div className="flex items-center">
 
 						<div>
-							<h5 className="text-base md:text-lg sm:text-xl break-all font-medium">{name}</h5>
+							<h3 className="text-base md:text-lg sm:text-xl break-all font-medium">{name}</h3>
 						</div>
 					</div>
 					<Rating rating={rating} showLabel={false} />
