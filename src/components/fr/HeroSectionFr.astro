@@ -1,29 +1,51 @@
+---
+import { Image } from "astro:assets";
+import imgMachuPicchu from "../../assets/hero/HERO-machu-picchu.webp";
+import imgPlaya from "../../assets/hero/HERO - playa.webp";
+import imgFlamencos from "../../assets/hero/HERO - flamencos.webp";
+---
+
 <div class="w-full max-w-[1000px] relative self-center">
   <div class="swiper progress-slide-carousel swiper-container relative">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <img
+        <Image
+          src={imgMachuPicchu}
+          alt="Machu Picchu"
+          class="h-52 sm:h-[500px] object-cover w-full"
+        />
+        <!-- <img
           src="/hero/HERO - machu-picchu.webp"
-          alt="Descripción de la imagen 1"
+          alt="Playa"
           class="h-52 sm:h-[500px] object-cover w-full"
           loading="lazy"
-        />
+        /> -->
       </div>
       <div class="swiper-slide">
-        <img
+        <Image
+          src={imgPlaya}
+          alt="Playa"
+          class="h-52 sm:h-[500px] object-cover w-full"
+        />
+        <!-- <img
           src="/hero/HERO - playa.webp"
           alt="Descripción de la imagen 1"
           class="h-52 sm:h-[500px] object-cover w-full"
           loading="lazy"
-        />
+        /> -->
       </div>
       <div class="swiper-slide">
-        <img
+        <Image
+          src={imgFlamencos}
+          alt="Flamencos"
+          class="h-52 sm:h-[500px] object-cover w-full"
+        />
+        <!-- <img
           src="/hero/HERO - flamencos.webp"
           alt="Descripción de la imagen 1"
           class="h-52 sm:h-[500px] object-cover w-full"
           loading="lazy"
-        />
+        /> -->
       </div>
     </div>
     <div
