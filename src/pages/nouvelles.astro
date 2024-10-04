@@ -9,10 +9,17 @@ const videoIdT = "iBbYZByTDZw";
 const videoPreviewO = `https://img.youtube.com/vi/${videoIdO}/hqdefault.jpg`;
 const videoPreviewTw = `https://img.youtube.com/vi/${videoIdTw}/hqdefault.jpg`;
 const videoPreviewT = `https://img.youtube.com/vi/${videoIdT}/hqdefault.jpg`;
+
+const title = "Nouvelles - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Restez informé des dernières nouvelles et mises à jour de Pachamama Turismo Alternativo, interagissez avec nous via nos réseaux sociaux.";
+const ogImage = "fondo-testimonio.webp";
 ---
 
 <LayoutFr
-  title="Nouvelles - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/noticias"
   rutaFr="/nouvelles"
 >

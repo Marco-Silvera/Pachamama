@@ -1,10 +1,15 @@
 ---
 import testimonioData from "../db/es/testimonios.json";
 import Layout from "../layouts/Layout.astro";
+
+const title = "Testimonios - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Descubre los testimonios de nuestros viajeros y conoce sus experiencias con Pachamama Turismo Alternativo.";
 ---
 
 <Layout
-  title="Testimonios - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/testimonios"
   rutaFr="/temoignages"
 >

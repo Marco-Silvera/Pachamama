@@ -28,7 +28,9 @@ const images = experiencias ? experiencias.imagenes : [];
 ---
 
 <LayoutFr
-  title=`${circuito.nombre} - Pachamama Turismo Alternativo`
+  title=`${circuito.nombre} - Pachamama Tourisme alternatif`
+  description={circuito.descripcion}
+  ogImage={circuito.imagenes[1]}
   rutaEsp={circuitoEs ? `/circuitos/${circuitoEs.path}` : "#"}
   rutaFr={circuito.path}
 >

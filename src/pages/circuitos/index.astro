@@ -1,10 +1,17 @@
 ---
 import circuitosData from "../../db/es/circuitos.json";
 import Layout from "../../layouts/Layout.astro";
+
+const title = "Circuitos - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Descubre los mejores circuitos de ecoturismo en Perú con Pachamama Turismo Alternativo. Vive experiencias únicas de aventura, naturaleza y cultura en destinos sostenibles como Machu Picchu, la";
+const ogImage = "/circuitos/Portada - Aventura Inca.webp";
 ---
 
 <Layout
-  title="Circuitos - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/circuitos"
   rutaFr="/circuits"
 >

@@ -1,10 +1,15 @@
 ---
 import LayoutFr from "../layouts/LayoutFr.astro";
 import FormularioReservaFr from "../components/fr/FormularioReservaFr.astro";
+
+const title = "Réservez maintenant - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Remplissez les informations suivantes pour faire une réservation pour le programme élu. Une fois le formulaire rempli, un de nos conseillers vous répondra vous contactera dans les plus brefs délais.";
 ---
 
 <LayoutFr
-  title="Reservation - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/reserva"
   rutaFr="/reservation"
 >

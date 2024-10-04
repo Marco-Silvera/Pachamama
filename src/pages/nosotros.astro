@@ -1,10 +1,17 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import HeroNosotros from "../components/es/HeroNosotros.astro";
+
+const title = "Nosotros - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Conoce a Pachamama Turismo Alternativo, un operador local de turismo que promueve el turismo alternativo y sostenible en Perú.";
+const ogImage = "/Nosotros.webp";
 ---
 
 <Layout
-  title="Nosotros - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/nosotros"
   rutaFr="/nous"
 >

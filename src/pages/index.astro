@@ -6,10 +6,17 @@ import HeroFr from "../components/fr/HeroFr.astro";
 
 const videoId = "3ETVsjQngRQ";
 const videoPreview = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+const title = "Pachamama Turismo Alternativo - Tourisme Alternatif";
+const metaDescription =
+  "Découvrez les meilleurs circuits de tourisme alternatif au Pérou avec Pachamama Turismo Alternativo. Vivez des expériences uniques d'aventure, de nature et de culture dans des destinations durables comme le Machu Picchu, l'Amazonie et le lac Titicaca. Réservez votre voyage maintenant.";
+const ogImage = "/hero/HERO - machu-picchu.webp";
 ---
 
 <LayoutFr
-  title="Pachamama Turismo Alternativo - Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/inicio"
   rutaFr="/"
 >

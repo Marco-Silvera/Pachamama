@@ -1,10 +1,17 @@
 ---
 import circuitosDatafr from "../../db/fr/circuitos.json";
 import LayoutFr from "../../layouts/LayoutFr.astro";
+
+const title = "Circuits - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Découvrez les meilleurs circuits de tourisme alternatif au Pérou avec Pachamama Turismo Alternativo. Vivez des expériences uniques d'aventure, de nature et de culture dans des destinations durables comme le Machu Picchu, l'Amazonie et le lac Titicaca. Réservez votre voyage maintenant.";
+const ogImage = "/circuitos/Portada - Aventura Inca.webp";
 ---
 
 <LayoutFr
-  title="Circuits - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/circuitos"
   rutaFr="/circuits"
 >

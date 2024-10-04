@@ -1,10 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import FormularioViajeATuMedida from "../components/es/FormularioViajeATuMedida.astro";
+
+const title = "Viaje a tu medida - Pachamama Turismo Alternativo";
+const metaDescription = "Aquí podrás personalizar tu viaje.";
+const ogImage = "/viaje-a-tu-medida.webp";
 ---
 
 <Layout
-  title="Viaje a tu medida - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/viaje-a-tu-medida"
   rutaFr="/voyage-sur-mesure"
 >

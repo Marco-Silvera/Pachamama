@@ -6,10 +6,17 @@ import Hero from "../components/es/Hero.astro";
 
 const videoId = "3ETVsjQngRQ";
 const videoPreview = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+
+const title = "Pachamama Turismo Alternativo - Circuitos de Ecoturismo en Perú";
+const metaDescription =
+  "Descubre los mejores circuitos de ecoturismo en Perú con Pachamama Turismo Alternativo. Vive experiencias únicas de aventura, naturaleza y cultura en destinos sostenibles como Machu Picchu, la Amazonía y el Lago Titicaca. Reserva tu viaje ahora.";
+const ogImage = "/hero/HERO - machu-picchu.webp";
 ---
 
 <Layout
-  title="Inicio - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
+  ogImage={ogImage}
   rutaEsp="/inicio"
   rutaFr="/"
 >

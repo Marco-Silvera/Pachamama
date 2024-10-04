@@ -1,10 +1,15 @@
 ---
 import LayoutFr from "../layouts/LayoutFr.astro";
 import FormularioLibroDeReclamacionesFr from "../components/fr/FormularioLibroDeReclamacionesFr.astro";
+
+const title = "Livre des Plaintes - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Le livre des plaintes est un document où le consommateur signale une plainte : lorsqu’elle a le caractère d’une infraction ou d’une réclamation, lorsqu’elle est liée à un malaise ou à une insatisfaction vis-à-vis du service.";
 ---
 
 <LayoutFr
-  title="Livre des Plaintes - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/libro-de-reclamaciones"
   rutaFr="/livre-des-plaintes"
 >

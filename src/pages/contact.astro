@@ -1,10 +1,15 @@
 ---
 import LayoutFr from "../layouts/LayoutFr.astro";
 import FormularioContactoFr from "../components/fr/FormularioContactoFr.astro";
+
+const title = "Contact - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Contactez-nous pour résoudre toute question ou requête, nous serons heureux de vous fournir autant d’informations que possible.";
 ---
 
 <LayoutFr
-  title="Contacto - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/contacto"
   rutaFr="/contact"
 >

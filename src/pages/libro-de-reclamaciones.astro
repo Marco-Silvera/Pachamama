@@ -1,10 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import FormularioLibroReclamaciones from "../components/es/FormularioLibroDeReclamaciones.astro";
+
+const title = "Libro de Reclamaciones - Pachamama Turismo Alternativo";
+const metaDescription =
+  "El libro de reclamaciones es un documento donde el consumidor informa sobre un reclamo: cuando tiene carácter de infracción o sobre una queja, cuando está relacionada a un malestar o descontento por el servicio.";
 ---
 
 <Layout
-  title="Libro de Reclamaciones - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/libro-de-reclamaciones"
   rutaFr="/livre-des-plaintes"
 >

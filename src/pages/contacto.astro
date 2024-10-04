@@ -1,11 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import FormularioContacto from "../components/es/FormularioContacto.astro";
-import ScrollingLogo from "../components/es/ScrollingLogo.astro";
+
+const title = "Contacto - Pachamama Turismo Alternativo";
+const metaDescription =
+  "Ponte en contacto con nosotros para poder resolver cualquier duda o consulta, estaremos gustosos de brindarte la mayor información posible.";
 ---
 
 <Layout
-  title="Contacto - Pachamama Turismo Alternativo"
+  title={title}
+  description={metaDescription}
   rutaEsp="/contacto"
   rutaFr="/contact"
 >
