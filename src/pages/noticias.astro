@@ -1,6 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import HeroNoticia from "../components/es/HeroNoticia.astro";
+
+const videoIdO = "2RO57PxUcpE";
+const videoIdTw = "Q8g1fHamJhw";
+const videoIdT = "iBbYZByTDZw";
+
+const videoPreviewO = `https://img.youtube.com/vi/${videoIdO}/hqdefault.jpg`;
+const videoPreviewTw = `https://img.youtube.com/vi/${videoIdTw}/hqdefault.jpg`;
+const videoPreviewT = `https://img.youtube.com/vi/${videoIdT}/hqdefault.jpg`;
 ---
 
 <Layout
@@ -94,19 +102,37 @@ import HeroNoticia from "../components/es/HeroNoticia.astro";
     </h3>
     <div class="flex justify-center flex-wrap gap-10">
       <article class="max-w-[400px] flex flex-col gap-5">
-        <iframe
-          loading="lazy"
-          controls="0"
-          rel="0"
-          modestbranding="1"
-          playsinline="1"
-          class="w-full aspect-video"
-          src="https://www.youtube.com/embed/2RO57PxUcpE"
-          title="découvrir le Pérou avec Pachamama"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+        <div
+          class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+        >
+          <img
+            src={videoPreviewO}
+            alt="Vista previa del video"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 flex justify-center items-center">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div
+                class="bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition duration-300"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 w-10 text-black"
+                  fill="black"
+                  viewBox="0 0 24 24"
+                  stroke="black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14.752 11.168l-5.197-3.028A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
         <p class="text-sm lg:text-base">
           No dejes para mañana el viaje que puedes hacer hoy, conoce nuestros
           más atractivos circuitos.
@@ -114,37 +140,73 @@ import HeroNoticia from "../components/es/HeroNoticia.astro";
       </article>
 
       <article class="max-w-[400px] flex flex-col gap-5">
-        <iframe
-          loading="lazy"
-          controls="0"
-          rel="0"
-          modestbranding="1"
-          playsinline="1"
-          class="w-full aspect-video"
-          src="https://www.youtube.com/embed/Q8g1fHamJhw"
-          title="Taller Artesanal Llinco Perú"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+        <div
+          class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+        >
+          <img
+            src={videoPreviewTw}
+            alt="Vista previa del video"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 flex justify-center items-center">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div
+                class="bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition duration-300"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 w-10 text-black"
+                  fill="black"
+                  viewBox="0 0 24 24"
+                  stroke="black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14.752 11.168l-5.197-3.028A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
         <p class="text-sm lg:text-base">
           Les invitamos a conocer el Taller Artesanal de Llinco Perú.
         </p>
       </article>
       <article class="max-w-[400px] flex flex-col gap-5">
-        <iframe
-          loading="lazy"
-          controls="0"
-          rel="0"
-          modestbranding="1"
-          playsinline="1"
-          class="w-full aspect-video"
-          src="https://www.youtube.com/embed/iBbYZByTDZw"
-          title="Pachamama Turismo agencia de viajes"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen></iframe>
+        <div
+          class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+        >
+          <img
+            src={videoPreviewT}
+            alt="Vista previa del video"
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 flex justify-center items-center">
+            <div class="absolute inset-0 flex justify-center items-center">
+              <div
+                class="bg-white rounded-full p-3 shadow-lg hover:bg-gray-100 transition duration-300"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-10 w-10 text-black"
+                  fill="black"
+                  viewBox="0 0 24 24"
+                  stroke="black"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M14.752 11.168l-5.197-3.028A1 1 0 008 9v6a1 1 0 001.555.832l5.197-3.028a1 1 0 000-1.664z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
         <p class="text-sm lg:text-base">
           Ver el mundo con tus propios ojos siempre será mejor que solo soñar
           con ello.
@@ -153,3 +215,24 @@ import HeroNoticia from "../components/es/HeroNoticia.astro";
     </div>
   </section>
 </Layout>
+
+<script>
+  const videoIdO = "2RO57PxUcpE";
+
+  const youtubeUrl = `https://www.youtube-nocookie.com/embed/${videoIdO}?si=qrZMIOTf-lJcd_x_&controls=0`;
+  document.addEventListener("DOMContentLoaded", () => {
+    const youtubePreview = document.querySelector(".youtube-preview");
+    youtubePreview.addEventListener("click", () => {
+      const iframe = document.createElement("iframe");
+      iframe.src = `${youtubeUrl}&autoplay=1`;
+      iframe.frameBorder = "0";
+      iframe.allow =
+        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+      iframe.allowFullscreen = true;
+      iframe.classList.add("w-full", "h-full", "object-cover");
+
+      youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
+      youtubePreview.appendChild(iframe); // Añade el iframe
+    });
+  });
+</script>
