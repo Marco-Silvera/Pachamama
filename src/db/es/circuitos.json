@@ -4,7 +4,7 @@
         "nombre": "Aventura Inca",
         "path": "aventura-inca",
         "keypath": "aventura-inca",
-        "descripcion": "Descripción breve del Circuito 1",
+        "descripcion": "Explora las Islas Ballestas, recorre las dunas de Huacachina y sobrevuela las Líneas de Nazca. Vive experiencias únicas en Arequipa, el Cañón del Colca, el Lago Titicaca y Machu Picchu, interactuando con comunidades locales y disfrutando de paisajes andinos inolvidables.",
         "descripcion-principal": {
             "titulo-descripcion": "Descubre el Sur del Perú durante una aventura inolvidable",
             "parrafo-descripcion": "A lo largo de la costa desértica, podrán admirar la fauna variada de las islas Ballestas, divertirse y relájense en medio de las dunas del oasis de Huacachina antes de sobrevolar las enigmáticas líneas de Nazca.\n\nDescubran Arequipa, la ciudad “blanca”; exploren el Cañón de Colca, y naveguen en las aguas del lago Titicaca.\n\nRespirar el aire Andino durante un trek que los llevará a descubrir las comunidades locales a través de los paisajes increíbles de la Cordillera de los Andes.\n\nVisiten la capital del Imperio Inca, Cuzco, y el Valle Sagrado hasta llegar al famoso Machu Picchu.\n\nEn cada uno de estos lugares, Lima, Arequipa, Puno y Cuzco tendrá la posibilidad de vivir distintas experiencias con comunidades locales compartiendo su cultura, sus tradiciones y su vida diaria, además de disfrutar de la naturaleza y apreciar impresionantes sitios arqueológicos."
@@ -103,7 +103,7 @@
             },
             {
                 "dia": 17,
-                "titulo-actividades": "Laguas Calientes / Machu Picchu / Aguas Calientes / Ollantaytambo (Inca JungleTrek)",
+                "titulo-actividades": "Aguas Calientes / Machu Picchu / Aguas Calientes / Ollantaytambo (Inca JungleTrek)",
                 "actividades": "Temprano en la mañana, camine hasta Machu Picchu para disfrutar del sitio antes de la llegada de grandes grupos de turistas. Descubra el sitio más emblemático de los Incas, con sus cultivos en terrazas, su sistema de canales artificiales para riego, sus palacios, plazas, templos, sótanos, hórreos, cárceles, etc.\n\nDespués de la visita guiada, tendrá tiempo libre para dar un paseo por la ciudadela, hasta el templo del sol construido con enormes bloques de piedra, el lugar principal donde se realizaban las ceremonias durante el solsticio de junio. También se puede ir al cerro Intihuatana, que tiene forma de gran pirámide, al que se accede subiendo una escalera de 78 escalones.\n\nActividad opcional a cargo del cliente: Posibilidad de subir al Huayna Picchu por un pequeño sendero de piedra al borde del precipicio para tener una vista magnífica de toda la región y otros lugares antes de regresar a Aguas Calientes.\n\nPor la tarde, traslado a la estación para tomar el tren de regreso a Ollantaytambo. Arribo y traslado al hotel.raslado"
             },
             {
@@ -152,7 +152,7 @@
         "nombre": "Corazón del imperio inca",
         "path": "corazon-del-imperio-inca",
         "keypath": "corazon-del-imperio-inca",
-        "descripcion": "Descripción breve del Circuito 2",
+        "descripcion": "Sumérgete en una experiencia auténtica con Pachamama, una agencia de turismo alternativo que promueve el respeto cultural y la sostenibilidad, invitándote a descubrir Perú desde una perspectiva de intercambio y solidaridad.",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un recorrido por el sur del Perú que te llevará al Corazón del Imperio Inca!",
             "parrafo-descripcion": "Pachamama es una agencia peruana de turismo alternativo promovida por la CIAP (Central Interregional de Artesanos del Perú), RELLACC (Red Latinoamericana de Comercialización) y 14 grupos de artesanos peruanos.\n\nNosotros proponemos programas de viajes con importantes actividades de sensibilización y una visión  más real y profunda del destino turístico, respetando la integridad cultural, los procesos ecológicos esenciales, la diversidad biológica y los modos de vida.\n\n Los invitamos a descubrir el Perú en un espíritu de intercambio, respeto de los valores humanos y de la solidaridad, características de un turismo responsable."
@@ -295,7 +295,7 @@
         "nombre": "Esencia del Perú",
         "path": "esencia-del-peru",
         "keypath": "esencia-del-peru",
-        "descripcion": "Descripción breve del Circuito 3",
+        "descripcion": "Explora lo mejor de Perú en poco tiempo: desde la majestuosa “Ciudad Blanca” de Arequipa y el impresionante Cañón del Colca, hasta el místico Lago Titicaca y la emblemática Machu Picchu, sumergiéndote en paisajes y tradiciones inolvidables.",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un recorrido por los Imperdibles Destinos Turísticos del País!",
             "parrafo-descripcion": "Este circuito es perfecto para los viajeros que no quieren perderse las maravillas del Perú por disponibilidad de escaso tiempo.\n\nDesde Lima despegaremos hacia Arequipa, la “Ciudad Blanca”, para descubrir el encanto de la segunda ciudad importante del país y explorar el asombroso cañón de Colca, uno de los cañones más profundos del mundo.\n\nLuego continuaremos para visitar el Lago Titicaca gozando de las hermosas vistas de la cordillera occidental y seguiremos nuestra aventura hasta la antigua capital del imperio Inca, entre paisajes luminosos y vivaces tradiciones culturales, hasta el gran final: la visita del inolvidable Macchu Picchu."
@@ -415,7 +415,7 @@
         "nombre": "Panorama Peruano",
         "path": "panorama-peruano",
         "keypath": "panorama-peruano",
-        "descripcion": "Descripción breve del Circuito 4",
+        "descripcion": "Disfruta de un viaje único que combina la majestuosidad de los nevados de la Cordillera Blanca y las caminatas en la Cordillera Negra, con la riqueza arqueológica de la costa norte, explorando sitios como Chan Chan y las Tumbas Reales de Sipán. Termina tu aventura visitando las islas del Lago Titicaca y la histórica ciudad de Cusco, incluyendo el Valle Sagrado y el icónico Machu Picchu.",
         "descripcion-principal": {
             "titulo-descripcion": "Ten una visión panorámica de los lugares más importantes del Norte al Sur de Perú",
             "parrafo-descripcion": "Empezaremos admirando los nevados de la Cordillera Blanca, visitaremos el misterioso complejo arqueológico Chavín de Huantar, y si dispone de más días puede realizar impresionantes caminatas por la Cordillera Negra. Bajaremos a la costa norte para admirar los impresionante vestigios de las culturas Moche y Chimú como: Chan Chan, la Huaca del Sol y de Luna, el museo Tumbas Reales de Sipán y las pirámides de Túcume.\n\nNos trasladaremos en avión hasta Puno para explorar las encantadoras islas del Lago Titicaca y descubrir las tradiciones locales de estas islas. Luego nos dirigiremos a la capital Imperial de Cuzco, donde visitaremos el Valle Sagrado y subiremos al emblemático Machu Picchu."
@@ -557,7 +557,7 @@
         "nombre": "Del Pacífico al Amazonas",
         "path": "del-pacifico-al-amazonas",
         "keypath": "del-pacifico-al-amazonas",
-        "descripcion": "Descripción breve del Circuito 5",
+        "descripcion": "Descubre la diversidad del sur del Perú, desde la costa y el desierto hasta el Altiplano y la Amazonía. Explora la fauna de las islas Ballestas, el Cañón de Colca, Machu Picchu, y culmina en la exuberante selva de Madre de Dios.",
         "descripcion-principal": {
             "titulo-descripcion": "¡Un viaje a lo largo de la Costa, Sierra y Selva!",
             "parrafo-descripcion": "Si quieres disfrutar de los principales atractivos turísticos del sur del Perú y descubrir una parte de la Amazonía, este viaje es el ideal.\n\nA lo largo de la costa desértica, admira la rica fauna de las islas Ballestas, disfruta en las dunas del oasis de Huacachina y sobrevuela las enigmáticas líneas de Nazca.\n\nConoce Arequipa, la ciudad blanca; explora el Cañón de Colca uno de los más profundo del mundo; navega sobre el lago Titicaca hasta las encantadoras islas de Taquile y Amantani.\n\nUn viaje a través del Altiplano te conducirá a Cuzco, ciudad mítica y antigua capital del imperio Inca, aquí dispondrás de varios días para visitar algunos de los numerosos sitios arqueológicos del Valle Sagrado y en particular el famoso Machu Picchu.\n\nFinalmente un vuelo a Puerto Maldonado – Región de Madre de Dios, en donde podrás explorar y descubrir la Amazonía Peruana, una de las zonas de mayor riqueza biológica del mundo."
@@ -701,7 +701,7 @@
         "nombre": "Tesoros del Norte",
         "path": "tesoros-del-norte",
         "keypath": "tesoros-del-norte",
-        "descripcion": "Descripción breve del Circuito 6",
+        "descripcion": "Embárcate en un recorrido único por el norte de Perú, explorando desde las playas del Pacífico hasta la exuberante Amazonía. Descubre los tesoros arqueológicos de Chan Chan, las pirámides de Túcume y la mística ciudadela de Kuélap, mientras te maravillas con la riqueza cultural y natural que ofrece esta región mágica.",
         "descripcion-principal": {
             "titulo-descripcion": "Un viaje a través la Historia, al encuentro de las Antiguas Culturas Peruanas y sus Herencias",
             "parrafo-descripcion": "En este viaje, atravesarás paisajes diferentes y aprenderás de distintas culturas. Recorreremos las 3 regiones peruanas, de la costa Pacífica a la Amazonia, pasando por las montañas Andinas. Descubrirás los tesoros del Norte del Perú, como los sitios arqueológicos de Chimú, la ciudad de Chan Chan o las pirámides de Tucume.\n\nEste viaje a través naturaleza e Historia, te llevará hasta la ciudadela de Kuelap, conocida como el Machu Picchu del Norte, de la cultura Chachapoyas. Desde la costa Pacifica desértica, a las cumbres nevadas de la Cordillera Blanca, desde las alturas Andinas hasta la Amazonia en Tarapoto, este viaje es lleno de magia.\n\nVen a explorar los misterios del Norte!"
@@ -850,7 +850,7 @@
         "nombre": "A lo largo de los Andes",
         "path": "a-lo-largo-de-los-andes",
         "keypath": "a-lo-largo-de-los-andes",
-        "descripcion": "Descripción breve del Circuito 7",
+        "descripcion": "Recorre las tres regiones del Perú, desde la costa hasta el Amazonas, pasando por los Andes. Descubre sitios arqueológicos como Chan Chan y Kuelap, y sumérgete en paisajes diversos, desde desiertos costeros hasta montañas nevadas y selvas amazónicas, mientras compartes tradiciones con comunidades locales.",
         "descripcion-principal": {
             "titulo-descripcion": "Recorre el Camino Inca cruzando los Andes del sur del Perú",
             "parrafo-descripcion": "Durante este viaje atravesarás tantos paisajes como Historia y Cultura. Viajarás por las 3 regiones del Perú, desde la costa del Pacífico hasta el Amazonas pasando por los Andes. Descubrirás los tesoros que el norte de Perú tiene reservado para ti, como los sitios arqueológicos de Cimu, la ciudad de Chan Chan o las pirámides de Túcume.\n\nEste viaje por la historia te llevará también a descubrir la fortaleza de Kuelap, también conocida como el Machu Picchu del Norte, de la civilización Chachapoyas. Paisajes muy variados se desplazan a lo largo de tu ruta: desde la costa desértica hasta los picos nevados de la Cordillera Blanca, desde las altas montañas andinas hasta los bosques amazónicos.\n\nEn una atmósfera atemporal, por encima de las nubes y en armonía con la naturaleza, explorarás los misterios del norte del Perú y compartirás cultura y tradiciones con las comunidades locales que conocerás."

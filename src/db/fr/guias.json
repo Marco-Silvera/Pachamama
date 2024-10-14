@@ -1,22 +1,22 @@
 [
     {
         "nombre": "Ursula Leonardo",
-        "descripcion": "De nacionalidad Peruana con un sentido de servicio innato, está dispuesta a ayudarte a descubrir las maravillas de su país.",
+        "descripcion": "De nationalité péruvienne avec un sens inné du service, elle est prête à vous faire découvrir les merveilles de son pays.",
         "imagen": "/guias/GUIA - Ursula Leonardo.webp"
     },
     {
         "nombre": "Bertha Flores",
-        "descripcion": "De nacionalidad Peruana y orgullosa de compartir nuestra identidad cultural, te encantará con la magia del Perú.",
+        "descripcion": "De nationalité péruvienne et fier de partager notre identité culturelle, vous allez adorer la magie du Pérou.",
         "imagen": "/guias/GUIA - Bertha Flores.webp"
     },
     {
         "nombre": "Patricia Villena",
-        "descripcion": "Representante Oficial de Pachamama en Francia y verdadera experta en el servicio, podrá acompañarte para hacer de tu viaje la mejor experiencia posible.",
+        "descripcion": "Représentante Officielle de Pachamama en France et véritable experte du service, elle saura vous accompagner pour faire de votre voyage la meilleure expérience possible.",
         "imagen": "/guias/GUIA - Patricia Villena.webp"
     },
     {
         "nombre": "Juan Nalvarte",
-        "descripcion": "De nacionalidad Peruana, con un gran corazón, hará de tu viaje una experiencia que quedará grabada en tu memoria.",
+        "descripcion": "De nationalité péruvienne, au grand cœur, il fera de votre voyage une expérience qui restera gravée dans votre mémoire.",
         "imagen": "/guias/GUIA - Juan Nalvarte.webp"
     }
 ]

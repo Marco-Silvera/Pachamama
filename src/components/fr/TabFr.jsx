@@ -15,19 +15,19 @@ function Tab({ circuito }) {
           onClick={() => setOpenTab(1)}
           className={`flex-1 py-2 px-2 md:px-4 text-sm md:text-base rounded-md ${openTab === 1 ? 'bg-[#226428] text-white' : ''}`}
         >
-          Descripción
+          Description
         </button>
         <button
           onClick={() => setOpenTab(2)}
           className={`flex-1 py-2 px-2 md:px-4 text-sm md:text-base rounded-md ${openTab === 2 ? 'bg-[#226428] text-white' : ''}`}
         >
-          Itinerario
+          Itinéraire
         </button>
         <button
           onClick={() => setOpenTab(3)}
           className={`flex-1 py-2 px-2 md:px-4 text-sm md:text-base rounded-md ${openTab === 3 ? 'bg-[#226428] text-white' : ''}`}
         >
-          Precios
+          Tarifs
         </button>
       </div>
 
@@ -42,7 +42,7 @@ function Tab({ circuito }) {
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
               href="/reservation/"
             >
-              Reserva ahora
+              Réservez maintenant
             </a>
           </div>
         </div>
@@ -56,7 +56,7 @@ function Tab({ circuito }) {
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
               href="/reservation/"
             >
-              Reserva ahora
+              Réservez maintenant
             </a>
           </div>
         </div>
@@ -70,7 +70,7 @@ function Tab({ circuito }) {
               className="border-2 border-white p-3 md:p-5 text-xl text-white hover:text-[#226428] hover:bg-white font-bold uppercase hover:scale-90 transition-transform"
               href="/reservation/"
             >
-              Reserva ahora
+              Réservez maintenant
             </a>
           </div>
         </div>
