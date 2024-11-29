@@ -8,14 +8,14 @@ const { rutaEsp, rutaFr } = Astro.props;
   <div
     class="max-w-[1000px] w-full mx-auto flex justify-between items-center gap-5 md:gap-10 px-4"
   >
-    <a href="/inicio" class="hidden sm:block">
+    <a href="/inicio" onclick="handleNavigation(event, this)" class="hidden sm:block">
       <img
         class="h-[50px] hidden sm:block"
         src="/logo.webp"
         alt="Logo Pachamama Turismo"
       />
     </a>
-    <a href="/inicio" class="block sm:hidden">
+    <a href="/inicio" onclick="handleNavigation(event, this)" class="block sm:hidden">
       <img
         class="block h-10 sm:hidden"
         src="/Logo-mini.webp"
@@ -33,7 +33,7 @@ const { rutaEsp, rutaFr } = Astro.props;
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/inicio">Inicio</a
+              href="/inicio" onclick="handleNavigation(event, this)">Inicio</a
             >
           </li>
           <li
@@ -130,7 +130,7 @@ const { rutaEsp, rutaFr } = Astro.props;
     }
   </style>
 
-  <script type="module" is:inline>
+  <script is:inline>
     window.addEventListener("scroll", () => {
       const header = document.querySelector("header");
       if (window.scrollY > 0) {
@@ -139,6 +139,17 @@ const { rutaEsp, rutaFr } = Astro.props;
         header.classList.remove("scrolled");
       }
     });
+
+    function handleNavigation(event, linkElement) {
+      const href = linkElement.getAttribute("href");
+
+      // Si el enlace es la raíz ("/"), redirigimos primero y luego recargamos
+      if (href === "/inicio") {
+        event.preventDefault(); // Evitar la navegación estándar
+        window.location.href = "/inicio"; // Redirigir al inicio
+        // La página se recargará automáticamente tras la redirección
+      }
+    }
 
     function openMenu() {
       let menu = document.getElementById("menu");

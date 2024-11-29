@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <div class="w-full max-w-[1000px] relative self-center">
@@ -52,9 +51,15 @@
 </style>
 
 <script>
-  let swiper;
+  let swiper; // Variable para almacenar la instancia de Swiper
 
+  // Función para inicializar Swiper
   function initializeSwiper() {
+    if (swiper) {
+      swiper.destroy(true, true); // Limpia cualquier instancia previa de Swiper
+      swiper = null;
+    }
+
     swiper = new Swiper(".progress-slide-carousel", {
       loop: true,
       fraction: true,
@@ -69,26 +74,24 @@
     });
   }
 
-  initializeSwiper();
+  // Escucha el evento `astro:afterSwap` para reinicializar Swiper tras una transición
+  window.addEventListener("astro:afterSwap", () => {
+    const swiperContainer = document.querySelector(".progress-slide-carousel");
+    if (swiperContainer) {
+      initializeSwiper();
+    }
+  });
 
-  window.addEventListener("astro:afterSwap", initializeSwiper);
+  // Inicializa Swiper al cargar la página
+  if (typeof document !== "undefined") {
+    initializeSwiper();
+  }
 
-  // Limpieza al desmontar
+  // Limpia Swiper antes de un cambio de página
   window.addEventListener("astro:beforeSwap", () => {
     if (swiper) {
       swiper.destroy(true, true);
+      swiper = null;
     }
   });
-  // var swiper = new Swiper(".progress-slide-carousel", {
-  //   loop: true,
-  //   fraction: true,
-  //   autoplay: {
-  //     delay: 1200,
-  //     disableOnInteraction: false,
-  //   },
-  //   pagination: {
-  //     el: ".progress-slide-carousel .swiper-pagination",
-  //     type: "progressbar",
-  //   },
-  // });
 </script>

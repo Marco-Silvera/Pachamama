@@ -1,17 +1,17 @@
 [
     {
-        "nombre": "AU COEUR DE I'EMPIRE INCA",
+        "nombre": "COEUR DE I'EMPIRE INCA",
         "portada": "/destacados/Portada - Corazon del Imperio Inca.webp",
-        "path": "/circuits/corazon-del-imperio-incafr"
+        "path": "/circuits/coeur-de-l-empire-inca"
     },
     {
-        "nombre": "ESSENTIEL DU PÉROU",
+        "nombre": "ESSENCE DU PÉROU",
         "portada": "/destacados/Portada - Esencia del Peru.webp",
-        "path": "/circuits/esencia-del-perufr"
+        "path": "/circuits/essence-du-perou"
     },
     {
         "nombre": "PACIFIQUE À I'AMAZONIE",
         "portada": "/destacados/Portada - Del Pacifico al Amazonas.webp",
-        "path": "/circuits/del-pacifico-al-amazonasfr"
+        "path": "/circuits/du-pacifique-a-l-amazonie"
     }
 ]

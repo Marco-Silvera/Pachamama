@@ -11,7 +11,7 @@ const { title, description, ogImage, rutaEsp, rutaFr } = Astro.props;
 
 import Header from "../components/es/Header.astro";
 import Footer from "../components/es/Footer.astro";
-// import { ViewTransitions } from "astro:transitions";
+import { ViewTransitions } from "astro:transitions";
 import ViajeATuMedida from "../components/es/ViajeATuMedida.astro";
 import ScrollingLogo from "../components/es/ScrollingLogo.astro";
 ---
@@ -51,7 +51,8 @@ import ScrollingLogo from "../components/es/ScrollingLogo.astro";
       src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"
       defer></script>
     <title>{title}</title>
-    <!-- <ViewTransitions /> -->
+
+    <ViewTransitions />
   </head>
   <body>
     <Header rutaEsp={rutaEsp} rutaFr={rutaFr} />

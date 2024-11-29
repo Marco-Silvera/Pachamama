@@ -8,14 +8,14 @@ const { rutaEsp, rutaFr } = Astro.props;
   <div
     class="max-w-[1000px] w-full mx-auto flex justify-between items-center gap-5 md:gap-10 px-4"
   >
-    <a href="/" class="hidden sm:block">
+    <a href="/" onclick="handleNavigation(event, this)" class="hidden sm:block">
       <img
         class="h-[50px] hidden sm:block"
         src="/logo.webp"
         alt="Logo Pachamama Turismo"
       />
     </a>
-    <a href="/" class="block sm:hidden">
+    <a href="/" onclick="handleNavigation(event, this)" class="block sm:hidden">
       <img
         class="block h-10 sm:hidden"
         src="/Logo-mini.webp"
@@ -33,48 +33,61 @@ const { rutaEsp, rutaFr } = Astro.props;
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/">Page D'Accueil</a
+              href="/"
+              onclick="handleNavigation(event, this)"
             >
+              Page D'Accueil
+            </a>
           </li>
           <li
             class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/nous">Nous</a
+              href="/nous"
             >
+              Nous
+            </a>
           </li>
           <li
             class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/circuits">Circuits</a
+              href="/circuits"
             >
+              Circuits
+            </a>
           </li>
           <li
             class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/temoignages">Témoignages</a
+              href="/temoignages"
             >
+              Témoignages
+            </a>
           </li>
           <li
             class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/nouvelles">Nouvelles</a
+              href="/nouvelles"
             >
+              Nouvelles
+            </a>
           </li>
           <li
             class="hover:bg-[#2264271c] xl:hover:bg-transparent w-full h-10 xl:w-auto xl:h-auto"
           >
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
-              href="/contact">Contact</a
+              href="/contact"
             >
+              Contact
+            </a>
           </li>
         </ul>
       </div>
@@ -112,7 +125,6 @@ const { rutaEsp, rutaFr } = Astro.props;
           d="M4 6h16M4 12h16m-7 6h7"></path>
       </svg>
 
-      <!-- X icon, initially hidden -->
       <svg
         id="close-icon"
         class="w-8 h-8 hidden xl:hidden cursor-pointer"
@@ -133,12 +145,11 @@ const { rutaEsp, rutaFr } = Astro.props;
 
   <style>
     .scrolled {
-      /* Tailwind gray-300 */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow-lg */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
   </style>
 
-  <script type="module" is:inline>
+  <script is:inline>
     window.addEventListener("scroll", () => {
       const header = document.querySelector("header");
       if (window.scrollY > 0) {
@@ -148,10 +159,21 @@ const { rutaEsp, rutaFr } = Astro.props;
       }
     });
 
+    function handleNavigation(event, linkElement) {
+      const href = linkElement.getAttribute("href");
+
+      // Si el enlace es la raíz ("/"), redirigimos primero y luego recargamos
+      if (href === "/") {
+        event.preventDefault(); // Evitar la navegación estándar
+        window.location.href = "/"; // Redirigir al inicio
+        // La página se recargará automáticamente tras la redirección
+      }
+    }
+
     function openMenu() {
-      let menu = document.getElementById("menu");
-      let menuIcon = document.getElementById("menu-icon");
-      let closeIcon = document.getElementById("close-icon");
+      const menu = document.getElementById("menu");
+      const menuIcon = document.getElementById("menu-icon");
+      const closeIcon = document.getElementById("close-icon");
       if (menu.classList.contains("hidden")) {
         menu.classList.remove("hidden");
         menuIcon.classList.add("hidden");
@@ -164,5 +186,6 @@ const { rutaEsp, rutaFr } = Astro.props;
     }
 
     window.openMenu = openMenu;
+    window.handleNavigation = handleNavigation;
   </script>
 </header>
