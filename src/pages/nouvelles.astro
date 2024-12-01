@@ -111,6 +111,7 @@ const ogImage = "fondo-testimonio.webp";
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdO}
         >
           <img
             src={videoPreviewO}
@@ -140,12 +141,6 @@ const ogImage = "fondo-testimonio.webp";
             </div>
           </div>
         </div>
-        <!-- <div
-          class="lazy-iframe w-full aspect-video"
-          data-src="https://www.youtube.com/embed/2RO57PxUcpE"
-        >
-          <button class="iframe-button">Cargar Video</button>
-        </div> -->
         <p class="text-sm lg:text-base">
           Ne laissez pas pour demain le voyage que vous pouvez faire
           aujourd’hui, découvrez nos circuits les plus attractifs.
@@ -155,6 +150,7 @@ const ogImage = "fondo-testimonio.webp";
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdTw}
         >
           <img
             src={videoPreviewTw}
@@ -184,12 +180,6 @@ const ogImage = "fondo-testimonio.webp";
             </div>
           </div>
         </div>
-        <!-- <div
-          class="lazy-iframe w-full aspect-video"
-          data-src="https://www.youtube.com/embed/Q8g1fHamJhw"
-        >
-          <button class="iframe-button">Cargar Video</button>
-        </div> -->
         <p class="text-sm lg:text-base">
           Nous vous invitons à visiter l’atelier artisanal de Llinco Pérou.
         </p>
@@ -198,6 +188,7 @@ const ogImage = "fondo-testimonio.webp";
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdT}
         >
           <img
             src={videoPreviewT}
@@ -227,37 +218,31 @@ const ogImage = "fondo-testimonio.webp";
             </div>
           </div>
         </div>
-        <!-- <div
-          class="lazy-iframe w-full aspect-video"
-          data-src="https://www.youtube.com/embed/iBbYZByTDZw"
-        >
-          <button class="iframe-button">Cargar Video</button>
-        </div> -->
         <p class="text-sm lg:text-base">
           Voir le monde de ses propres yeux sera toujours mieux que d’en rêver.
         </p>
       </article>
     </div>
   </section>
-</LayoutFr>
+  <script>
+    const youtubePreviews = document.querySelectorAll(".youtube-preview");
 
-<script>
-  const videoIdO = "2RO57PxUcpE";
+    youtubePreviews.forEach((youtubePreview) => {
+      youtubePreview.addEventListener("click", () => {
+        const videoId = youtubePreview.getAttribute("data-video-id");
+        const youtubeUrl = `https://www.youtube.com/embed/${videoId}`;
 
-  const youtubeUrl = `https://www.youtube-nocookie.com/embed/${videoIdO}?si=qrZMIOTf-lJcd_x_&controls=0`;
-  document.addEventListener("DOMContentLoaded", () => {
-    const youtubePreview = document.querySelector(".youtube-preview");
-    youtubePreview.addEventListener("click", () => {
-      const iframe = document.createElement("iframe");
-      iframe.src = `${youtubeUrl}&autoplay=1`;
-      iframe.frameBorder = "0";
-      iframe.allow =
-        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-      iframe.allowFullscreen = true;
-      iframe.classList.add("w-full", "h-full", "object-cover");
+        const iframe = document.createElement("iframe");
+        iframe.src = `${youtubeUrl}?autoplay=1`;
+        iframe.frameBorder = "0";
+        iframe.allow =
+          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        iframe.allowFullscreen = true;
+        iframe.classList.add("w-full", "h-full", "object-cover");
 
-      youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
-      youtubePreview.appendChild(iframe); // Añade el iframe
+        youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
+        youtubePreview.appendChild(iframe); // Añade el iframe
+      });
     });
-  });
-</script>
+  </script>
+</LayoutFr>

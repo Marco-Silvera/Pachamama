@@ -111,6 +111,7 @@ const ogImage = "fondo-testimonio.webp";
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdO}
         >
           <img
             src={videoPreviewO}
@@ -149,6 +150,7 @@ const ogImage = "fondo-testimonio.webp";
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdTw}
         >
           <img
             src={videoPreviewTw}
@@ -182,9 +184,11 @@ const ogImage = "fondo-testimonio.webp";
           Les invitamos a conocer el Taller Artesanal de Llinco Perú.
         </p>
       </article>
+
       <article class="max-w-[400px] flex flex-col gap-5">
         <div
           class="youtube-preview aspect-video xl:max-w-[440px] max-w-[600px] w-full relative cursor-pointer"
+          data-video-id={videoIdT}
         >
           <img
             src={videoPreviewT}
@@ -221,25 +225,26 @@ const ogImage = "fondo-testimonio.webp";
       </article>
     </div>
   </section>
-</Layout>
 
-<script>
-  const videoIdO = "2RO57PxUcpE";
+  <script>
+    const youtubePreviews = document.querySelectorAll(".youtube-preview");
 
-  const youtubeUrl = `https://www.youtube-nocookie.com/embed/${videoIdO}?si=qrZMIOTf-lJcd_x_&controls=0`;
-  document.addEventListener("DOMContentLoaded", () => {
-    const youtubePreview = document.querySelector(".youtube-preview");
-    youtubePreview.addEventListener("click", () => {
-      const iframe = document.createElement("iframe");
-      iframe.src = `${youtubeUrl}&autoplay=1`;
-      iframe.frameBorder = "0";
-      iframe.allow =
-        "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-      iframe.allowFullscreen = true;
-      iframe.classList.add("w-full", "h-full", "object-cover");
+    youtubePreviews.forEach((youtubePreview) => {
+      youtubePreview.addEventListener("click", () => {
+        const videoId = youtubePreview.getAttribute("data-video-id");
+        const youtubeUrl = `https://www.youtube.com/embed/${videoId}`;
 
-      youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
-      youtubePreview.appendChild(iframe); // Añade el iframe
+        const iframe = document.createElement("iframe");
+        iframe.src = `${youtubeUrl}?autoplay=1`;
+        iframe.frameBorder = "0";
+        iframe.allow =
+          "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
+        iframe.allowFullscreen = true;
+        iframe.classList.add("w-full", "h-full", "object-cover");
+
+        youtubePreview.innerHTML = ""; // Elimina el contenido actual (imagen y botón)
+        youtubePreview.appendChild(iframe); // Añade el iframe
+      });
     });
-  });
-</script>
+  </script>
+</Layout>
