@@ -75,6 +75,7 @@ const { rutaEsp, rutaFr } = Astro.props;
             <a
               class="text-[#226428] hover:text-[rgb(52,150,60)] text-base font-medium transition-colors h-full w-ful flex items-center justify-center"
               href="/nouvelles"
+              onclick="handleNavigation(event, this)"
             >
               Nouvelles
             </a>
@@ -162,11 +163,13 @@ const { rutaEsp, rutaFr } = Astro.props;
     function handleNavigation(event, linkElement) {
       const href = linkElement.getAttribute("href");
 
-      // Si el enlace es la raíz ("/"), redirigimos primero y luego recargamos
       if (href === "/") {
-        event.preventDefault(); // Evitar la navegación estándar
-        window.location.href = "/"; // Redirigir al inicio
-        // La página se recargará automáticamente tras la redirección
+        event.preventDefault();
+        window.location.href = "/";
+      }
+      if (href === "/nouvelles") {
+        event.preventDefault();
+        window.location.href = "/nouvelles";
       }
     }
 
