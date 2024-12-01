@@ -1,0 +1,22 @@
+---
+import LayoutFr from "../layouts/LayoutFr.astro";
+
+const ogImage = "/hero/HERO - machu-picchu.webp";
+---
+
+<LayoutFr
+  title="Page non trouvée - Pachamama Turismo Alternativo"
+  description="Désolé, la page que vous recherchez n'existe pas. Veuillez vérifier l'URL ou revenir à la page d'accueil."
+  ogImage={ogImage}
+  rutaEsp="/inicio"
+  rutaFr="/"
+>
+<main class="flex flex-col h-[500px] justify-center items-center">
+  <section class="flex flex-col gap-10 text-center">
+    <h1 class="text-9xl text-[#226428] font-extrabold">404</h1>
+    <p class="text-3xl font-bold">Page introuvable</p>
+    <p class="text-2xl font-normal w-full max-w-[500px]">Désolé, la page que vous recherchez n'existe pas. Veuillez vérifier l'URL ou revenir à la page d'accueil.</p>
+    <a class="text-[#226428] font-semibold hover:underline text-2xl" href="/">Cliquez ici</a>
+  </section>
+</main>
+</LayoutFr>

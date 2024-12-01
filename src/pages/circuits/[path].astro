@@ -11,7 +11,7 @@ import LayoutFr from "../../layouts/LayoutFr.astro";
 const { path } = Astro.params;
 const circuito = circuitosDatafr.find((c) => c.path === path);
 
-// Encontrar la ruta equivalente en español
+
 const circuitoEs = circuitosData.find((c) => c.keypath === circuito.keypath);
 
 export function getStaticPaths() {
@@ -22,7 +22,7 @@ export function getStaticPaths() {
   return paths;
 }
 
-// Imagenes segun el path
+
 const experiencias = experienciasData.find((e) => e.nombre === path);
 const images = experiencias ? experiencias.imagenes : [];
 ---
