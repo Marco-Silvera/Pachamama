@@ -1,0 +1,65 @@
+[
+    {
+        "nombre": "aventura-inca",
+        "imagenes": [
+            "/experiencias/Experiencias - Salinas de maras.webp",
+            "/experiencias/Experiencias - Koricancha.webp",
+            "/experiencias/Experiencias - Candelabro.webp",
+            "/experiencias/Experiencias - Lineas de Nazca.webp"
+        ]
+    },
+    {
+        "nombre": "corazon-del-imperio-inca",
+        "imagenes": [
+            "/experiencias/Experiencias - Catedral Lima.webp",
+            "/experiencias/Experiencias - Huacachina.webp",
+            "/experiencias/Experiencias - Cruz del Condor.webp",
+            "/experiencias/Experiencias - Isla de los Uros2.webp"
+        ]
+    },
+    {
+        "nombre": "esencia-del-peru",
+        "imagenes": [
+            "/experiencias/Experiencias - Miraflores.webp",
+            "/experiencias/Experiencias - Lago Titicaca.webp",
+            "/experiencias/Experiencias - Puente de los Suspiros.webp",
+            "/experiencias/Experiencias - Santa catalina.webp"
+        ]
+    },
+    {
+        "nombre": "panorama-peruano",
+        "imagenes": [
+            "/experiencias/Experiencias - Señor de Sipan.webp",
+            "/experiencias/Experiencias - Huascaran.webp",
+            "/experiencias/Experiencias - Machu Picchu.webp",
+            "/experiencias/Experiencias - Moray.webp"
+        ]
+    },
+    {
+        "nombre": "del-pacifico-al-amazonas",
+        "imagenes": [
+            "/experiencias/Experiencias - Aguada Blanca.webp",
+            "/experiencias/Experiencias - Lago Titicaca2.webp",
+            "/experiencias/Experiencias - Huayna Picchu.webp",
+            "/experiencias/Experiencias - Islas Ballestas.webp"
+        ]
+    },
+    {
+        "nombre": "tesoros-del-norte",
+        "imagenes": [
+            "/experiencias/Experiencias - Sarcofagos.webp",
+            "/experiencias/Experiencias - Gallito de las rocas.webp",
+            "/experiencias/Experiencias - Kuellap.webp",
+            "/experiencias/Experiencias - Huanchaco.webp"
+        ]
+    },
+    {
+        "nombre": "a-lo-largo-de-los-andes",
+        "imagenes": [
+            "/experiencias/Experiencias - Patapampa.webp",
+            "/experiencias/Experiencias - Tambomachay.webp",
+            "/experiencias/Experiencias - Misti.webp",
+            "/experiencias/Experiencias - Laguna pacucha.webp"
+        ]
+    }
+]
